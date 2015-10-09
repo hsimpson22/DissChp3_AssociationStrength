@@ -33,8 +33,8 @@ for t in treesonly:
         if m !='':
             stimtrees.append(("(ROOT"+m, num)) #add ROOT tag back at the beginning of the tree, and output a tuple with tree and the stimulus ID (num)
 
-#Fix up the last tree in stimulus 0.. stimulus 0 excluded the last IU (="stating that") in the speaker's turn, to make it fit with the desired IU count. Those two words were included in the text given to the parser in case the omission would have caused the parser difficulty, but we don't want to include them in our analysis since the subjects didn't actually hear them.. I removed those two words from the stanford parse tree text file that we read in earlier, but now I need to add in the final parentheses to make the parse processable by the Tree function
-stimtrees[5] = (re.sub(r'\n\n$', '',stimtrees[5][0]),stimtrees[5][1]) #first remove newlines from end so we can add the closing parentheses in the right place (right after "state") 
+"""Fix up the last tree in stimulus 0.. stimulus 0 excluded the last IU (="stating that") in the speaker's turn, to make it fit with the desired IU count. Those two words were included in the text given to the parser in case the omission would have caused the parser difficulty, but we don't want to include them in our analysis since the subjects didn't actually hear them.. I removed those two words from the stanford parse tree text file that we read in earlier, but now I need to add in the final parentheses to make the parse processable by the Tree function
+"""
 stimtrees[5] = (stimtrees[5][0]+")))))))\n(. ?))\n(. .)))\n\n",stimtrees[5][1])
 
 processed_trees = [Tree.fromstring(tree[0]) for tree in stimtrees] #create Tree structure and viewable tree image for each tree
@@ -45,6 +45,41 @@ mycfg= CFG(Nonterminal("ROOT"), rules)
 mycfg.start()
 mycfg.productions(lhs=Nonterminal("PP")) #Will print productions for the specified nonterminal item (e.g. "PP", a prepositional phrase), where the PP is the left-hand side of the rule (e.g. PP -> whatever)
 
+#%%
+#==============================================================================
+# Loop through Production rules to extract Syntactic Tags and Terminal Words, keep track of Clause boundary words
+#==============================================================================
+words = []
+counter = 0
+tags = []
+ruleset=[]
+ClauseBoundary = False #below, this variable will be set to TRUE if the rule begins with 'S' (clause boundary), or FALSE the rule contains a terminal 
+for rule in rules:
+    print counter   
+    ruleset.append(rule)
+    rightside = rule.rhs() #
+    if type(rightside[0])==str:
+        word = rightside[0] #store the word so it can be added to words output list
+        mini_cfg=CFG(Nonterminal("ROOT"), ruleset)
+        if mini_cfg.is_leftcorner(Nonterminal('S'), word):
+            ClauseBoundary = True
+        words.append((tags, word,ClauseBoundary))
+        tags = [] 
+        ruleset = []
+        ClauseBoundary = False   
+    else: 
+# if the rule is not terminal (meaning rhs is another syntactic category tag like "NP")
+        tags.append(str(rule.lhs())) #store left-hand side syntactic category, this will create some duplicates in the tag set since sometimes it was already included in right hand side of previous rule, but we don't need to care about that
+        tags.extend([str(r) for r in rightside])
+    counter +=1
+            
+        
+#%%
+        
+#==============================================================================
+# Identify "Words" that were split up by the parser (e.g. "they'll" and put them back together    
+#==============================================================================
+        
 mycfg.is_leftcorner(Nonterminal("S"), "I")
 #Output Clause begin status for each word (YES if it's the first word after the S tag) 
 #I will do one with SBAR and one with S.. SBAR indicates a complementizer or adverbial that introduces a subordinate clause, the SBAR node may be empty
