@@ -53,10 +53,6 @@ scores = pd.read_csv('/Users/heathersimpson/Documents/Dissertation/Experiment1/D
 Recode the Correct column as binary integer values (0/1)
 """
 scores['Correct'] = np.where(scores['Correct']=='yes', 1, 0)
-"""Group the dataframe by stimulus, so that the scores for each word by subject 
-will be easier to compare  
-"""
-
 
 
 #==============================================================================
