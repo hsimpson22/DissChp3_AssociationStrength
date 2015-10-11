@@ -276,8 +276,12 @@ checkforDiffs(words, subj0.Word)
 
 #%%
 #==============================================================================
-# Create Clause Boundary status column
+# Create DataFrame with Clause Boundary status 
 #==============================================================================
-ClauseStatus_df = pd.DataFrame(data={})
+ClauseStatus_df = pd.DataFrame(data=words, columns=['Tags', 'Word','ClauseBoundary'])
+
+#Export CSV
+pd.DataFrame.to_csv(ClauseStatus_df, path_or_buf="./ClauseBoundaryInfo.csv", sep='\t', columns=ClauseStatus_df.columns)
+
 #Output Clause begin status for each word (YES if it's the first word after the S tag) 
 #I will do one with SBAR and one with S.. SBAR indicates a complementizer or adverbial that introduces a subordinate clause, the SBAR node may be empty
