@@ -12,6 +12,8 @@ import os
 import re
 from nltk.grammar import Production, CFG, is_terminal, Nonterminal
 from nltk.tree import Tree
+import numpy as np
+import pandas as pd
 #Step through parsed trees, identifying words, collect all tags before each word
 f = open("/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_MutualInfoIUboundaries/Stimuli_StanfordParses.txt", 'r')
 stanfordparsefile = f.read()  # read in the file as a single string, because we don't want to split by newlines, since one parse spans multiple lines, and the file is small enough that we can read it in this way
@@ -228,12 +230,54 @@ if bool(diffwords) == False:
 #There are no diffs!
 
 #Now check for differences the other way, see if there are any words in GSscores that aren't in words set
-s2 = set([y for x,y,z in words])
-diffwords2 = [y for w in scores_words if w not in s2]
-if bool(diffwords2)==False:
+wordsset = set([y for x,y,z in words])
+diffwords2 = [y for w in scores_words if w not in wordsset]
+if bool(diffwords2)==True:
+    print ("Need to reconcile diffs, there are %d words in the Clause boundary set that aren't in GS scores set" % len(diffwords2))
+else:
     print "No diffs between Clause boundary word set and GS Scores word set! Proceed to next step!"
 #also empty!
+#%%
+# Now we need to check that the lists are exactly the same
+# We just checked that the unique word values are the same, we did that first because it is faster, but there could be a word that is in both sets, but appears more times in one set than the other" 
 
+len(subj0)==len(words) #False! So we need to figure out which words are different by checking every element in the list
 
+#I'l have it through comparing the lists, then stop 
+
+def checkforDiffs(list1, list2): #list1 here is words, list2 is subj0.Word
+  i = 0
+  while i<len(list2):
+      if list1[i][1]!=list(list2)[i]: break #I have to change subj0.Word to a list here because it is a subset of a dataframe and keeps the row indexes from the original dataframe, which was organized by stimulus so when we go to the next stim for same subject, we've skipped about 1000 rows so it throws an index error      
+      else:
+          print ("Matched at pos %d" %i)
+      i+=1
+  if i<len(list2):
+      print str(i) + " " + list1[i][1] + "  " + list(list2)[i]
+  else: 
+      print "Reached end oflist2"
+
+#First diff: 1344 Okay I've
+checkforDiffs(words, subj0.Word)
+[y for x, y, z in words[1342:1347]]
+list(subj0.Word)[1342:1347] #"Okay" missing from GSscores Word list. Will remove from words
+words.pop(1344) #Removed (['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH'], 'Okay', False)
+
+#2nd diff: 1574 Right Yeah
+checkforDiffs(words, subj0.Word)
+[y for x, y, z in words[1572:1577]]  #['of', 'me', 'Right', 'Yeah', 'but']
+list(subj0.Word)[1572:1577]  # ['of', 'me', 'Yeah', 'but', 'then']
+#"Right" missing from GSscores word list, will remove from words
+#I think I removed these items because I believed them to be mistakes in the transcription, and they didn't make a difference in the # of clauses, but I will need to go back and double-check this. Why did you not document this better, 2-years-ago-me?? 
+words.pop(1574) #Removed (['ROOT', 'ADVP', 'ADVP', 'RB', '.', 'RB'], 'Right', False)
+
+checkforDiffs(words, subj0.Word) 
+#All matched, alright!
+
+#%%
+#==============================================================================
+# Create Clause Boundary status column
+#==============================================================================
+ClauseStatus_df = pd.DataFrame(data={})
 #Output Clause begin status for each word (YES if it's the first word after the S tag) 
 #I will do one with SBAR and one with S.. SBAR indicates a complementizer or adverbial that introduces a subordinate clause, the SBAR node may be empty
