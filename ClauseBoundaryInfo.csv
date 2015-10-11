@@ -1,2019 +1,2019 @@
-	Tags	Word	ClauseBoundary
-0	['ROOT', 'FRAG', 'FRAG', 'FRAG', 'CC', 'FRAG', 'FRAG', 'ADVP', 'SBAR', 'ADVP', 'RB', 'RB']	Then	False
-1	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB', 'WRB']	when	False
-2	['WRB']	when	False
-3	['S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	a	True
-4	['NN']	person	False
-5	['VP', 'VP', 'CC', 'VP', 'VP', 'VBZ', 'PRT', 'VBZ']	fills	False
-6	['PRT', 'RP', 'RP']	out	False
-7	['CC']	or	False
-8	['VP', 'VBZ', 'S', 'VBZ']	has	False
-9	['S', 'NP', 'VP', 'NP', 'JJ', 'NNS', 'JJ']	other	True
-10	['NNS']	employees	False
-11	['VP', 'VB', 'PRT', 'NP', 'VB']	fill	False
-12	['PRT', 'RP', 'RP']	out	False
-13	['NP', 'DT', 'JJ', 'CD', 'NNS', 'DT']	the	False
-14	['JJ']	doubleu	False
-15	['CD']	two	False
-16	['NNS']	forms	False
-17	['CC']	and	False
-18	['FRAG', 'NP', ':', 'S', '.', 'NP', 'NN', 'NN']	everything	False
-19	[':']	why	False
-20	['S', 'MD', 'NP', 'VP', 'MD']	would	True
-21	['NP', 'PRP', 'PRP']	I	False
-22	['VP', 'VB', 'ADJP', 'VB']	become	False
-23	['ADJP', 'JJ', 'PP', 'JJ']	liable	False
-24	['PP', 'IN', 'NP', 'IN']	for	False
-25	['NP', 'DT', 'NN', 'DT']	that	False
-26	['NN']	contribution	False
-27	['ROOT', 'FRAG', 'FRAG', 'ADJP', 'SBAR', '.', 'ADJP', 'WHADVP', 'JJ', 'WHADVP', 'WRB', 'WRB']	When	False
-28	['JJ']	h	False
-29	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	False
-30	['S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'PRP', 'PRP']	he	True
-31	['PP', 'IN', 'NP', 'IN']	in	False
-32	['NP', 'NP', 'PP', 'NP', 'NN', 'NN']	fact	False
-33	['PP', 'IN', 'NP', 'IN']	by	False
-34	['NP', 'NN', 'NN']	law	False
-35	['VP', 'VBZ', 'ADVP', 'VP', 'VBZ']	is	False
-36	['ADVP', 'RB', 'RB']	now	False
-37	['VP', 'VBG', 'NP', 'VBG']	employing	False
-38	['NP', 'DT', 'NNS', 'DT']	those	False
-39	['NNS']	employees	False
-40	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'NP', 'VBZ']	He's	True
-41	['NP', 'DT', 'NN', 'DT']	the	False
-42	['NN']	employer	False
-43	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-44	['VP', 'VBP', 'VP', 'VBP']	am	False
-45	['VP', 'VBG', 'NP', 'VBG']	doing	False
-46	['NP', 'NN', 'NN']	nothing	False
-47	['ROOT', 'SQ', 'SQ', 'VBZ', 'RB', 'NP', 'NP', '.', 'VBZ', 'RB']	Isn't	False
-48	['NP', 'EX', 'EX']	there	False
-49	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False
-50	['NN']	law	False
-51	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False
-52	['S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	states	True
-53	['NP', 'DT', 'NN', 'DT']	that	False
-54	['NN']	fact	False
-55	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'WHADVP', 'S', '.', 'WHADVP', 'WRB', 'WRB']	When	False
-56	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-57	['VP', 'VBP', 'S', 'VBP']	have	False
-58	['S', 'NP', 'VP', 'NP', 'JJ', 'NNS', 'JJ']	uh	True
-59	['NNS']	people	False
-60	['VP', 'VP', 'CC', 'VP', 'VP', 'VB', 'PP', 'VB']	work	False
-61	['PP', 'IN', 'NP', 'IN']	for	False
-62	['NP', 'PRP', 'PRP']	you	False
-63	['CC']	and	False
-64	['VP', 'VB', 'PRT', 'NP', 'PP', 'VB']	fill	False
-65	['PRT', 'RP', 'RP']	out	False
-66	['NP', 'JJ', 'NNS', 'JJ']	specific	False
-67	['NNS']	forms	False
-68	['PP', 'TO', 'NP', 'TO']	to	False
-69	['NP', 'NP', 'NP', 'DT', 'NN', 'DT']	the	False
-70	['NN']	state	False
-71	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'RB', 'VP', 'VB', 'RB']	don't	True
-72	['VP', 'VB', 'PP', 'VB']	believe	False
-73	['PP', 'IN', 'NP', 'IN']	in	False
-74	['NP', 'DT', 'DT']	that	False
-75	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT', 'VP', 'VBZ', 'ADVP', 'SBAR', 'VBZ']	That's	True
-76	['ADVP', 'RB', 'RB']	probably	False
-77	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	why	False
-78	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'MD', 'ADVP', 'VP', 'MD']	I'll	True
-79	['ADVP', 'RB', 'RB']	always	False
-80	['VP', 'VB', 'ADJP', 'VB']	be	False
-81	['ADJP', 'JJ', 'JJ']	poor	False
-82	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	But	True
-83	['NP', 'PRP', 'PRP']	I	False
-84	['VP', 'VBP', 'NP', 'VBP']	do	False
-85	['NP', 'DT', 'JJ', 'NN', 'NN', 'DT']	a	False
-86	['JJ']	lotta	False
-87	['NN']	horse	False
-88	['NN']	rescue	False
-89	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	I've	True
-90	['VP', 'VBN', 'NP', 'PP', 'VBN']	bought	False
-91	['NP', 'DT', 'NN', 'DT']	a	False
-92	['NN']	lot	False
-93	['PP', 'IN', 'NP', 'IN']	from	False
-94	['NP', 'DT', 'NNS', 'DT']	the	False
-95	['NNS']	killers	False
-96	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'PP', 'NP', 'NNP', 'NNP']	Um	True
-97	['PP', 'IN', 'NP', 'IN']	in	False
-98	['NP', 'NP', 'SBAR', 'NP', 'NN', 'NN']	fact	False
-99	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'DT', 'JJ', 'NN', 'DT']	this	True
-100	['JJ']	black	False
-101	['NN']	horse	False
-102	['PP', 'IN', 'NP', 'IN']	of	False
-103	['NP', 'PRP$', 'NN', 'PRP$']	my	False
-104	['NN', 'VP', 'VBZ', 'VP', 'VBZ']	roommate's	False
-105	['VP', 'VBD', 'PP', 'VBD']	came	False
-106	['PP', 'IN', 'NP', 'IN']	from	False
-107	['NP', 'PRP', 'PRP']	he	False
-108	['VP', 'VBD', 'VP', 'VBD']	was	False
-109	['VP', 'VBG', 'PP', 'ADVP', 'VBG']	going	False
-110	['PP', 'TO', 'NP', 'TO']	to	False
-111	['NP', 'NP', 'CD', 'NNS', 'NP', 'DT', 'NN', 'POS', 'DT']	the	False
-112	['NN', 'POS']	killer's	False
-113	['CD']	four	False
-114	['NNS']	years	False
-115	['ADVP', 'IN', 'IN']	ago	False
-116	['ROOT', 'NP', 'NP', 'RB', 'DT', 'NN', '.', 'RB']	Not	False
-117	['DT']	this	False
-118	['NN']	one	False
-119	['ROOT', 'NP', 'NP', 'DT', 'NN', 'SBAR', '.', 'DT']	The	False
-120	['NN']	one	False
-121	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False
-122	['S', 'VP', 'VP', 'VBZ', 'ADJP', 'ADVP', 'VBZ']	is	True
-123	['ADJP', 'RB', 'JJ', 'RB']	b	False
-124	['JJ']	blind	False
-125	['ADVP', 'RB', 'RB']	now	False
-126	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-127	['NP', 'PRP', 'PRP']	he	False
-128	['VP', 'VBD', 'VP', 'VBD']	was	False
-129	['VP', 'VBN', 'NP', 'VBN']	considered	False
-130	['NP', 'DT', 'NN', 'DT']	a	False
-131	['NN']	killer	False
-132	['ROOT', 'NP', 'NP', 'DT', 'NN', '.', 'DT']	An	False
-133	['NN']	unmanageable	False
-134	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-135	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	False
-136	['VP', 'VBN', 'ADJP', 'VBN']	been	False
-137	['ADJP', 'RB', 'JJ', 'SBAR', 'RB']	perfectly	False
-138	['JJ']	lovely	False
-139	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-140	['VP', 'VBP', 'NP', 'NP', 'VBP']	give	False
-141	['NP', 'DT', 'JJ', 'NNS', 'DT']	the	False
-142	['JJ']	little	False
-143	['NNS']	kids	False
-144	['NP', 'NP', 'PP', 'NP', 'NNS', 'NNS']	lessons	False
-145	['PP', 'IN', 'NP', 'IN']	on	False
-146	['NP', 'PRP', 'PRP']	him	False
-147	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Anyway	True
-148	['NP', 'DT', 'NN', 'DT']	this	False
-149	['NN']	girl	False
-150	['VP', 'MD', 'ADVP', 'VP', 'MD']	must	False
-151	['ADVP', 'RB', 'RB']	only	False
-152	['VP', 'VB', 'PP', 'VB']	weigh	False
-153	['PP', 'IN', 'NP', 'IN']	like	False
-154	['NP', 'DT', 'CD', 'CC', 'CD', 'NNS', 'DT']	a	False
-155	['CD']	hundred	False
-156	['CC']	and	False
-157	['CD']	ten	False
-158	['NNS']	pounds	False
-159	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-160	['VP', 'VBP', 'SBAR', 'VBP']	mean	False
-161	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'NP', 'VBZ']	she's	True
-162	['ADVP', 'RB', 'RB']	just	False
-163	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False
-164	['JJ']	little	False
-165	['NN']	shit	False
-166	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'CC', 'NP', 'VP', 'CC']	and	True
-167	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	she's	False
-168	['PP', 'IN', 'NP', 'IN']	out	False
-169	['NP', 'RB', 'RB']	there	False
-170	['CC']	and	False
-171	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	she's	True
-172	['VP', 'VBN', 'NP', 'VBN']	got	False
-173	['NP', 'JJ', 'NNS', 'JJ']	huge	False
-174	['NNS']	arms	False
-175	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-176	['VP', 'VBP', 'SBAR', 'VBP']	mean	False
-177	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'SBAR', 'VBZ']	she's	True
-178	['PP', 'IN', 'NP', 'IN']	in	False
-179	['NP', 'NN', 'NN']	shape	False
-180	['SBAR', 'IN', 'S', 'IN']	like	False
-181	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-182	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	can't	False
-183	['VP', 'VB', 'VB']	believe	False
-184	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'VP', 'VBZ']	She's	True
-185	['ADVP', 'IN', 'RB', 'IN']	out	False
-186	['RB']	there	False
-187	['VP', 'ADVP', 'VBG', 'PRT', 'ADVP', 'RB', 'RB']	just	False
-188	['VBG']	working	False
-189	['PRT', 'RP', 'RP']	away	False
-190	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-191	['NP', 'DT', 'NNS', 'DT']	those	False
-192	['NNS']	guys	False
-193	['VP', 'VBP', 'ADJP', 'VBP']	are	False
-194	['ADJP', 'RB', 'VBN', 'PP', 'SBAR', 'RB']	so	False
-195	['VBN']	used	False
-196	['PP', 'TO', 'NP', 'TO']	to	False
-197	['NP', 'PRP', 'PRP']	it	False
-198	['SBAR', 'IN', 'S', 'IN']	that	False
-199	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-200	['VP', 'VBP', 'NP', 'ADVP', 'VBP']	do	False
-201	['NP', 'PRP', 'PRP']	it	False
-202	['ADVP', 'NP', 'RB', 'NP', 'DT', 'NN', 'DT']	all	False
-203	['NN']	day	False
-204	['RB']	long	False
-205	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP']	you	True
-206	['VP', 'VBP', 'VBP']	know	False
-207	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-208	['VP', 'VBD', 'SBAR', 'VBD']	came	False
-209	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	back	True
-210	['NP', 'PRP', 'PRP']	I	False
-211	['VP', 'VBD', 'PP', 'PP', 'VBD']	went	False
-212	['PP', 'TO', 'NP', 'TO']	to	False
-213	['NP', 'NN', 'NN']	school	False
-214	['PP', 'IN', 'NP', 'IN']	for	False
-215	['NP', 'NP', 'SBAR', 'NP', 'DT', 'JJ', 'NNS', 'DT']	a	False
-216	['JJ']	few	False
-217	['NNS']	months	False
-218	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-219	['VP', 'VBD', 'VP', 'VBD']	was	False
-220	['VP', 'VBN', 'PP', 'VBN']	involved	False
-221	['PP', 'IN', 'S', 'IN']	in	False
-222	['S', 'S', 'CC', 'S', 'CC', 'S', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH']	uh	True
-223	['NP', 'PRP', 'PRP']	I	False
-224	['VP', 'VBD', 'NP', 'VBD']	was	False
-225	['NP', 'NP', 'PP', 'SBAR', 'NP', 'JJ', 'NN', 'JJ']	second	False
-226	['NN']	mate	False
-227	['PP', 'IN', 'NP', 'IN']	in	False
-228	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False
-229	['NN']	ship	False
-230	['PP', 'IN', 'NP', 'IN']	at	False
-231	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False
-232	['NN']	uh	False
-233	['PP', 'IN', 'NP', 'IN']	in	False
-234	['NP', 'NNP', 'NNP']	Normandy	False
-235	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	We	True
-236	['VP', 'VBD', 'NP', 'PP', 'S', 'VBD']	made	False
-237	['NP', 'CD', 'NNS', 'CD']	twelve	False
-238	['NNS']	trips	False
-239	['PP', 'IN', 'NP', 'IN']	from	False
-240	['NP', 'NNP', 'NNP']	Southampton	False
-241	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-242	['VP', 'VB', 'NP', 'SBAR', 'VB']	uh	False
-243	['NP', 'DT', 'NNS', 'DT']	the	False
-244	['NNS']	beaches	False
-245	['SBAR', 'IN', 'S', 'IN']	until	False
-246	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True
-247	['VP', 'VBD', 'PP', 'VBD']	were	False
-248	['PP', 'IN', 'NP', 'IN']	in	False
-249	['NP', 'DT', 'NN', 'DT']	a	False
-250	['NN']	collision	False
-251	['CC']	and	False
-252	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	then	True
-253	['NP', 'PRP', 'PRP']	they	False
-254	['VP', 'VBD', 'SBAR', 'VBD']	sent	False
-255	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'NP', 'ADVP', 'VP', 'NP', 'PRP', 'PRP']	us	True
-256	['ADVP', 'RB', 'RB']	home	False
-257	['VP', 'VBD', 'SBAR', 'VBD']	patched	False
-258	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	us	True
-259	['VP', 'ADVP', 'VBD', 'NP', 'NP', 'ADVP', 'RB', 'RB']	up	False
-260	['VBD']	sent	False
-261	['NP', 'PRP', 'PRP']	us	False
-262	['NP', 'NN', 'NN']	home	False
-263	['CC']	and	False
-264	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	then	True
-265	['NP', 'PRP', 'PRP']	I	False
-266	['VP', 'VBD', 'ADVP', 'PP', 'VBD']	came	False
-267	['ADVP', 'RB', 'RB']	back	False
-268	['PP', 'IN', 'NP', 'IN']	into	False
-269	['NP', 'NNP', 'NNP']	Italy	False
-270	['CC']	and	False
-271	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True
-272	['VP', 'VBD', 'PP', 'VBD']	went	False
-273	['PP', 'IN', 'NP', 'IN']	into	False
-274	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False
-275	['NN']	invasion	False
-276	['PP', 'IN', 'NP', 'IN']	of	False
-277	['NP', 'JJ', 'NNP', 'JJ']	south	False
-278	['NNP']	France	False
-279	['CC']	and	False
-280	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True
-281	['VP', 'VBD', 'PP', 'NP', 'VBD']	went	False
-282	['PP', 'IN', 'NP', 'IN']	across	False
-283	['NP', 'DT', 'NN', 'DT']	the	False
-284	['NN']	uh	False
-285	['NP', 'DT', 'NNP', 'CC', 'NNP', 'DT']	the	False
-286	['NNP']	Atlantic	False
-287	['CC']	and	False
-288	['NNP']	Pacific	False
-289	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-290	['NP', 'PRP', 'PRP']	they	False
-291	['VP', 'VBD', 'PRT', 'SBAR', 'VBD']	came	False
-292	['PRT', 'RP', 'RP']	out	False
-293	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True
-294	['VP', 'VBZ', 'SBAR', 'VBZ']	says	False
-295	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-296	['VP', 'VBD', 'ADJP', 'VBD']	were	False
-297	['ADJP', 'JJ', 'RB', 'JJ']	afraid	False
-298	['RB']	too	False
-299	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	They	True
-300	['VP', 'VBD', 'ADJP', 'VBD']	were	False
-301	['ADJP', 'JJ', 'JJ']	afraid	False
-302	['ROOT', 'FRAG', 'FRAG', 'ADVP', 'SBAR', '.', 'ADVP', 'RB', 'RB']	Just	False
-303	['SBAR', 'IN', 'S', 'IN']	like	False
-304	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True
-305	['NNS']	disciples	False
-306	['VP', 'VBD', 'ADJP', 'VBD']	were	False
-307	['ADJP', 'JJ', 'JJ']	afraid	False
-308	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	They	True
-309	['VP', 'VBD', 'ADJP', 'VBD']	were	False
-310	['ADJP', 'JJ', 'JJ']	afraid	False
-311	['CC']	and	False
-312	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-313	['VP', 'VBD', 'S', 'VBD']	asked	False
-314	['S', 'NP', 'VP', 'NP', 'NNP', 'NNP']	Jesus	True
-315	['VP', 'TO', 'VP', 'TO']	to	False
-316	['VP', 'VB', 'NP', 'VB']	leave	False
-317	['NP', 'DT', 'NN', 'DT']	the	False
-318	['NN']	region	False
-319	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True
-320	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-321	['SBAR', 'SBAR', 'CC', 'SBAR', 'SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADJP', 'VBZ']	it's	True
-322	['ADJP', 'JJ', 'JJ']	amazing	False
-323	['CC']	but	False
-324	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False
-325	['S', 'VP', 'VP', 'VBP', 'VBP']	fear	True
-326	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'S', 'IN']	because	False
-327	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-328	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	didn't	False
-329	['VP', 'VB', 'VB']	understand	False
-330	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-331	['NP', 'PRP', 'PRP']	they	False
-332	['VP', 'VBD', 'S', 'VBD']	wanted	False
-333	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-334	['VP', 'VB', 'VB']	control	False
-335	['ROOT', 'NP', 'NP', 'DT', 'NN', '.', 'DT']	the	False
-336	['NN']	situation	False
-337	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True
-338	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-339	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NN', 'NN']	fear	True
-340	['VP', 'VBZ', 'NP', 'VBZ']	is	False
-341	['NP', 'NN', 'JJ', 'NN']	so	False
-342	['JJ']	crippling	False
-343	['ROOT', 'S', 'S', 'S', 'CC', 'ADVP', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'MD', 'VP', 'MD']	They'll	True
-344	['VP', 'VB', 'PRT', 'PP', 'VB']	fall	False
-345	['PRT', 'RP', 'RP']	back	False
-346	['PP', 'IN', 'NP', 'IN']	under	False
-347	['NP', 'DT', 'JJ', 'NN', 'DT']	the	False
-348	['JJ']	forty	False
-349	['NN']	percent	False
-350	['CC']	But	False
-351	['ADVP', 'RB', 'RB', 'RB']	right	False
-352	['RB']	now	False
-353	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'PP', 'SBAR', 'VBP']	they're	True
-354	['PP', 'IN', 'NP', 'IN']	over	False
-355	['NP', 'DT', 'NN', 'DT']	the	False
-356	['NN']	forty	False
-357	['SBAR', 'IN', 'S', 'IN']	because	False
-358	['S', 'NP', 'ADVP', 'VP', 'NP', 'PRP', 'PRP']	we	True
-359	['ADVP', 'RB', 'RB']	st	False
-360	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	can't	False
-361	['VP', 'VB', 'NP', 'PP', 'VB']	show	False
-362	['NP', 'DT', 'NN', 'DT']	any	False
-363	['NN']	income	False
-364	['PP', 'IN', 'NP', 'IN']	from	False
-365	['NP', 'DT', 'NN', 'DT']	the	False
-366	['NN']	daycare	False
-367	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'SBAR', 'VB']	Um	True
-368	['SBAR', 'SINV', 'SINV', 'S', 'VP', 'NP', '.', 'S', 'CC', 'NP', 'VP', 'CC']	but	True
-369	['NP', 'PRP', 'PRP']	you	False
-370	['VP', 'VBP', 'S', 'SBAR', 'VBP']	know	False
-371	['S', 'NP', 'NP', 'NP', 'PRP', 'PRP']	it	True
-372	['NP', 'PRP', 'PRP']	it	False
-373	['SBAR', 'SBAR', 'CC', 'SBAR', 'SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-374	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-375	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-376	['VP', 'VBP', 'ADJP', 'VBP']	feel	False
-377	['ADJP', 'JJ', 'SBAR', 'JJ']	comfortable	False
-378	['SBAR', 'IN', 'S', 'IN']	that	False
-379	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'VBZ']	it's	True
-380	['ADVP', 'RB', 'RB']	there	False
-381	['CC']	and	False
-382	['SBAR', 'IN', 'S', 'IN']	like	False
-383	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-384	['VP', 'VBP', 'SBAR', 'VBP']	say	False
-385	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'VP', 'VBZ']	he's	True
-386	['ADVP', 'RB', 'RB']	always	False
-387	['VP', 'VBN', 'NP', 'SBAR', 'VBN']	serviced	False
-388	['NP', 'NN', 'NN']	debt	False
-389	['SBAR', 'IN', 'S', 'IN']	as	False
-390	['S', 'S', 'CC', 'S', 'S', 'VP', 'VP', 'VBN', 'VBN']	agreed	True
-391	['CC']	and	False
-392	['S', 'CC', 'S', 'CC']	and	True
-393	['S', 'NP', 'VP', 'NP', 'PRP$', 'JJ', 'NN', 'PRP$']	his	True
-394	['JJ']	overall	False
-395	['NN']	debt	False
-396	['VP', 'VBZ', 'VP', 'VBZ']	is	False
-397	['VP', 'VBG', 'PRT', 'NP', 'VBG']	working	False
-398	['PRT', 'RP', 'RP']	down	False
-399	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VBZ']	it's	False
-400	['NP', 'NP', 'PP', 'NP', 'RB', 'PDT', 'DT', 'NN', 'RB']	just	False
-401	['PDT']	quite	False
-402	['DT']	a	False
-403	['NN']	bit	False
-404	['PP', 'IN', 'NP', 'IN']	of	False
-405	['NP', 'NN', 'NN']	debt	False
-406	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-407	['VP', 'VBD', 'VBD']	said	False
-408	['CC']	and	False
-409	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-410	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False
-411	['VP', 'VB', 'S', 'VB']	want	False
-412	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	him	True
-413	['VP', 'TO', 'VP', 'TO']	to	False
-414	['VP', 'VB', 'VB']	spook	False
-415	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True
-416	['VP', 'VBD', 'NP', 'VBD']	said	False
-417	['NP', 'NP', 'SBAR', 'NP', 'NN', 'NN']	nah	False
-418	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	True
-419	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True
-420	['VP', 'VB', 'ADJP', 'VB']	be	False
-421	['ADJP', 'RB', 'JJ', 'RB']	just	False
-422	['JJ']	fine	False
-423	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True
-424	['VP', 'VBD', 'NP', 'PP', 'VBD']	hooked	False
-425	['NP', 'PRP', 'PRP']	him	False
-426	['PP', 'TO', 'NP', 'TO']	to	False
-427	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	the	False
-428	['NN']	cart	False
-429	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	He	True
-430	['VP', 'VBD', 'SBAR', 'VBD']	got	False
-431	['SBAR', 'IN', 'S', 'IN']	in	False
-432	['S', 'VP', 'VP', 'VBD', 'SBAR', 'VBD']	told	True
-433	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True
-434	['VP', 'VBP', 'S', 'VBP']	let	False
-435	['S', 'VP', 'VP', 'VB', 'SBAR', 'VB']	go	True
-436	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-437	['VP', 'VBD', 'PRT', 'NP', 'VBD']	stepped	False
-438	['PRT', 'RP', 'RP']	back	False
-439	['NP', 'NP', 'SBAR', 'NP', 'CD', 'NNS', 'CD']	two	False
-440	['NNS']	steps	False
-441	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	the	True
-442	['NN']	horse	False
-443	['VP', 'VBD', 'SBAR', 'VBD']	took	False
-444	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'CD', 'NNS', 'CD']	two	True
-445	['NNS']	steps	False
-446	['VP', 'VBD', 'SBAR', 'VBD']	bucked	False
-447	['SBAR', 'S', 'S', 'VP', 'VP', 'VBD', 'SBAR', 'VBD']	kicked	True
-448	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	True
-449	['NN']	guy	False
-450	['PP', 'RB', 'IN', 'NP', 'RB']	out	False
-451	['IN']	of	False
-452	['NP', 'DT', 'NN', 'DT']	the	False
-453	['NN']	cart	False
-454	['VP', 'VBD', 'PRT', 'SBAR', 'VBD']	took	False
-455	['PRT', 'RP', 'RP']	off	False
-456	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NN', 'NN', 'DT']	the	True
-457	['NN']	barn	False
-458	['NN']	door	False
-459	['VP', 'VBD', 'ADJP', 'VBD']	was	False
-460	['ADJP', 'JJ', 'JJ']	open	False
-461	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT']	This	True
-462	['VP', 'VBD', 'S', 'VBD']	used	False
-463	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-464	['VP', 'VB', 'VP', 'VB']	be	False
-465	['VP', 'VBN', 'ADVP', 'ADVP', 'VBN']	set	False
-466	['ADVP', 'RB', 'NP', 'RB']	up	False
-467	['NP', 'DT', 'RB', 'DT']	a	False
-468	['RB']	little	False
-469	['ADVP', 'RB', 'RB']	differently	False
-470	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'VB']	Um	True
-471	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	They	True
-472	['VP', 'VBD', 'PP', 'PP', 'VBD']	went	False
-473	['PP', 'IN', 'NP', 'IN']	in	False
-474	['NP', 'CD', 'NNS', 'CD']	five	False
-475	['NNS']	inches	False
-476	['PP', 'IN', 'NP', 'IN']	on	False
-477	['NP', 'DT', 'CD', 'JJ', 'NNS', 'DT']	the	False
-478	['CD']	two	False
-479	['JJ']	outside	False
-480	['NNS']	walls	False
-481	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	They	True
-482	['VP', 'VBD', 'PP', 'VBD']	put	False
-483	['PP', 'IN', 'NP', 'IN']	in	False
-484	['NP', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	False
-485	['VP', 'VBN', 'NP', 'PP', 'VBN']	studded	False
-486	['NP', 'DT', 'JJ', 'NNS', 'DT']	the	False
-487	['JJ']	outside	False
-488	['NNS']	walls	False
-489	['PP', 'IN', 'NP', 'IN']	from	False
-490	['NP', 'DT', 'NN', 'DT']	the	False
-491	['NN']	inside	False
-492	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True
-493	['VP', 'VBP', 'NP', 'VBP']	know	False
-494	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False
-495	['NN']	inside	False
-496	['PP', 'IN', 'NP', 'IN']	of	False
-497	['NP', 'DT', 'NN', 'DT']	the	False
-498	['NN']	room	False
-499	['ROOT', 'S', 'S', 'S', 'CC', 'RB', 'S', '.', 'S', 'FRAG', 'NP', 'VP', 'FRAG', 'NP', 'CC', 'RB', 'NP', 'NNP', 'NNP']	Um	True
-500	['CC']	and	False
-501	['RB']	then	False
-502	['NP', 'PRP', 'PRP']	they	False
-503	['VP', 'VBD', 'NP', 'VBD']	put	False
-504	['NP', 'NN', 'NN']	insulation	False
-505	['CC']	and	False
-506	['RB']	then	False
-507	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-508	['VP', 'VBD', 'NP', 'VBD']	put	False
-509	['NP', 'NN', 'NNS', 'NN']	soundproof	False
-510	['NNS']	boards	False
-511	['ROOT', 'S', 'S', 'RB', 'NP', 'VP', '.', 'RB']	Then	True
-512	['NP', 'PRP', 'PRP']	they	False
-513	['VP', 'VBD', 'NP', 'VBD']	put	False
-514	['NP', 'NP', 'PP', 'NP', 'CD', 'NNS', 'CD']	two	False
-515	['NNS']	layers	False
-516	['PP', 'IN', 'NP', 'IN']	of	False
-517	['NP', 'JJ', 'NN', 'JJ']	three	False
-518	['NP', 'JJ', 'NN', 'JJ']	quarter	False
-519	['NP', 'JJ', 'NN', 'JJ']	inch	False
-520	['NN']	drywall	False
-521	['ROOT', 'S', 'S', 'CC', 'ADVP', 'NP', 'VP', '.', 'CC']	And	True
-522	['ADVP', 'RB', 'RB']	then	False
-523	['NP', 'PRP', 'PRP']	they	False
-524	['VP', 'VBD', 'SBAR', 'VBD']	taped	False
-525	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True
-526	['VP', 'ADVP', 'VBN', 'NP', 'ADVP', 'DT', 'CC', 'NN', 'DT']	all	False
-527	['CC']	and	False
-528	['NN']	skim	False
-529	['VBN']	coated	False
-530	['NP', 'PRP', 'PRP']	it	False
-531	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADJP', 'VBZ']	It's	True
-532	['ADJP', 'JJ', 'JJ']	beautiful	False
-533	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	It	True
-534	['VP', 'VBD', 'NP', 'VBD']	was	False
-535	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False
-536	['NN']	business	False
-537	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH']	No	True
-538	['NP', 'PRP', 'PRP']	it	False
-539	['VP', 'VBD', 'NP', 'VBD']	was	False
-540	['NP', 'DT', 'NN', 'NN', 'NN', 'DT']	a	False
-541	['NN']	business	False
-542	['NN']	uh	False
-543	['NN']	bankruptcy	False
-544	['CC']	and	False
-545	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True
-546	['VP', 'VBD', 'ADJP', 'VBD']	was	False
-547	['ADJP', 'JJ', 'SBAR', 'JJ']	pretty	False
-548	['SBAR', 'S', 'S', 'VP', 'VP', 'VP', 'CC', 'VP', 'VP', 'VBD', 'VBD']	cut	True
-549	['CC']	and	False
-550	['VP', 'VBD', 'SBAR', 'VBD']	dried	False
-551	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'NP', 'ADVP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-552	['ADVP', 'RB', 'RB']	just	False
-553	['VP', 'VBD', 'VP', 'VBD']	were	False
-554	['VP', 'VBG', 'NP', 'VBG']	eliminating	False
-555	['NP', 'DT', 'NN', 'NN', 'NN', 'DT']	the	False
-556	['NN']	business	False
-557	['NN']	um	False
-558	['NN']	debt	False
-559	['CC']	and	False
-560	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	apparently	True
-561	['NP', 'NN', 'NN']	nobody	False
-562	['VP', 'VBD', 'PP', 'VBD']	objected	False
-563	['PP', 'TO', 'NP', 'TO']	to	False
-564	['NP', 'DT', 'DT', 'NN', 'DT']	the	False
-565	['DT']	the	False
-566	['NN']	bankruptcy	False
-567	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'S', 'IN']	Since	False
-568	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-569	['VP', 'VBD', 'PP', 'VBD']	reaffirmed	False
-570	['PP', 'IN', 'NP', 'IN']	with	False
-571	['NP', 'PRP$', 'JJ', 'NNS', 'PRP$']	their	False
-572	['JJ']	secured	False
-573	['NNS']	creditors	False
-574	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'SBAR', 'NP', 'PDT', 'DT', 'NN', 'PDT']	All	True
-575	['DT']	the	False
-576	['NN']	debt	False
-577	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False
-578	['S', 'VP', 'VP', 'VBD', 'VP', 'VBD']	was	True
-579	['VP', 'VBN', 'SBAR', 'VBN']	charged	False
-580	['SBAR', 'IN', 'S', 'IN']	that	False
-581	['S', 'VP', 'VP', 'VBD', 'NP', 'VBD']	was	True
-582	['NP', 'NN', 'NN']	bank	False
-583	['VP', 'VBD', 'SBAR', 'VBD']	filed	False
-584	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'PP', 'NP', 'NN', 'NN']	bankruptcy	True
-585	['PP', 'IN', 'IN']	against	False
-586	['VP', 'VBD', 'NP', 'VBD']	was	False
-587	['NP', 'JJ', 'NNS', 'JJ']	unsecured	False
-588	['NNS']	creditors	False
-589	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Yeah	False
-590	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'VP', 'VP', 'VP', 'CONJP', 'VP', 'VP', 'VBG', 'SBAR', 'VBG']	Folks	True
-591	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	the	True
-592	['NN']	dam	False
-593	['VP', 'VBD', 'VP', 'VBD']	was	False
-594	['VP', 'VBN', 'PP', 'VBN']	built	False
-595	['PP', 'IN', 'NP', 'IN']	as	False
-596	['NP', 'DT', 'NN', 'NN', 'DT']	a	False
-597	['NN']	tourist	False
-598	['NN']	attraction	False
-599	['CONJP', 'RB', 'RB', 'IN', 'RB']	as	False
-600	['RB']	well	False
-601	['IN']	as	False
-602	['VP', 'VBG', 'ADJP', 'VBG']	being	False
-603	['ADJP', 'ADJP', 'CC', 'ADJP', 'ADJP', 'RB', 'JJ', 'SBAR', 'RB']	very	False
-604	['JJ']	functional	False
-605	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	this	True
-606	['NN']	terrazzo	False
-607	['VP', 'VBD', 'SBAR', 'VBD']	flooring	False
-608	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-609	['VP', 'VBP', 'SBAR', 'VBP']	see	False
-610	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NN', 'NN']	terrazzo	True
-611	['VP', 'VBZ', 'NP', 'VBZ']	is	False
-612	['NP', 'NP', 'VP', 'NP', 'NN', 'NNS', 'NN']	marble	False
-613	['NNS']	chips	False
-614	['VP', 'VBN', 'PRT', 'PP', 'VBN']	put	False
-615	['PRT', 'RP', 'RP']	down	False
-616	['PP', 'IN', 'NP', 'IN']	in	False
-617	['NP', 'JJ', 'NN', 'RP', 'JJ']	concrete	False
-618	['NN']	ground	False
-619	['RP']	down	False
-620	['CC']	and	False
-621	['ADJP', 'VBN', 'VBN']	polished	False
-622	['NP', 'DT', 'NN', 'NN', 'DT']	this	False
-623	['NN']	terrazzo	False
-624	['NN']	flooring	False
-625	['VP', 'VBD', 'VP', 'VBD']	was	False
-626	['VP', 'VBN', 'PP', 'PP', 'PP', 'VBN']	put	False
-627	['PP', 'IN', 'NP', 'IN']	in	False
-628	['NP', 'RB', 'RB']	here	False
-629	['PP', 'IN', 'NP', 'IN']	by	False
-630	['NP', 'CD', 'JJ', 'NN', 'CD']	one	False
-631	['JJ']	Italian	False
-632	['NN']	family	False
-633	['PP', 'IN', 'NP', 'IN']	by	False
-634	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False
-635	['NN']	name	False
-636	['PP', 'IN', 'NP', 'IN']	of	False
-637	['NP', 'NNP', 'NNP']	Martina	False
-638	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH']	Okay	True
-639	['NP', 'EX', 'EX', 'VP', 'VBZ', 'NP', 'VBZ']	there's	False
-640	['NP', 'NP', 'CC', 'NP', 'NP', 'CD', 'CD']	two	False
-641	['CC']	and	False
-642	['NP', 'NP', 'PP', 'NP', 'NN', 'NNS', 'NN']	three	False
-643	['NP', 'NP', 'PP', 'NP', 'NN', 'NNS', 'NN']	quarter	False
-644	['NNS']	acres	False
-645	['PP', 'IN', 'NP', 'IN']	of	False
-646	['NP', 'NP', 'PP', 'NP', 'DT', 'NNP', 'NNP', 'NNP', 'NN', 'NN', 'DT']	this	False
-647	['NNP']	uh	False
-648	['NNP']	t	False
-649	['NNP']	uh	False
-650	['NN']	terrazzo	False
-651	['NN']	flooring	False
-652	['PP', 'IN', 'NP', 'IN']	in	False
-653	['NP', 'DT', 'NN', 'DT']	the	False
-654	['NN']	floor	False
-655	['CC']	but	False
-656	['S', 'NP', 'VP', 'NP', 'NP', 'SBAR', 'NP', 'DT', 'NNS', 'DT']	the	True
-657	['NNS']	designs	False
-658	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-659	['VP', 'VBP', 'VBP']	see	False
-660	['VP', 'VBZ', 'SBAR', 'VBZ']	is	False
-661	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-662	['S', 'NP', 'VP', 'NP', 'DT', 'JJ', 'NN', 'DT']	that	True
-663	['JJ']	Italian	False
-664	['NN']	family	False
-665	['VP', 'VBD', 'CC', 'VBD', 'PP', 'VBD']	saw	False
-666	['CC']	and	False
-667	['VBD']	interpretated	False
-668	['PP', 'IN', 'NP', 'IN']	from	False
-669	['NP', 'NP', 'CC', 'NP', 'NP', 'JJ', 'JJ', 'NNS', 'JJ']	southwest	False
-670	['JJ']	Indian	False
-671	['NNS']	blankets	False
-672	['CC']	and	False
-673	['NP', 'NN', 'NN']	pottery	False
-674	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT', 'VP', 'VBZ', 'SBAR', 'VBZ']	That's	True
-675	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	where	False
-676	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True
-677	['NNS']	designs	False
-678	['VP', 'VBD', 'PP', 'VBD']	came	False
-679	['PP', 'IN', 'IN']	from	False
-680	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'DT', 'JJ', 'DT']	Any	True
-681	['JJ']	other	False
-682	['VP', 'VBZ', 'VBZ']	questions	False
-683	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'CC', 'ADVP', 'NP', 'VP', 'CC']	And	True
-684	['ADVP', 'RB', 'RB']	apparently	False
-685	['NP', 'PRP', 'PRP']	it	False
-686	['VP', 'VBD', 'ADJP', 'VBD']	was	False
-687	['ADJP', 'RB', 'RB', 'JJ', 'SBAR', 'RB']	very	False
-688	['RB']	very	False
-689	['JJ']	muddy	False
-690	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True
-691	['VP', 'VBD', 'ADJP', 'VBD']	was	False
-692	['ADJP', 'RB', 'JJ', 'RB']	abnormally	False
-693	['JJ']	warm	False
-694	['CC']	and	False
-695	['S', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True
-696	['VP', 'VBD', 'ADVP', 'NP', 'PP', 'VBD']	was	False
-697	['ADVP', 'RB', 'RB']	just	False
-698	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False
-699	['JJ']	big	False
-700	['NN']	mudbath	False
-701	['PP', 'IN', 'NP', 'IN']	out	False
-702	['NP', 'RB', 'RB']	there	False
-703	['CC']	and	False
-704	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-705	['VP', 'MD', 'RB', 'MD', 'RB']	couldn't	False
-706	['NP', 'PRP', 'PRP']	They	False
-707	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	couldn't	False
-708	['VP', 'VB', 'PRT', 'NP', 'ADVP', 'VB']	clean	False
-709	['PRT', 'RP', 'RP']	off	False
-710	['NP', 'DT', 'NN', 'DT']	the	False
-711	['NN']	mud	False
-712	['ADVP', 'RB', 'S', 'RB']	enough	False
-713	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-714	['VP', 'VB', 'ADJP', 'VB']	be	False
-715	['ADJP', 'JJ', 'S', 'JJ']	able	False
-716	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-717	['VP', 'VB', 'ADVP', 'VB']	see	False
-718	['ADVP', 'RB', 'RB']	inside	False
-719	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'TO', 'VP', 'TO']	To	True
-720	['VP', 'VB', 'SBAR', 'VB']	see	False
-721	['SBAR', 'IN', 'IN', 'S', 'IN']	if	False
-722	['IN']	if	False
-723	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True
-724	['VP', 'VBD', 'ADJP', 'VBD']	was	False
-725	['ADJP', 'JJ', 'JJ']	viable	False
-726	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True
-727	['NP', 'PRP', 'PRP']	they	False
-728	['VP', 'VBD', 'NP', 'PP', 'VBD']	took	False
-729	['NP', 'DT', 'NN', 'DT']	an	False
-730	['NN']	egg	False
-731	['PP', 'IN', 'NP', 'IN']	from	False
-732	['NP', 'NP', 'SBAR', 'NP', 'NNS', 'NNS']	nests	False
-733	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False
-734	['S', 'VP', 'VP', 'VBD', 'NP', 'VBD']	had	True
-735	['NP', 'CD', 'NNS', 'CD']	two	False
-736	['NNS']	eggs	False
-737	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-738	['NP', 'PRP', 'PRP']	I	False
-739	['VP', 'VBP', 'SBAR', 'VBP']	think	False
-740	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'NP', 'NP', 'DT', 'DT']	this	True
-741	['NP', 'DT', 'NN', 'DT']	this	False
-742	['NN']	report	False
-743	['VP', 'VBZ', 'PP', 'VBZ']	says	False
-744	['PP', 'IN', 'NP', 'IN']	within	False
-745	['NP', 'NP', 'SBAR', 'NP', 'JJ', 'NNS', 'JJ']	thirty	False
-746	['NP', 'NP', 'SBAR', 'NP', 'JJ', 'NNS', 'JJ']	one	False
-747	['NNS']	hours	False
-748	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True
-749	['NNS']	eggs	False
-750	['VP', 'VBD', 'ADVP', 'PP', 'VBD']	were	False
-751	['ADVP', 'RB', 'RB', 'RB']	back	False
-752	['RB']	here	False
-753	['PP', 'IN', 'NP', 'IN']	in	False
-754	['NP', 'NNP', 'NNP']	Chicago	False
-755	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'VP', 'VP', 'VB', 'S', 'VB']	Uh	True
-756	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-757	['VP', 'VB', 'FRAG', 'VB']	guess	False
-758	['FRAG', 'INTJ', 'INTJ', 'UH', 'UH']	uh	False
-759	['NP', 'PRP', 'PRP']	I	False
-760	['VP', 'VBP', 'SBAR', 'VBP']	wish	False
-761	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-762	['VP', 'MD', 'VP', 'MD']	could	False
-763	['VP', 'VB', 'PP', 'VB']	think	False
-764	['PP', 'IN', 'NP', 'IN']	of	False
-765	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False
-766	['NN']	name	False
-767	['PP', 'IN', 'NP', 'IN']	of	False
-768	['NP', 'DT', 'JJ', 'NN', 'DT']	that	False
-769	['JJ']	other	False
-770	['NN']	program	False
-771	['ROOT', 'S', 'S', 'S', 'CC', 'RB', 'S', '.', 'S', 'S', 'VP', 'S', 'VP', 'VP', 'VB', 'NP', 'PP', 'VB']	See	True
-772	['NP', 'DT', 'CD', 'NN', 'DT']	this	False
-773	['CD']	one	False
-774	['NN']	guy	False
-775	['PP', 'IN', 'NP', 'IN']	at	False
-776	['NP', 'DT', 'NN', 'DT']	the	False
-777	['NN']	store	False
-778	['VP', 'VBD', 'NP', 'SBAR', 'VBD']	had	False
-779	['NP', 'DT', 'NN', 'DT']	a	False
-780	['NN']	house	False
-781	['SBAR', 'IN', 'S', 'IN']	that	False
-782	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-783	['VP', 'VBD', 'VBD']	bought	False
-784	['CC']	and	False
-785	['RB']	then	False
-786	['S', 'S', 'IN', 'S', 'CC', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-787	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	couldn't	False
-788	['VP', 'VB', 'NP', 'ADVP', 'VB']	afford	False
-789	['NP', 'DT', 'NN', 'NNS', 'DT']	the	False
-790	['NN']	house	False
-791	['NNS']	payments	False
-792	['ADVP', 'RB', 'RB']	anymore	False
-793	['IN']	so	False
-794	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-795	['VP', 'VBD', 'PP', 'PP', 'VBD']	got	False
-796	['PP', 'IN', 'NP', 'IN']	with	False
-797	['NP', 'NP', 'PP', 'NP', 'CD', 'CD']	one	False
-798	['PP', 'IN', 'NP', 'IN']	of	False
-799	['NP', 'DT', 'NN', 'NN', 'NNS', 'CC', 'NNS', 'DT']	these	False
-800	['NN']	um	False
-801	['NN']	support	False
-802	['NNS']	things	False
-803	['CC']	and	False
-804	['NNS']	uh	False
-805	['PP', 'IN', 'NP', 'IN']	like	False
-806	['NP', 'NNP', 'NNP']	HUD	False
-807	['CC']	and	False
-808	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-809	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	can't	False
-810	['VP', 'VB', 'PP', 'VB']	think	False
-811	['PP', 'IN', 'NP', 'IN']	of	False
-812	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False
-813	['NN']	name	False
-814	['PP', 'IN', 'NP', 'IN']	of	False
-815	['NP', 'PRP', 'PRP']	it	False
-816	['CC']	and	False
-817	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-818	['VP', 'VBD', 'S', 'VBD']	guaranteed	False
-819	['S', 'NP', 'NP', 'NP', 'PRP', 'PRP']	him	True
-820	['NP', 'DT', 'NN', 'DT']	a	False
-821	['NN']	residence	False
-822	['ROOT', 'S', 'S', 'CC', 'SBAR', 'NP', 'VP', '.', 'CC']	But	True
-823	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	False
-824	['S', 'SBAR', 'NP', 'VP', 'SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	True
-825	['S', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'NP', 'VBP']	you're	True
-826	['NP', 'DT', 'NN', 'NN', 'DT']	a	False
-827	['NN']	drug	False
-828	['NN']	addict	False
-829	['CC']	and	False
-830	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-831	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False
-832	['VP', 'VB', 'NP', 'ADVP', 'VB']	do	False
-833	['NP', 'PRP', 'PRP']	it	False
-834	['ADVP', 'RB', 'RB']	anymore	False
-835	['NP', 'PRP', 'PRP']	they	False
-836	['VP', 'VBP', 'VP', 'VBP']	say	False
-837	['VP', 'FRAG', 'FRAG', 'INTJ', 'INTJ', 'UH', 'UH']	oh	False
-838	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	you've	False
-839	['VP', 'VBN', 'S', 'VBN']	come	False
-840	['S', 'ADJP', 'ADJP', 'JJ', 'JJ']	clean	True
-841	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'SBAR', 'VB']	Do	True
-842	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-843	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-844	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-845	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-846	['VP', 'VBP', 'SBAR', 'VBP']	mean	False
-847	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-848	['VP', 'VBP', 'SBAR', 'VBP']	go	False
-849	['SBAR', 'IN', 'S', 'IN']	that	False
-850	['S', 'S', 'CC', 'S', 'S', 'VP', 'VP', 'ADVP', 'VBG', 'NP', 'ADVP', 'RB', 'RB']	really	True
-851	['VBG']	bugs	False
-852	['NP', 'PRP', 'PRP']	me	False
-853	['CC']	and	False
-854	['S', 'CC', 'S', 'CC']	and	True
-855	['S', 'CC', 'NP', 'VP', 'CC']	and	True
-856	['NP', 'NNP', 'NNP']	Kent	False
-857	['VP', 'VBD', 'PP', 'VBD']	was	False
-858	['PP', 'IN', 'NP', 'IN']	in	False
-859	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	the	False
-860	['NN']	back	False
-861	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-862	['VP', 'VBD', 'NP', 'VBD']	was	False
-863	['NP', 'NP', 'SBAR', 'NP', 'DT', 'DT']	all	False
-864	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-865	['VP', 'VBP', 'SBAR', 'VBP']	think	False
-866	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	True
-867	['NN']	person	False
-868	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	who	False
-869	['S', 'VP', 'VP', 'VBD', 'NP', 'ADVP', 'VBD']	was	True
-870	['NP', 'DT', 'NN', 'NN', 'DT']	a	False
-871	['NN']	drug	False
-872	['NN']	addict	False
-873	['ADVP', 'RB', 'RB']	once	False
-874	['VP', 'VBD', 'NP', 'VBD']	was	False
-875	['NP', 'DT', 'NN', 'NN', 'DT']	a	False
-876	['NN']	drug	False
-877	['NN']	addict	False
-878	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NNP', 'NNP']	Always	True
-879	['VP', 'VBZ', 'NP', 'VBZ']	is	False
-880	['NP', 'DT', 'NN', 'NN', 'DT']	a	False
-881	['NN']	drug	False
-882	['NN']	addict	False
-883	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-884	['VP', 'VBD', 'SBAR', 'VBD']	said	False
-885	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADVP', 'NP', 'VBP']	they're	True
-886	['ADVP', 'RB', 'RB']	just	False
-887	['NP', 'DT', 'JJ', 'NN', 'NN', 'DT']	a	False
-888	['JJ']	recovered	False
-889	['NN']	drug	False
-890	['NN']	addict	False
-891	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-892	['NP', 'PRP', 'PRP']	I	False
-893	['VP', 'VBD', 'VP', 'VBD']	was	False
-894	['VP', 'VBG', 'NP', 'PP', 'VBG']	saying	False
-895	['NP', 'PRP', 'PRP']	it	False
-896	['PP', 'IN', 'FRAG', 'IN']	like	False
-897	['FRAG', 'ADJP', '.', 'ADJP', 'RB', 'JJ', 'RB']	really	False
-898	['JJ']	loud	False
-899	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'SBAR', 'VBZ']	It's	True
-900	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADJP', 'VBZ']	it's	True
-901	['ADJP', 'RB', 'JJ', 'RB']	really	False
-902	['JJ']	difficult	False
-903	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	you	True
-904	['VP', 'MD', 'RB', 'VP', 'MD']	can	False
-905	['RB']	either	False
-906	['VP', 'VB', 'NP', 'VB']	have	False
-907	['NP', 'NP', 'PP', 'NP', 'DT', 'CC', 'NN', 'DT']	either	False
-908	['CC']	or	False
-909	['NN']	sort	False
-910	['PP', 'IN', 'NP', 'IN']	of	False
-911	['NP', 'DT', 'NN', 'DT']	a	False
-912	['NN']	thing	False
-913	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NNP', 'POS', 'NNP', 'POS']	Let's	True
-914	['VP', 'VBP', 'S', 'VBP']	see	False
-915	['S', 'NP', 'ADJP', 'NP', 'JJ', 'NN', 'JJ']	sixty	True
-916	['NN']	seventy	False
-917	['NN']	two	False
-918	['ADJP', 'JJ', 'JJ']	okay	False
-919	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True
-920	['NP', 'DT', 'DT']	that	False
-921	['VP', 'VBZ', 'NP', 'NP', 'VBZ']	gives	False
-922	['NP', 'PRP', 'PRP']	us	False
-923	['NP', 'DT', 'NN', 'S', 'DT']	a	False
-924	['NN']	twenty	False
-925	['NN']	eight	False
-926	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-927	['VP', 'VB', 'PP', 'VB']	distribute	False
-928	['PP', 'IN', 'NP', 'IN']	throughout	False
-929	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False
-930	['NN']	rest	False
-931	['PP', 'IN', 'NP', 'IN']	of	False
-932	['NP', 'DT', 'NN', 'DT']	the	False
-933	['NN']	day	False
-934	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-935	['NP', 'NP', 'VP', 'NP', 'NN', 'NN']	um	False
-936	['VP', 'VBG', 'NP', 'VBG']	making	False
-937	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False
-938	['NN']	decision	False
-939	['PP', 'IN', 'SBAR', 'IN']	of	False
-940	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	how	False
-941	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-942	['VP', 'VB', 'NP', 'ADVP', 'VB']	do	False
-943	['NP', 'DT', 'DT']	that	False
-944	['ADVP', 'RB', 'RB']	really	False
-945	['VP', 'VBZ', 'NP', 'VBZ']	involves	False
-946	['NP', 'PRP$', 'NNS', 'PRP$']	your	False
-947	['NNS']	insulins	False
-948	['ROOT', 'S', 'S', 'ADVP', 'PP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Now	True
-949	['PP', 'IN', 'NP', 'IN']	in	False
-950	['NP', 'DT', 'NN', 'DT']	the	False
-951	['NN']	morning	False
-952	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	you've	False
-953	['VP', 'VBN', 'NP', 'VBN']	got	False
-954	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False
-955	['JJ']	good	False
-956	['NN']	amount	False
-957	['ROOT', 'FRAG', 'FRAG', 'PP', '.', 'PP', 'IN', 'NP', '.', 'IN']	Of	False
-958	['NP', 'NP', 'SBAR', 'NP', 'JJ', 'NN', 'JJ']	regular	False
-959	['NN']	insulin	False
-960	['SBAR', 'IN', 'S', 'IN']	that	False
-961	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-962	['VP', 'VBP', 'VBP']	take	False
-963	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP$', 'NN', 'PRP$']	My	True
-964	['NN']	handyman	False
-965	['VP', 'VBD', 'NP', 'VBD']	did	False
-966	['NP', 'DT', 'DT']	that	False
-967	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-968	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	haven't	False
-969	['VP', 'VBN', 'NP', 'PP', 'VBN']	seen	False
-970	['NP', 'PRP', 'PRP']	him	False
-971	['PP', 'IN', 'NP', 'IN']	for	False
-972	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False
-973	['NN']	while	False
-974	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-975	['VP', 'VBP', 'SBAR', 'VBP']	think	False
-976	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-977	['VP', 'VBD', 'VBD']	quit	False
-978	['ROOT', 'S', 'S', 'CC', 'VP', '.', 'CC']	And	True
-979	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	didn't	False
-980	['VP', 'VB', 'NP', 'VB']	tell	False
-981	['NP', 'PRP', 'PRP']	me	False
-982	['ROOT', 'S', 'S', 'S', 'CC', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'DT', 'DT', 'VP', 'VBZ', 'NP', 'VBZ']	That's	True
-983	['NP', 'NP', 'SBAR', 'NP', 'PRP$', 'NN', 'PRP$']	my	False
-984	['NN']	roommate	False
-985	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'CD', 'CD']	One	True
-986	['PP', 'IN', 'NP', 'IN']	of	False
-987	['NP', 'NP', 'NNS', 'NP', 'PRP$', 'NN', 'POS', 'PRP$']	my	False
-988	['NN', 'POS']	roommate's	False
-989	['NNS']	horses	False
-990	['VP', 'VBZ', 'ADVP', 'VBZ']	is	False
-991	['ADVP', 'RB', 'RB']	here	False
-992	['CC']	and	False
-993	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	one's	True
-994	['PP', 'IN', 'NP', 'IN']	in	False
-995	['NP', 'RB', 'RB']	there	False
-996	['CC']	but	False
-997	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	True
-998	['VP', 'VBG', 'VBG']	hiding	False
-999	['ROOT', 'FRAG', 'FRAG', 'CC', 'ADVP', 'NP', '.', 'CC']	And	False
-1000	['ADVP', 'RB', 'RB']	then	False
-1001	['NP', 'NP', 'SBAR', '.', 'NP', 'DT', 'DT']	this	False
-1002	['SBAR', 'S', 'S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	is	True
-1003	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	the	False
-1004	['NN']	field	False
-1005	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'DT']	This	True
-1006	['VP', 'VBZ', 'SBAR', 'VBZ']	is	False
-1007	['SBAR', 'SBAR', 'CC', 'SBAR', 'SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-1008	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True
-1009	['VP', 'VBP', 'NP', 'VBP']	call	False
-1010	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'NN', 'DT']	the	False
-1011	['NN']	witch	False
-1012	['NN']	field	False
-1013	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True
-1014	['NNS']	mares	False
-1015	['VP', 'VBP', 'PRT', 'S', 'VBP']	live	False
-1016	['PRT', 'RP', 'RP']	out	False
-1017	['S', 'S', 'CC', 'S', 'CC', 'S', 'S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	there	True
-1018	['NP', 'PRP', 'PRP']	they	False
-1019	['VP', 'VBP', 'S', 'VBP']	get	False
-1020	['S', 'VP', 'VP', 'VBN', 'PRT', 'ADVP', 'PP', 'VBN']	turned	True
-1021	['PRT', 'RP', 'RP']	out	False
-1022	['ADVP', 'RB', 'RB']	there	False
-1023	['PP', 'IN', 'NP', 'IN']	during	False
-1024	['NP', 'DT', 'NN', 'DT']	the	False
-1025	['NN']	day	False
-1026	['CC']	and	False
-1027	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	then	True
-1028	['NP', 'DT', 'DT', 'VP', 'VBZ', 'UCP', 'VBZ']	that's	False
-1029	['UCP', 'NP', 'CC', 'S', 'NP', 'DT', 'VBG', 'NN', 'DT']	the	False
-1030	['VBG']	gelding	False
-1031	['NN']	field	False
-1032	['CC']	and	False
-1033	['S', 'NP', 'VP', 'NP', 'PRP$', 'NN', 'PRP$']	my	True
-1034	['NN']	stallion	False
-1035	['VP', 'VBZ', 'PRT', 'PP', 'VBZ']	lives	False
-1036	['PRT', 'RP', 'RP']	out	False
-1037	['PP', 'IN', 'NP', 'IN']	with	False
-1038	['NP', 'DT', 'NNS', 'DT']	the	False
-1039	['NNS']	geldings	False
-1040	['CC']	And	False
-1041	['S', 'NP', 'VP', 'NP', 'NNP', 'NNP']	Bruge	True
-1042	['VP', 'VBZ', 'NP', 'VBZ']	stands	False
-1043	['NP', 'NP', 'VP', 'NP', 'RB', 'PDT', 'DT', 'NN', 'RB']	here	False
-1044	['PDT']	half	False
-1045	['DT']	the	False
-1046	['NN']	day	False
-1047	['VP', 'VBG', 'S', 'VBG']	wanting	False
-1048	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1049	['VP', 'VB', 'PRT', 'VB']	come	False
-1050	['PRT', 'RP', 'RP']	in	False
-1051	['CC']	and	False
-1052	['SBAR', 'ADVP', 'IN', 'S', 'ADVP', 'RB', 'RB']	then	False
-1053	['IN']	after	False
-1054	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-1055	['VP', 'VBZ', 'SBAR', 'VBZ']	goes	False
-1056	['SBAR', 'IN', 'S', 'IN']	in	False
-1057	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-1058	['VP', 'VBZ', 'S', 'VBZ']	wants	False
-1059	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1060	['VP', 'VB', 'PRT', 'VB']	go	False
-1061	['PRT', 'RP', 'RP']	out	False
-1062	['ROOT', 'S', 'S', 'INTJ', 'VP', '.', 'INTJ', 'UH', 'UH']	Okay	True
-1063	['VP', 'VB', 'S', 'VB']	mm	False
-1064	['S', 'S', 'S', 'S', 'S', 'S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	well	True
-1065	['NP', 'PRP', 'PRP']	I	False
-1066	['VP', 'VBP', 'SBAR', 'VBP']	guess	False
-1067	['SBAR', 'IN', 'S', 'IN']	if	False
-1068	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1069	['VP', 'VBD', 'ADJP', 'PP', 'VBD']	got	False
-1070	['ADJP', 'JJ', 'JJ']	good	False
-1071	['PP', 'IN', 'PP', 'IN']	at	False
-1072	['PP', 'IN', 'S', 'IN']	at	False
-1073	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	doing	True
-1074	['NP', 'PRP', 'PRP']	it	False
-1075	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1076	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-1077	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	where	False
-1078	['S', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1079	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	didn't	False
-1080	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	Wasn't	False
-1081	['VP', 'VBG', 'NP', 'PP', 'VBG']	getting	False
-1082	['NP', 'PRP', 'PRP']	yourself	False
-1083	['PP', 'IN', 'NP', 'IN']	in	False
-1084	['NP', 'JJ', 'NNS', 'JJ']	awkward	False
-1085	['NNS']	positions	False
-1086	['CC']	and	False
-1087	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1088	['VP', 'VBP', 'S', 'VBP']	know	False
-1089	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	getting	True
-1090	['NP', 'PRP$', 'NN', 'PRP$']	your	False
-1091	['NN']	knee	False
-1092	['S', 'NP', 'VP', 'NP', 'DT', 'DT']	all	True
-1093	['VP', 'VBN', 'PRT', 'PP', 'VBN']	twisted	False
-1094	['PRT', 'RP', 'RP']	up	False
-1095	['PP', 'IN', 'NP', 'IN']	underneath	False
-1096	['NP', 'NP', 'CC', 'NP', 'NP', 'PRP', 'PRP']	you	False
-1097	['CC']	or	False
-1098	['NP', 'NN', 'NN']	something	False
-1099	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1100	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-1101	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1102	['VP', 'MD', 'ADVP', 'VP', 'MD']	could	False
-1103	['ADVP', 'RB', 'RB']	probably	False
-1104	['VP', 'VB', 'S', 'VB']	handle	False
-1105	['S', 'NP', 'ADJP', 'NP', 'PRP', 'PRP']	it	True
-1106	['ADJP', 'JJ', 'JJ']	okay	False
-1107	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1108	['VP', 'VBP', 'SBAR', 'VBP']	think	False
-1109	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1110	['VP', 'VBP', 'SBAR', 'VBP']	think	False
-1111	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'MD', 'MD']	you'll	True
-1112	['NP', 'PRP', 'PRP', 'VP', 'MD', 'VP', 'MD']	you'll	False
-1113	['VP', 'VB', 'ADJP', 'VB']	be	False
-1114	['ADJP', 'JJ', 'S', 'JJ']	able	False
-1115	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1116	['VP', 'VB', 'PP', 'VB']	see	False
-1117	['PP', 'IN', 'NP', 'IN']	for	False
-1118	['NP', 'PRP', 'PRP']	yourself	False
-1119	['ROOT', 'S', 'S', 'SBAR', 'NP', 'VP', '.', 'SBAR', 'IN', 'S', 'IN']	Because	True
-1120	['S', 'SBAR', 'NP', 'VP', 'SBAR', 'IN', 'S', 'IN']	once	True
-1121	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1122	['VP', 'VBP', 'S', 'VBP']	get	False
-1123	['S', 'NP', 'ADJP', 'SBAR', 'NP', 'PRP$', 'NNS', 'PRP$']	your	True
-1124	['NNS']	muscles	False
-1125	['ADJP', 'JJ', 'JJ']	strong	False
-1126	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1127	['VP', 'VBP', 'NP', 'VBP']	get	False
-1128	['NP', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	this	False
-1129	['NN']	thing	False
-1130	['VP', 'VBG', 'NP', 'ADVP', 'VBG']	controlling	False
-1131	['NP', 'PRP$', 'NN', 'PRP$']	your	False
-1132	['NN']	knee	False
-1133	['ADVP', 'RB', 'RB']	well	False
-1134	['NP', 'PRP', 'PRP', 'VP', 'MD', 'VP', 'MD']	you'll	False
-1135	['VP', 'VB', 'SBAR', 'VB']	see	False
-1136	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'NN', 'PP', 'WP']	what	False
-1137	['NN']	kind	False
-1138	['PP', 'IN', 'NP', 'IN']	of	False
-1139	['NP', 'NN', 'NN', 'NN']	knee	False
-1140	['NN']	control	False
-1141	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1142	['VP', 'VBP', 'S', 'VBP']	have	False
-1143	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'MD', 'VP', 'MD']	it'll	True
-1144	['VP', 'VB', 'ADJP', 'PP', 'SBAR', 'VB']	be	False
-1145	['ADJP', 'RB', 'JJ', 'RB']	pretty	False
-1146	['JJ']	obvious	False
-1147	['PP', 'TO', 'NP', 'TO']	to	False
-1148	['NP', 'PRP', 'PRP']	you	False
-1149	['SBAR', 'IN', 'S', 'IN']	whether	False
-1150	['S', 'NP', 'NP', 'PRP', 'PRP']	you	True
-1151	['NP', 'PRP', 'PRP']	you	False
-1152	['VP', 'VBP', 'NP', 'S', 'VBP']	have	False
-1153	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False
-1154	['NN']	type	False
-1155	['PP', 'IN', 'NP', 'IN']	of	False
-1156	['NP', 'NN', 'NN']	control	False
-1157	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1158	['VP', 'VB', 'FRAG', 'VB']	do	False
-1159	['FRAG', 'WHNP', '.', 'WHNP', 'WDT', 'WDT']	that	False
-1160	['ROOT', 'S', 'S', 'NP', 'NP', 'VP', '.', 'NP', 'DT', 'NN', 'DT']	every	True
-1161	['NN']	month	False
-1162	['NP', 'PRP', 'PRP']	we	False
-1163	['VP', 'VBD', 'NP', 'VBD']	had	False
-1164	['NP', 'DT', 'NN', 'DT']	a	False
-1165	['NN']	party	False
-1166	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-1167	['NP', 'NP', 'PP', 'NP', 'DT', 'DT']	all	False
-1168	['PP', 'IN', 'NP', 'IN']	of	False
-1169	['NP', 'PRP', 'PRP']	us	False
-1170	['VP', 'VBN', 'ADVP', 'PP', 'VBN']	mixed	False
-1171	['ADVP', 'RB', 'RB']	together	False
-1172	['PP', 'IN', 'NP', 'IN']	in	False
-1173	['NP', 'NN', 'NN']	friendship	False
-1174	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT']	That	True
-1175	['VP', 'VBZ', 'ADJP', 'VBZ']	is	False
-1176	['ADJP', 'JJ', 'JJ']	wonderful	False
-1177	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-1178	['NP', 'NP', 'PP', 'NP', 'NN', 'NN']	something	False
-1179	['PP', 'IN', 'NP', 'IN']	like	False
-1180	['NP', 'DT', 'DT']	this	False
-1181	['VP', 'MD', 'VP', 'MD']	could	False
-1182	['VP', 'VB', 'VB']	happen	False
-1183	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'S', 'IN']	If	False
-1184	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True
-1185	['VP', 'VBD', 'NP', 'VBD']	had	False
-1186	['NP', 'JJ', 'NNS', 'JJ']	great	False
-1187	['NNS']	dances	False
-1188	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True
-1189	['NP', 'PRP', 'PRP']	I	False
-1190	['VP', 'VBP', 'PRT', 'NP', 'VBP']	come	False
-1191	['PRT', 'RP', 'RP']	back	False
-1192	['NP', 'NP', 'SBAR', 'NP', 'PRP$', 'JJ', 'NN', 'PRP$']	my	False
-1193	['JJ']	last	False
-1194	['NN']	word	False
-1195	['SBAR', 'S', 'S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	is	True
-1196	['NP', 'NP', 'VP', 'NP', 'NN', 'NN']	violence	False
-1197	['VP', 'ADVP', 'VBZ', 'PP', 'ADVP', 'RB', 'RB']	never	False
-1198	['VBZ']	ends	False
-1199	['PP', 'IN', 'NP', 'IN']	with	False
-1200	['NP', 'NN', 'NN']	violence	False
-1201	['ROOT', 'FRAG', 'FRAG', 'CC', 'ADVP', 'NP', '.', 'CC']	And	False
-1202	['ADVP', 'RB', 'RB']	right	False
-1203	['NP', 'NP', 'SBAR', '.', 'NP', 'NN', 'NN']	education	False
-1204	['SBAR', 'S', 'S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	is	True
-1205	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False
-1206	['NN']	basis	False
-1207	['PP', 'IN', 'NP', 'IN']	of	False
-1208	['NP', 'NN', 'NN']	everything	False
-1209	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'ADVP', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB', 'RB']	Okay	True
-1210	['RB']	so	False
-1211	['ADVP', 'RB', 'RB']	therefore	False
-1212	['NP', 'PRP', 'PRP']	you	False
-1213	['VP', 'VBP', 'ADVP', 'PP', 'VBP']	know	False
-1214	['ADVP', 'RB', 'RB']	basically	False
-1215	['PP', 'IN', 'S', 'IN']	between	False
-1216	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	building	True
-1217	['NP', 'NP', 'CC', 'NP', 'NP', 'DT', 'NN', 'CC', 'NN', 'DT']	a	False
-1218	['NN']	nest	False
-1219	['CC']	and	False
-1220	['NN']	mating	False
-1221	['CC']	and	False
-1222	['NP', 'NP', 'PP', 'NP', 'DT', 'DT']	all	False
-1223	['PP', 'IN', 'NP', 'IN']	of	False
-1224	['NP', 'DT', 'JJ', 'NN', 'DT']	that	False
-1225	['JJ']	other	False
-1226	['NN']	stuff	False
-1227	['NP', 'PRP', 'PRP']	you	False
-1228	['VP', 'VBP', 'NP', 'SBAR', 'VBP']	know	False
-1229	['NP', 'PRP', 'PRP']	they	False
-1230	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1231	['VP', 'MD', 'VP', 'MD']	would	False
-1232	['VP', 'VB', 'SBAR', 'VB']	say	False
-1233	['SBAR', 'IN', 'S', 'IN']	that	False
-1234	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-1235	['VP', 'VBP', 'NP', 'PP', 'S', 'VBP']	have	False
-1236	['NP', 'CD', 'NNS', 'CD']	three	False
-1237	['NNS']	months	False
-1238	['PP', 'TO', 'TO']	to	False
-1239	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1240	['VP', 'VP', 'CC', 'VP', 'VP', 'VB', 'VB']	grow	False
-1241	['CC']	and	False
-1242	['VP', 'VB', 'ADJP', 'VB']	get	False
-1243	['ADJP', 'JJ', 'JJ']	ready	False
-1244	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Okay	False
-1245	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True
-1246	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADJP', 'VBP']	they're	False
-1247	['ADJP', 'JJ', 'JJ']	big	False
-1248	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Now	True
-1249	['NP', 'NP', 'VP', 'NP', 'DT', 'JJ', 'NN', 'DT']	the	False
-1250	['JJ']	funny	False
-1251	['NN']	thing	False
-1252	['VP', 'VBZ', 'VBZ']	is	False
-1253	['VP', 'VBZ', 'SBAR', 'VBZ']	is	False
-1254	['SBAR', 'IN', 'FRAG', 'IN']	that	False
-1255	['FRAG', 'PP', '.', 'PP', 'VBG', 'PP', 'VBG']	according	False
-1256	['PP', 'TO', 'NP', 'TO']	to	False
-1257	['NP', 'NP', 'ADJP', 'NP', 'NNP', 'NNP', 'NNP']	Mark	False
-1258	['NNP']	Ryan	False
-1259	['ADJP', 'RB', 'JJ', 'RB']	well	False
-1260	['JJ']	hmm	False
-1261	['ROOT', 'FRAG', 'FRAG', 'ADJP', 'SBAR', '.', 'ADJP', 'JJ', 'JJ']	Oh	False
-1262	['SBAR', 'IN', 'S', '.', 'IN']	so	False
-1263	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	she	True
-1264	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	didn't	False
-1265	['VP', 'VB', 'NP', 'VB']	have	False
-1266	['NP', 'NP', 'PP', 'NP', 'CD', 'CD']	one	False
-1267	['PP', 'IN', 'NP', 'IN']	of	False
-1268	['NP', 'NP', 'PP', 'NP', 'DT', 'JJ', 'NNS', 'DT']	those	False
-1269	['JJ']	classic	False
-1270	['NNS']	signs	False
-1271	['PP', 'IN', 'NP', 'IN']	of	False
-1272	['NP', 'NN', 'NN']	diabetes	False
-1273	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Tonight	False
-1274	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP']	I	True
-1275	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False
-1276	['VP', 'VB', 'VB']	know	False
-1277	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'NN', 'DT']	No	True
-1278	['NN']	I	False
-1279	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False
-1280	['VP', 'VB', 'FRAG', 'VB']	remember	False
-1281	['FRAG', 'WHNP', '.', 'WHNP', 'WDT', 'WDT']	that	False
-1282	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Cathy	True
-1283	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	She's	False
-1284	['PP', 'RB', 'FRAG', 'RB']	not	False
-1285	['FRAG', 'NP', 'NP', '.', 'NP', 'DT', 'JJ', 'NN', 'DT']	a	False
-1286	['JJ']	good	False
-1287	['NN']	friend	False
-1288	['NP', 'PRP', 'PRP']	herself	False
-1289	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True
-1290	['VP', 'VB', 'PP', '.', 'VB']	know	False
-1291	['PP', 'IN', 'NP', 'IN']	on	False
-1292	['NP', 'NP', 'PP', 'NP', 'NNP', 'NNP']	Sundays	False
-1293	['PP', 'IN', 'NP', 'IN']	at	False
-1294	['NP', 'CD', 'RB', 'CD']	ten	False
-1295	['RB']	o'clock	False
-1296	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-1297	['VP', 'VBP', 'VBP']	know	False
-1298	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True
-1299	['VP', 'VBP', 'FRAG', 'VBP']	know	False
-1300	['FRAG', 'SBAR', '.', 'SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-1301	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1302	['VP', 'VBD', 'VP', 'VBD']	was	False
-1303	['VP', 'VBG', 'PP', 'VBG']	thinking	False
-1304	['PP', 'IN', 'S', 'IN']	of	False
-1305	['S', 'VP', 'VP', 'VBG', 'VBG']	doing	True
-1306	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'S', 'VB']	Let	True
-1307	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True
-1308	['VP', 'VB', 'VB']	see	False
-1309	['ROOT', 'FRAG', 'FRAG', 'IN', 'SBAR', '.', 'IN']	If	False
-1310	['SBAR', 'WHNP', 'S', '.', 'WHNP', 'WDT', 'WDT', 'S', 'VP', 'VP', 'VBZ', 'SBAR', 'VBZ']	that's	True
-1311	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	how	False
-1312	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1313	['VP', 'VBP', 'NP', 'VBP']	do	False
-1314	['NP', 'PRP', 'PRP']	it	False
-1315	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-1316	['VP', 'VBD', 'SBAR', '.', 'VBD']	said	False
-1317	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1318	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-1319	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADJP', 'S', 'VBZ']	it's	True
-1320	['ADJP', 'NP', 'JJ', 'NP', 'DT', 'RB', 'DT']	a	False
-1321	['RB']	little	False
-1322	['JJ']	difficult	False
-1323	['S', 'VP', 'VP', 'VBG', 'NP', 'PP', 'VBG']	having	True
-1324	['NP', 'CD', 'CD']	three	False
-1325	['PP', 'IN', 'NP', 'IN']	in	False
-1326	['NP', 'DT', 'JJ', 'NN', 'DT']	the	False
-1327	['JJ']	same	False
-1328	['NN']	bedroom	False
-1329	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'SBAR', 'NP', 'NN', 'NN']	um	True
-1330	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	True
-1331	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True
-1332	['VP', 'VB', 'CC', 'VB', 'PP', 'VB']	try	False
-1333	['CC']	and	False
-1334	['VB']	focus	False
-1335	['PP', 'IN', 'NP', 'IN']	on	False
-1336	['NP', 'JJ', 'NNS', 'JJ']	little	False
-1337	['NNS']	things	False
-1338	['VP', 'VBP', 'FRAG', 'VBP']	cause	False
-1339	['FRAG', 'SBAR', '.', 'SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT', 'S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	that's	True
-1340	['NP', 'NP', 'SBAR', 'NP', 'DT', 'DT']	all	False
-1341	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-1342	['VP', 'MD', 'VP', 'MD']	can	False
-1343	['VP', 'VB', 'VB']	do	False
-1344	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	I've	True
-1345	['VP', 'VBN', 'NP', 'ADVP', 'ADVP', 'SBAR', 'VBN']	got	False
-1346	['NP', 'NN', 'NN', 'NN']	chicken	False
-1347	['NN']	cacciatore	False
-1348	['ADVP', 'RB', 'RB']	here	False
-1349	['ADVP', 'RB', 'RB', 'RB']	too	False
-1350	['RB']	honey	False
-1351	['SBAR', 'IN', 'S', 'IN']	that	False
-1352	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1353	['VP', 'MD', 'VP', 'MD']	can	False
-1354	['VP', 'VB', 'PRT', 'PP', 'SBAR', 'VB']	heat	False
-1355	['PRT', 'RP', 'RP']	up	False
-1356	['PP', 'IN', 'NP', 'IN']	for	False
-1357	['NP', 'PRP', 'PRP']	you	False
-1358	['SBAR', 'IN', 'S', 'IN']	if	False
-1359	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADJP', 'VBP']	you're	True
-1360	['ADJP', 'JJ', 'JJ']	hungry	False
-1361	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'S', 'IN']	If	False
-1362	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True
-1363	['VP', 'VBZ', 'ADVP', 'VBZ']	takes	False
-1364	['ADVP', 'ADVP', 'SBAR', 'ADVP', 'RB', 'RB', 'RB']	too	False
-1365	['RB']	long	False
-1366	['SBAR', 'IN', 'S', '.', 'IN']	for	False
-1367	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True
-1368	['VP', 'TO', 'VP', 'TO']	to	False
-1369	['VP', 'VB', 'NP', 'VB']	make	False
-1370	['NP', 'DT', 'NN', 'DT']	the	False
-1371	['NN']	pizza	False
-1372	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-1373	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False
-1374	['VP', 'VB', 'SBAR', 'VB']	know	False
-1375	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-1376	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	True
-1377	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True
-1378	['VP', 'VB', 'VB']	do	False
-1379	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True
-1380	['VP', 'VBZ', 'S', 'VBZ']	wants	False
-1381	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1382	['VP', 'VB', 'ADVP', 'NP', 'VB']	work	False
-1383	['ADVP', 'RB', 'RB']	actually	False
-1384	['NP', 'NNS', 'NNS']	features	False
-1385	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP']	He	True
-1386	['VP', 'VBZ', 'RB', 'ADVP', 'VP', 'VBZ', 'RB']	doesn't	False
-1387	['ADVP', 'RB', 'RB']	really	False
-1388	['VP', 'VB', 'S', 'VB', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	wanna	True
-1389	['VP', 'VB', 'NP', 'VB']	do	False
-1390	['NP', 'NN', 'NN']	TV	False
-1391	['ROOT', 'S', 'S', 'PP', 'NP', 'VP', '.', 'PP', 'IN', 'NP', 'IN']	Because	True
-1392	['NP', 'NNP', 'NNP']	uh	False
-1393	['NP', 'PRP', 'PRP', 'VP', 'MD', 'ADVP', 'VP', 'MD']	they'll	False
-1394	['ADVP', 'RB', 'RB']	really	False
-1395	['VP', 'VB', 'VB']	climb	False
-1396	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-1397	['NP', 'PRP', 'PRP']	they	False
-1398	['VP', 'MD', 'VP', 'MD']	can	False
-1399	['VP', 'VB', 'FRAG', 'VB']	go	False
-1400	['FRAG', 'ADVP', 'ADVP', 'RB', 'RB', '.', 'RB']	fast	False
-1401	['RB']	too	False
-1402	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'SBAR', 'NP', 'NN', 'NN']	Anyone	True
-1403	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	who	False
-1404	['S', 'VP', 'VP', 'VBZ', 'PRT', 'S', 'VBZ']	sits	True
-1405	['PRT', 'RP', 'RP']	down	False
-1406	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1407	['VP', 'VB', 'NP', 'PP', 'VB']	write	False
-1408	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False
-1409	['NN']	book	False
-1410	['PP', 'IN', 'NP', 'IN']	about	False
-1411	['NP', 'NN', 'NN']	death	False
-1412	['PP', 'IN', 'NP', 'IN']	with	False
-1413	['NP', 'NP', 'PP', 'NP', 'DT', 'NNS', 'DT']	the	False
-1414	['NNS']	hopes	False
-1415	['PP', 'IN', 'S', 'IN']	of	False
-1416	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	enlightening	True
-1417	['NP', 'PRP$', 'JJ', 'JJ', 'NNS', 'PRP$']	his	False
-1418	['JJ']	fellow	False
-1419	['JJ']	human	False
-1420	['NNS']	beings	False
-1421	['VP', 'VBZ', 'PP', 'VBZ']	is	False
-1422	['PP', 'IN', 'NP', 'IN']	in	False
-1423	['NP', 'NP', 'FRAG', 'NP', 'PRP$', 'NN', 'PRP$']	my	False
-1424	['NN']	book	False
-1425	['FRAG', 'NP', 'NP', 'DT', 'NN', '.', 'DT']	a	False
-1426	['NN']	schmuck	False
-1427	['ROOT', 'INTJ', 'INTJ', 'UH', 'PP', '.', 'UH']	Yeah	False
-1428	['PP', 'IN', 'SBAR', 'IN']	but	False
-1429	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT', 'S', 'VP', 'VP', 'VBZ', 'ADVP', 'PP', 'VBZ']	that's	True
-1430	['ADVP', 'RB', 'RB']	just	False
-1431	['PP', 'IN', 'S', 'IN']	by	False
-1432	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	learning	True
-1433	['NP', 'NNS', 'NNS']	tricks	False
-1434	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-1435	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-1436	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-1437	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True
-1438	['NNS']	tricks	False
-1439	['VP', 'VBP', 'VBP']	are	False
-1440	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT', 'VP', 'VBZ', 'NP', 'VBZ']	That's	True
-1441	['NP', 'NP', 'SBAR', 'NP', 'DT', 'DT']	all	False
-1442	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	you	True
-1443	['VP', 'VBP', 'S', 'VBP']	need	False
-1444	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1445	['VP', 'VB', 'VB']	know	False
-1446	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'CC', 'PRP', 'PRP']	Him	True
-1447	['CC']	and	False
-1448	['PRP']	her	False
-1449	['VP', 'VBD', 'PRT', 'VBD']	pulled	False
-1450	['PRT', 'RP', 'RP']	up	False
-1451	['CC']	and	False
-1452	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-1453	['VP', 'VBD', 'PP', 'VBD']	were	False
-1454	['PP', 'IN', 'NP', 'IN']	in	False
-1455	['NP', 'DT', 'NN', 'DT']	the	False
-1456	['NN']	van	False
-1457	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-1458	['NP', 'PRP', 'PRP']	they	False
-1459	['VP', 'VBD', 'S', 'VBD']	stopped	False
-1460	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1461	['VP', 'VB', 'NP', 'VB']	ask	False
-1462	['NP', 'NP', 'SBAR', 'NP', 'NNP', 'NNP']	Ron	False
-1463	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-1464	['S', 'VP', 'VP', 'VBD', 'VBD']	happened	True
-1465	['ROOT', 'FRAG', 'FRAG', 'CC', 'ADVP', 'NP', '.', 'CC']	And	False
-1466	['ADVP', 'RB', 'RB']	here	False
-1467	['NP', 'NP', 'SBAR', '.', 'NP', 'DT', 'NN', 'DT']	another	False
-1468	['NN']	car	False
-1469	['SBAR', 'S', 'S', 'VP', 'VP', 'VP', 'CC', 'VP', 'VP', 'VBD', 'VBD']	came	True
-1470	['CC']	and	False
-1471	['VP', 'VBD', 'NP', 'VBD']	rearended	False
-1472	['NP', 'NN', 'NN']	em	False
-1473	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	But	True
-1474	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADJP', 'VBP']	I'm	False
-1475	['ADJP', 'JJ', 'SBAR', 'JJ']	sure	False
-1476	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	those	True
-1477	['NNS']	guys	False
-1478	['VP', 'VBP', 'NP', 'PP', 'VBP']	get	False
-1479	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False
-1480	['NN']	lot	False
-1481	['PP', 'IN', 'NP', 'IN']	of	False
-1482	['NP', 'NN', 'NN']	attention	False
-1483	['PP', 'IN', 'NP', 'IN']	from	False
-1484	['NP', 'NNS', 'NNS']	women	False
-1485	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	They	True
-1486	['VP', 'VBP', 'NP', 'VBP']	travel	False
-1487	['NP', 'NP', 'PP', 'NP', 'DT', 'DT']	all	False
-1488	['PP', 'IN', 'NP', 'IN']	over	False
-1489	['NP', 'DT', 'NN', 'DT']	the	False
-1490	['NN']	world	False
-1491	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADJP', 'VBP']	I'm	True
-1492	['ADJP', 'JJ', 'SBAR', 'JJ']	sure	False
-1493	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	True
-1494	['NN']	lot	False
-1495	['PP', 'IN', 'NP', 'IN']	of	False
-1496	['NP', 'NNS', 'NNS']	women	False
-1497	['VP', 'VBP', 'NP', 'PP', 'ADVP', 'VBP']	throw	False
-1498	['NP', 'PRP', 'PRP']	themselves	False
-1499	['PP', 'IN', 'NP', 'IN']	at	False
-1500	['NP', 'NN', 'NN']	em	False
-1501	['ADVP', 'RB', 'SBAR', 'RB']	so	False
-1502	['SBAR', 'WHNP', 'S', '.', 'WHNP', 'WDT', 'WDT', 'S', 'VP', 'VP', 'VBZ', 'SBAR', 'VBZ']	that's	True
-1503	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-1504	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True
-1505	['VP', 'VBP', 'PP', 'VBP']	expect	False
-1506	['PP', 'IN', 'NP', 'IN']	from	False
-1507	['NP', 'NNS', 'NNS']	women	False
-1508	['ROOT', 'FRAG', 'FRAG', 'RB', 'PP', '.', 'RB']	Not	False
-1509	['PP', 'IN', 'NP', 'IN']	at	False
-1510	['NP', 'DT', 'DT']	all	False
-1511	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True
-1512	['VP', 'VBD', 'S', 'VBD']	wanted	False
-1513	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True
-1514	['VP', 'TO', 'VP', 'TO']	to	False
-1515	['VP', 'VB', 'NP', 'SBAR', 'FRAG', 'VB']	do	False
-1516	['NP', 'DT', 'NN', 'DT']	the	False
-1517	['NN']	job	False
-1518	['SBAR', 'IN', 'S', 'IN']	so	False
-1519	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-1520	['VP', 'VBD', 'S', 'VBD']	offered	False
-1521	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1522	['VP', 'VB', 'NP', 'PP', 'VB']	take	False
-1523	['NP', 'NP', 'PP', 'NP', 'DT', 'DT']	some	False
-1524	['PP', 'IN', 'NP', 'IN']	of	False
-1525	['NP', 'DT', 'JJ', 'NN', 'DT']	the	False
-1526	['JJ']	monitory	False
-1527	['NN']	burden	False
-1528	['PP', 'IN', 'NP', 'IN']	off	False
-1529	['NP', 'PRP$', 'NN', 'PRP$']	my	False
-1530	['NN']	back	False
-1531	['FRAG', 'ADVP', 'SBAR', '.', 'ADVP', 'RB', 'RB']	so	False
-1532	['SBAR', 'IN', 'S', 'IN']	that	False
-1533	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1534	['VP', 'MD', 'VP', 'MD']	could	False
-1535	['VP', 'VB', 'NP', 'PP', 'SBAR', 'VB']	do	False
-1536	['NP', 'PRP', 'PRP']	it	False
-1537	['PP', 'IN', 'NP', 'IN']	for	False
-1538	['NP', 'DT', 'JJ', 'NNS', 'DT']	the	False
-1539	['JJ']	agreed	False
-1540	['NNS']	amounts	False
-1541	['SBAR', 'IN', 'S', 'IN']	that	False
-1542	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True
-1543	['VP', 'VBD', 'VP', 'VBD']	were	False
-1544	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True
-1545	['VP', 'VB', 'NP', 'PRT', 'VB']	do	False
-1546	['NP', 'PRP', 'PRP']	it	False
-1547	['PRT', 'RP', 'RP']	on	False
-1548	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	so	True
-1549	['NP', 'DT', 'NNS', 'DT']	those	False
-1550	['NNS']	guys	False
-1551	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	couldn't	False
-1552	['VP', 'VB', 'NP', 'VB']	get	False
-1553	['NP', 'PRP', 'PRP']	me	False
-1554	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'SBAR', 'VB']	cause	True
-1555	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1556	['VP', 'VBD', 'ADJP', 'VBD']	was	False
-1557	['ADJP', 'JJ', 'SBAR', 'JJ']	afraid	False
-1558	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1559	['VP', 'VBD', 'SBAR', 'VBD']	knew	False
-1560	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-1561	['S', 'VP', 'VP', 'VBD', 'VP', 'VBD']	was	True
-1562	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True
-1563	['VP', 'VB', 'VB']	happen	False
-1564	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'DT', 'NNS', 'DT']	Those	True
-1565	['NNS']	guys	False
-1566	['VP', 'VBD', 'VP', 'VBD']	were	False
-1567	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True
-1568	['VP', 'VB', 'NP', 'PRT', 'PP', 'VB']	beat	False
-1569	['NP', 'DT', 'NN', 'DT']	the	False
-1570	['NN']	tar	False
-1571	['PRT', 'RP', 'RP']	out	False
-1572	['PP', 'IN', 'NP', 'IN']	of	False
-1573	['NP', 'PRP', 'PRP']	me	False
-1574	['ROOT', 'FRAG', 'FRAG', 'ADJP', 'S', '.', 'ADJP', 'JJ', 'JJ']	Yeah	False
-1575	['S', 'CC', 'ADVP', 'NP', 'VP', 'CC']	but	True
-1576	['ADVP', 'RB', 'RB']	then	False
-1577	['NP', 'PRP', 'PRP']	it	False
-1578	['VP', 'MD', 'VP', 'MD']	would	False
-1579	['VP', 'VB', 'VP', 'VB']	be	False
-1580	['VP', 'VBG', 'S', 'VBG']	sitting	False
-1581	['S', 'NP', 'VP', 'NP', 'EX', 'EX']	there	True
-1582	['VP', 'VB', 'FRAG', 'VB']	sort	False
-1583	['FRAG', 'PP', 'PP', 'IN', 'S', '.', 'IN']	of	False
-1584	['S', 'VP', 'VP', 'VBG', 'CC', 'VBG', 'NP', 'PP', 'VBG']	decomposing	True
-1585	['CC']	or	False
-1586	['VBG']	doing	False
-1587	['NP', 'PRP$', 'NN', 'PRP$']	its	False
-1588	['NN']	thing	False
-1589	['PP', 'RB', 'PP', 'CONJP', 'PP', 'RB']	all	False
-1590	['PP', 'IN', 'NP', 'IN']	over	False
-1591	['NP', 'DT', 'NN', 'DT']	the	False
-1592	['NN']	lawn	False
-1593	['CONJP', 'RB', 'IN', 'RB']	instead	False
-1594	['IN']	of	False
-1595	['PP', 'IN', 'NP', 'IN']	in	False
-1596	['NP', 'DT', 'JJ', 'JJ', 'NN', 'NN', 'DT']	a	False
-1597	['JJ']	nice	False
-1598	['JJ']	little	False
-1599	['NN']	compost	False
-1600	['NN']	pile	False
-1601	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Oh	False
-1602	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Wow	False
-1603	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT']	This	True
-1604	['VP', 'VBZ', 'ADJP', 'VBZ']	is	False
-1605	['ADJP', 'JJ', 'JJ']	super	False
-1606	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Oh	True
-1607	['NP', 'DT', 'DT']	this	False
-1608	['VP', 'VBZ', 'ADJP', 'VBZ']	is	False
-1609	['ADJP', 'JJ', 'JJ']	wonderful	False
-1610	['ROOT', 'FRAG', 'FRAG', 'ADJP', '.', 'ADJP', 'JJ', '.', 'JJ']	Mm	False
-1611	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	and	True
-1612	['NP', 'PRP', 'PRP']	he	False
-1613	['VP', 'VBD', 'UCP', 'VBD']	was	False
-1614	['UCP', 'NP', 'CC', 'S', '.', 'NP', 'NP', 'PP', 'NP', 'DT', 'JJS', 'JJ', 'NN', 'DT']	the	False
-1615	['JJS']	best	False
-1616	['JJ']	like	False
-1617	['NN']	guy	False
-1618	['PP', 'IN', 'NP', 'IN']	out	False
-1619	['NP', 'NP', 'PP', 'NP', 'RB', 'RB']	there	False
-1620	['PP', 'IN', 'NP', 'IN']	at	False
-1621	['NP', 'DT', 'NNPS', 'DT']	the	False
-1622	['NNPS']	Olympics	False
-1623	['CC']	or	False
-1624	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1625	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-1626	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-1627	['VP', 'VBD', 'NP', 'VBD']	had	False
-1628	['NP', 'NP', 'CC', 'NP', 'NP', 'NN', 'JJ', 'NN', 'NN']	g	False
-1629	['JJ']	special	False
-1630	['NN']	coverage	False
-1631	['CC']	and	False
-1632	['NP', 'JJ', 'NN', 'CC', 'NN', 'JJ']	special	False
-1633	['NN']	protection	False
-1634	['CC']	and	False
-1635	['NN']	everything	False
-1636	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-1637	['VP', 'VBP', 'SBAR', 'VBP']	feel	False
-1638	['SBAR', 'IN', 'S', 'IN']	like	False
-1639	['S', 'S', 'VP', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH']	uh	True
-1640	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADVP', 'PP', 'VBP']	we're	False
-1641	['ADVP', 'RB', 'RB']	still	False
-1642	['PP', 'IN', 'NP', 'IN']	in	False
-1643	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False
-1644	['NN']	pickle	False
-1645	['PP', 'IN', 'NP', 'IN']	in	False
-1646	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	that	False
-1647	['NN']	um	False
-1648	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'NP', 'VBZ']	it's	True
-1649	['ADVP', 'RB', 'RB']	just	False
-1650	['NP', 'DT', 'NN', 'DT']	every	False
-1651	['NN']	day	False
-1652	['VP', 'VBZ', 'ADJP', 'VBZ']	is	False
-1653	['ADJP', 'RB', 'JJ', 'RB']	so	False
-1654	['JJ']	different	False
-1655	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	and	True
-1656	['NP', 'PRP', 'PRP']	I	False
-1657	['VP', 'VBP', 'NP', 'PP', 'SBAR', 'VBP']	give	False
-1658	['NP', 'NNS', 'NNS']	stickers	False
-1659	['PP', 'TO', 'NP', 'TO']	to	False
-1660	['NP', 'NP', 'CC', 'NP', 'NP', 'DT', 'NNS', 'DT']	the	False
-1661	['NNS']	kids	False
-1662	['CC']	and	False
-1663	['NP', 'DT', 'NNS', 'DT']	the	False
-1664	['NNS']	ones	False
-1665	['SBAR', 'IN', 'SINV', 'IN']	that	False
-1666	['SINV', 'VP', 'NP', 'S', '.', 'VP', 'VBD', 'VBD']	got	False
-1667	['NP', 'NP', 'SBAR', 'NP', 'JJ', 'NNS', 'JJ']	good	False
-1668	['NNS']	grades	False
-1669	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False
-1670	['S', 'VP', 'VP', 'VP', 'CC', 'VP', 'VP', 'VBD', 'NP', 'VBD']	got	True
-1671	['NP', 'CD', 'NNS', 'CC', 'NNS', 'CD']	one	False
-1672	['NNS']	hundreds	False
-1673	['CC']	and	False
-1674	['NNS']	ninety	False
-1675	['NNS']	eights	False
-1676	['CC']	and	False
-1677	['VP', 'VBZ', 'VBZ']	ninety	False
-1678	['VP', 'VBZ', 'VBZ']	sixes	False
-1679	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1680	['VP', 'VBD', 'NP', 'PRT', 'PP', 'VBD']	put	False
-1681	['NP', 'PRP$', 'NNS', 'PRP$']	their	False
-1682	['NNS']	papers	False
-1683	['PRT', 'RP', 'RP']	up	False
-1684	['PP', 'IN', 'NP', 'IN']	on	False
-1685	['NP', 'DT', 'NN', 'DT']	the	False
-1686	['NN']	board	False
-1687	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NNP', 'NNP']	Um	True
-1688	['VP', 'VBD', 'SBAR', 'VBD']	let	False
-1689	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True
-1690	['VP', 'VBP', 'PP', 'VBP']	look	False
-1691	['PP', 'IN', 'NP', 'IN']	for	False
-1692	['NP', 'PRP', 'PRP']	it	False
-1693	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	It's	True
-1694	['PP', 'IN', 'NP', 'IN']	in	False
-1695	['NP', 'RB', 'RB']	here	False
-1696	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Cause	True
-1697	['NP', 'PRP', 'PRP']	I	False
-1698	['VP', 'VBD', 'NP', 'VBD']	circled	False
-1699	['NP', 'PRP', 'PRP']	it	False
-1700	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Okay	True
-1701	['NP', 'PRP', 'PRP']	it	False
-1702	['VP', 'VBZ', 'NP', 'FRAG', 'VBZ']	costs	False
-1703	['NP', 'CD', 'CD']	nine	False
-1704	['FRAG', 'ADJP', '.', 'ADJP', 'JJ', 'JJ']	ninety	False
-1705	['FRAG', 'ADJP', '.', 'ADJP', 'JJ', 'JJ']	nine	False
-1706	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'SINV', 'IN']	Because	False
-1707	['SINV', 'S', 'VP', 'NP', 'S', '.', 'S', 'INTJ', 'NP', 'ADVP', 'VP', 'INTJ', 'UH', 'UH']	uh	True
-1708	['NP', 'PRP', 'PRP']	it	False
-1709	['ADVP', 'RB', 'RB']	just	False
-1710	['VP', 'VBZ', 'VBZ']	helps	False
-1711	['VP', 'VBP', 'SBAR', 'VBP']	y	False
-1712	['SBAR', 'IN', 'S', 'IN']	because	False
-1713	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	otherwise	True
-1714	['NP', 'PRP', 'PRP']	you	False
-1715	['VP', 'VBP', 'PP', 'ADVP', 'VBP']	know	False
-1716	['PP', 'IN', 'NP', 'IN']	with	False
-1717	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False
-1718	['JJ']	grill	False
-1719	['NN']	right	False
-1720	['ADVP', 'RB', 'RB']	here	False
-1721	['NP', 'PRP', 'PRP']	you	False
-1722	['S', 'VP', 'VP', 'VB', 'PRT', 'S', 'VB']	end	True
-1723	['PRT', 'RP', 'RP']	up	False
-1724	['S', 'VP', 'VP', 'VBG', 'NP', 'PP', 'VBG']	having	True
-1725	['NP', 'JJ', 'NNS', 'JJ']	cold	False
-1726	['NNS']	spots	False
-1727	['PP', 'IN', 'NP', 'IN']	on	False
-1728	['NP', 'DT', 'NNS', 'DT']	the	False
-1729	['NNS']	sides	False
-1730	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1731	['VP', 'VB', 'PRT', 'NP', 'VB']	muster	False
-1732	['PRT', 'RP', 'RP']	up	False
-1733	['NP', 'DT', 'NN', 'DT']	the	False
-1734	['NN']	courage	False
-1735	['CC']	and	False
-1736	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1737	['VP', 'VBP', 'PP', 'VBP']	talk	False
-1738	['PP', 'TO', 'NP', 'TO']	to	False
-1739	['NP', 'NNP', 'NNP']	Windham	False
-1740	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True
-1741	['NP', 'PRP', 'PRP']	you	False
-1742	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-1743	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False
-1744	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'PP', 'VBP']	I'm	True
-1745	['PP', 'IN', 'NP', 'IN']	like	False
-1746	['NP', 'NN', 'NN']	wow	False
-1747	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT']	That	True
-1748	['VP', 'VBZ', 'RB', 'NP', 'SBAR', 'VBZ', 'RB']	isn't	False
-1749	['NP', 'NN', 'NN']	anything	False
-1750	['SBAR', 'IN', 'S', '.', 'IN']	like	False
-1751	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1752	['VP', 'VBD', 'VBD']	thought	False
-1753	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-1754	['VP', 'VBD', 'VP', 'VBD']	had	False
-1755	['VP', 'VBN', 'PP', 'VBN']	tried	False
-1756	['PP', 'TO', 'S', 'TO']	to	False
-1757	['S', 'S', 'CC', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1758	['VP', 'VBP', 'VP', 'VBP']	have	False
-1759	['VP', 'VBN', 'PP', 'VBN']	em	False
-1760	['PP', 'IN', 'NP', 'IN']	in	False
-1761	['NP', 'DT', 'NNS', 'DT']	some	False
-1762	['NNS']	pillows	False
-1763	['CC']	and	False
-1764	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True
-1765	['NNS']	pillows	False
-1766	['VP', 'VBD', 'ADVP', 'VP', 'VBD']	had	False
-1767	['ADVP', 'RB', 'RB']	finally	False
-1768	['VP', 'VBN', 'NP', 'VBN']	had	False
-1769	['NP', 'PRP', 'PRP']	it	False
-1770	['CC']	and	False
-1771	['S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-1772	['VP', 'VBD', 'SBAR', 'VBD']	thought	False
-1773	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True
-1774	['VP', 'VBP', 'SBAR', 'VBP']	know	False
-1775	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'DT']	this	True
-1776	['VP', 'VBZ', 'NP', 'VBZ']	is	False
-1777	['NP', 'PRP', 'PRP']	it	False
-1778	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Actually	True
-1779	['NP', 'PRP', 'PRP']	I	False
-1780	['VP', 'MD', 'VP', 'MD']	can	False
-1781	['VP', 'VB', 'SBAR', 'VB']	cause	False
-1782	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP$', 'NN', 'PRP$']	his	True
-1783	['NN']	wife	False
-1784	['VP', 'VBZ', 'SBAR', 'VBZ']	knows	False
-1785	['SBAR', 'IN', 'S', 'IN']	that	False
-1786	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'NP', 'VBP']	we're	True
-1787	['NP', 'NNS', 'NNS']	friends	False
-1788	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	But	True
-1789	['NP', 'PRP', 'PRP']	I	False
-1790	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False
-1791	['VP', 'VB', 'S', 'VB']	choose	False
-1792	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1793	['VP', 'VB', 'NP', 'VB']	call	False
-1794	['NP', 'PRP', 'PRP']	him	False
-1795	['ROOT', 'S', 'S', 'NP', 'PP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True
-1796	['PP', 'IN', 'NP', 'IN']	Like	False
-1797	['NP', 'PRP', 'PRP']	he	False
-1798	['VP', 'VBD', 'S', 'VBD']	used	False
-1799	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1800	['VP', 'VB', 'PRT', 'NP', 'VB']	travel	False
-1801	['PRT', 'RP', 'RP']	around	False
-1802	['NP', 'DT', 'NN', 'DT']	the	False
-1803	['NN']	country	False
-1804	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	I've	True
-1805	['VP', 'VBN', 'S', 'VBN']	got	False
-1806	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1807	['VP', 'VB', 'S', 'VB']	start	False
-1808	['S', 'VP', 'VP', 'VBG', 'PRT', 'NP', 'ADVP', 'VBG']	working	True
-1809	['PRT', 'RP', 'RP']	on	False
-1810	['NP', 'PRP$', 'NN', 'NNS', 'PRP$']	my	False
-1811	['NN']	grade	False
-1812	['NNS']	cards	False
-1813	['ADVP', 'RB', 'RB']	too	False
-1814	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'ADVP', 'SBAR', 'ADVP', 'RB', 'RB']	Just	True
-1815	['SBAR', 'IN', 'S', 'IN']	so	False
-1816	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1817	['VP', 'VBP', 'RB', 'VBP', 'RB']	don't	False
-1818	['NP', 'PRP', 'PRP']	I	False
-1819	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	won't	False
-1820	['VP', 'VB', 'NP', 'VB']	get	False
-1821	['NP', 'NP', 'FRAG', 'NP', 'NN', 'NN']	em	False
-1822	['FRAG', 'NP', 'S', '.', 'NP', 'DT', 'DT']	all	False
-1823	['S', 'VP', 'VP', 'VBN', 'NP', 'SBAR', 'VBN']	done	True
-1824	['NP', 'NNP', 'NN', 'NNP']	Friday	False
-1825	['NN']	afternoon	False
-1826	['SBAR', 'IN', 'S', 'IN']	if	False
-1827	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1828	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False
-1829	['VP', 'VB', 'VP', 'VB']	get	False
-1830	['VP', 'VBN', 'VBN']	started	False
-1831	['ROOT', 'S', 'S', 'NP', 'ADVP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True
-1832	['ADVP', 'RB', 'RB']	always	False
-1833	['VP', 'VBD', 'SBAR', 'VBD']	said	False
-1834	['SBAR', 'IN', 'S', 'IN']	that	False
-1835	['S', 'SBAR', 'NP', 'VP', 'SBAR', 'IN', 'S', 'IN']	if	True
-1836	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1837	['VP', 'VBD', 'NP', 'VBD']	had	False
-1838	['NP', 'NNS', 'NNS']	children	False
-1839	['NP', 'PRP', 'PRP']	I	False
-1840	['VP', 'MD', 'ADVP', 'VP', 'MD']	would	False
-1841	['ADVP', 'RB', 'RB']	always	False
-1842	['VP', 'VB', 'SBAR', 'VB']	Especially	False
-1843	['SBAR', 'IN', 'S', 'IN']	if	False
-1844	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1845	['VP', 'VBD', 'NP', 'VBD']	had	False
-1846	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False
-1847	['NN']	son	False
-1848	['SBAR', 'SBAR', 'SBAR', 'SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1849	['VP', 'MD', 'VP', 'MD']	would	False
-1850	['VP', 'VB', 'NP', 'VB']	hug	False
-1851	['NP', 'PRP', 'PRP']	him	False
-1852	['SBAR', 'RB', 'IN', 'S', '.', 'RB']	just	False
-1853	['IN']	so	False
-1854	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-1855	['VP', 'VBD', 'SBAR', 'VBD']	knew	False
-1856	['SBAR', 'IN', 'S', 'IN']	that	False
-1857	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1858	['VP', 'VBD', 'NP', 'VBD']	loved	False
-1859	['NP', 'PRP', 'PRP']	him	False
-1860	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Oh	False
-1861	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Yeah	False
-1862	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'VB']	Mm	True
-1863	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'NP', 'VB']	See	True
-1864	['NP', 'NN', 'NN']	yeah	False
-1865	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Here	True
-1866	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'NP', 'VBZ']	it's	False
-1867	['NP', 'JJ', 'NNS', 'JJ']	absolute	False
-1868	['NNS']	values	False
-1869	['ROOT', 'FRAG', 'FRAG', 'ADVP', '.', 'ADVP', 'RB', 'RB', '.', 'RB']	Right	False
-1870	['RB']	here	False
-1871	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Well	True
-1872	['NP', 'DT', 'DT']	that	False
-1873	['VP', 'VBD', 'NP', 'VBD']	was	False
-1874	['NP', 'NN', 'NNS', 'NN']	age	False
-1875	['NNS']	twelve	False
-1876	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True
-1877	['NP', 'DT', 'DT']	that	False
-1878	['VP', 'VBD', 'ADJP', 'VBD']	was	False
-1879	['ADJP', 'RB', 'JJ', 'PP', 'SBAR', 'RB']	very	False
-1880	['JJ']	close	False
-1881	['PP', 'TO', 'NP', 'TO']	to	False
-1882	['NP', 'NP', 'NN', 'NP', 'NNP', 'POS', 'NNP', 'POS']	Deven's	False
-1883	['NN']	age	False
-1884	['SBAR', 'WHADVP', 'S', '.', 'WHADVP', 'WRB', 'WRB']	when	False
-1885	['S', 'NP', 'ADVP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1886	['ADVP', 'NN', 'IN', 'NN']	sort	False
-1887	['IN']	of	False
-1888	['VP', 'VBD', 'NP', 'PP', 'VBD']	bit	False
-1889	['NP', 'PRP$', 'NNS', 'PRP$']	my	False
-1890	['NNS']	teeth	False
-1891	['PP', 'IN', 'NP', 'IN']	into	False
-1892	['NP', 'DT', 'NN', 'DT']	that	False
-1893	['NN']	one	False
-1894	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'PP', 'VB']	Kind	True
-1895	['PP', 'IN', 'IN']	of	False
-1896	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'DT', 'S', 'DT']	A	True
-1897	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	a	True
-1898	['NNS']	semi	False
-1899	['VP', 'VP', 'CC', 'VP', 'VP', 'VBD', 'NP', 'VBD']	bumped	False
-1900	['NP', 'DT', 'NN', 'DT']	a	False
-1901	['NN']	car	False
-1902	['CC']	and	False
-1903	['VP', 'ADVP', 'VBD', 'CC', 'VBD', 'PP', 'ADVP', 'RB', 'RB']	then	False
-1904	['VBD']	went	False
-1905	['CC']	and	False
-1906	['VBD']	went	False
-1907	['PP', 'IN', 'NP', 'IN']	on	False
-1908	['NP', 'NP', 'CC', 'NP', 'NP', 'CD', 'NNS', 'CD']	two	False
-1909	['NNS']	wheels	False
-1910	['CC']	and	False
-1911	['NP', 'RB', 'RB', 'RB']	just	False
-1912	['RB']	about	False
-1913	['VP', 'VP', 'CC', 'ADVP', 'VP', 'VP', 'VBD', 'NP', 'VBD']	lost	False
-1914	['NP', 'PRP', 'PRP']	it	False
-1915	['CC']	and	False
-1916	['ADVP', 'RB', 'RB']	then	False
-1917	['VP', 'VBD', 'ADVP', 'PP', 'VBD']	got	False
-1918	['ADVP', 'RB', 'RB', 'RB']	back	False
-1919	['RB']	up	False
-1920	['PP', 'IN', 'NP', 'IN']	on	False
-1921	['NP', 'NP', 'ADVP', 'NP', 'PDT', 'DT', 'PRP$', 'NNS', 'PDT']	all	False
-1922	['DT']	all	False
-1923	['PRP$']	its	False
-1924	['NNS']	wheels	False
-1925	['ADVP', 'RB', 'RB']	again	False
-1926	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'NP', 'VBZ']	He's	True
-1927	['NP', 'NP', 'SBAR', 'NP', 'DT', 'JJ', 'NN', 'NN', 'DT']	a	False
-1928	['JJ']	young	False
-1929	['NN']	attorney	False
-1930	['NN']	um	False
-1931	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	he's	True
-1932	['PP', 'IN', 'NP', 'IN']	with	False
-1933	['NP', 'NP', 'SBAR', 'NP', 'NP', 'NN', 'NP', 'NN', 'NN', 'NP', 'DT', 'JJ', 'NN', 'POS', 'DT']	the	False
-1934	['JJ']	public	False
-1935	['NN', 'POS']	defender's	False
-1936	['NN']	office	False
-1937	['NP', 'PRP', 'POS', 'PRP', 'POS']	he's	False
-1938	['NN']	um	False
-1939	['NN']	w	False
-1940	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	False
-1941	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True
-1942	['VP', 'VBD', 'NP', 'VBD']	had	False
-1943	['NP', 'NP', 'FRAG', 'NP', 'DT', 'NN', 'DT']	the	False
-1944	['NN']	case	False
-1945	['FRAG', 'NP', '.', 'NP', 'NP', 'SBAR', 'NP', 'DT', 'JJ', 'NN', 'DT']	the	False
-1946	['JJ']	last	False
-1947	['NN']	time	False
-1948	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True
-1949	['VP', 'VBD', 'NP', 'VBD']	was	False
-1950	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False
-1951	['JJ']	different	False
-1952	['NN']	attorney	False
-1953	['ROOT', 'S', 'S', 'S', '.', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH', 'UH']	Okay	True
-1954	['UH']	uh	False
-1955	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'NP', 'VBZ']	it's	False
-1956	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False
-1957	['NN']	law	False
-1958	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP', 'S', 'VP', 'VP', 'VBZ', 'VP', 'VBZ']	Who's	True
-1959	['VP', 'VBN', 'S', 'VBN']	supposed	False
-1960	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True
-1961	['VP', 'VB', 'NP', 'VB']	do	False
-1962	['NP', 'DT', 'DT']	this	False
-1963	['ROOT', 'NP', 'NP', 'NP', '.', 'NP', 'NP', 'CC', 'NP', 'CC', 'NP', 'NP', 'DT', 'NN', 'DT']	The	False
-1964	['NN']	buyer	False
-1965	['CC']	or	False
-1966	['NP', 'DT', 'NX', 'DT']	the	False
-1967	['NX', 'NX', 'CC', 'NX', 'NNS', 'NNS']	seller	False
-1968	['CC']	or	False
-1969	['CC']	or	False
-1970	['NP', 'WP', 'WP']	what	False
-1971	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP']	I	True
-1972	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False
-1973	['VP', 'VB', 'VB']	know	False
-1974	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'VP', 'NP', 'NP', '-LRB-', 'NP', '-RRB-', 'NP', 'NP', 'SBAR', 'NP', 'DT', 'DT', 'NN', 'DT']	The	True
-1975	['DT']	The	False
-1976	['NN']	way	False
-1977	['SBAR', 'IN', 'S', 'IN']	that	False
-1978	['S', 'NP', 'VP', 'NP', 'PRP$', 'NN', 'PRP$']	your	True
-1979	['NN']	testimony	False
-1980	['VP', 'VBZ', 'VBZ']	is	False
-1981	['VP', 'VBG', 'PP', 'VBG']	coming	False
-1982	['PP', 'IN', 'NP', 'IN']	in	False
-1983	['NP', 'PRP', 'PRP']	I	False
-1984	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False
-1985	['VP', 'VB', 'SBAR', 'VB']	know	False
-1986	['SBAR', 'IN', 'S', 'IN']	if	False
-1987	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True
-1988	['VP', 'VBD', 'NP', 'PP', 'PP', 'VBD']	explained	False
-1989	['NP', 'DT', 'DT']	this	False
-1990	['PP', 'TO', 'NP', 'TO']	to	False
-1991	['NP', 'PRP', 'PRP']	you	False
-1992	['PP', 'IN', 'NP', 'IN']	on	False
-1993	['NP', 'DT', 'NN', 'DT']	the	False
-1994	['NN']	phone	False
-1995	['ROOT', 'FRAG', 'FRAG', 'ADJP', '.', 'ADJP', 'JJ', '.', 'JJ']	Hmm	False
-1996	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'VP', 'VP', 'VBZ', 'SBAR', 'VBZ']	is	True
-1997	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	False
-1998	['S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	a	True
-1999	['NN']	person	False
-2000	['VP', 'VBZ', 'VP', 'VBZ']	is	False
-2001	['VP', 'VBN', 'PP', 'VBN']	charged	False
-2002	['PP', 'IN', 'NP', 'IN']	with	False
-2003	['NP', 'JJ', 'NNS', 'CC', 'NN', 'JJ']	multiple	False
-2004	['NNS']	crimes	False
-2005	['CC']	and	False
-2006	['NN']	um	False
-2007	['NP', 'EX', 'EX']	there	False
-2008	['VP', 'VBP', 'ADJP', 'VBP']	are	False
-2009	['ADJP', 'ADJP', 'SBAR', 'ADJP', 'JJ', 'JJ', 'JJ']	other	False
-2010	['JJ']	incidences	False
-2011	['SBAR', 'WHADVP', 'S', '.', 'WHADVP', 'WRB', 'WRB']	where	False
-2012	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True
-2013	['VP', 'VBD', 'PP', 'VBD']	acted	False
-2014	['PP', 'IN', 'NP', 'IN']	in	False
-2015	['NP', 'DT', 'JJ', 'NN', 'DT']	the	False
-2016	['JJ']	same	False
-2017	['NN']	way	False
+	Tags	Word	ClauseBoundary	StimID
+0	['ROOT', 'FRAG', 'FRAG', 'FRAG', 'CC', 'FRAG', 'FRAG', 'ADVP', 'SBAR', 'ADVP', 'RB', 'RB']	Then	False	0
+1	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB', 'WRB']	when	False	0
+2	['WRB']	when	False	0
+3	['S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	a	True	0
+4	['NN']	person	False	0
+5	['VP', 'VP', 'CC', 'VP', 'VP', 'VBZ', 'PRT', 'VBZ']	fills	False	0
+6	['PRT', 'RP', 'RP']	out	False	0
+7	['CC']	or	False	0
+8	['VP', 'VBZ', 'S', 'VBZ']	has	False	0
+9	['S', 'NP', 'VP', 'NP', 'JJ', 'NNS', 'JJ']	other	True	0
+10	['NNS']	employees	False	0
+11	['VP', 'VB', 'PRT', 'NP', 'VB']	fill	False	0
+12	['PRT', 'RP', 'RP']	out	False	0
+13	['NP', 'DT', 'JJ', 'CD', 'NNS', 'DT']	the	False	0
+14	['JJ']	doubleu	False	0
+15	['CD']	two	False	0
+16	['NNS']	forms	False	0
+17	['CC']	and	False	0
+18	['FRAG', 'NP', ':', 'S', '.', 'NP', 'NN', 'NN']	everything	False	0
+19	[':']	why	False	0
+20	['S', 'MD', 'NP', 'VP', 'MD']	would	True	0
+21	['NP', 'PRP', 'PRP']	I	False	0
+22	['VP', 'VB', 'ADJP', 'VB']	become	False	0
+23	['ADJP', 'JJ', 'PP', 'JJ']	liable	False	0
+24	['PP', 'IN', 'NP', 'IN']	for	False	0
+25	['NP', 'DT', 'NN', 'DT']	that	False	0
+26	['NN']	contribution	False	0
+27	['ROOT', 'FRAG', 'FRAG', 'ADJP', 'SBAR', '.', 'ADJP', 'WHADVP', 'JJ', 'WHADVP', 'WRB', 'WRB']	When	False	0
+28	['JJ']	h	False	0
+29	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	False	0
+30	['S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'PRP', 'PRP']	he	True	0
+31	['PP', 'IN', 'NP', 'IN']	in	False	0
+32	['NP', 'NP', 'PP', 'NP', 'NN', 'NN']	fact	False	0
+33	['PP', 'IN', 'NP', 'IN']	by	False	0
+34	['NP', 'NN', 'NN']	law	False	0
+35	['VP', 'VBZ', 'ADVP', 'VP', 'VBZ']	is	False	0
+36	['ADVP', 'RB', 'RB']	now	False	0
+37	['VP', 'VBG', 'NP', 'VBG']	employing	False	0
+38	['NP', 'DT', 'NNS', 'DT']	those	False	0
+39	['NNS']	employees	False	0
+40	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'NP', 'VBZ']	He's	True	0
+41	['NP', 'DT', 'NN', 'DT']	the	False	0
+42	['NN']	employer	False	0
+43	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	0
+44	['VP', 'VBP', 'VP', 'VBP']	am	False	0
+45	['VP', 'VBG', 'NP', 'VBG']	doing	False	0
+46	['NP', 'NN', 'NN']	nothing	False	0
+47	['ROOT', 'SQ', 'SQ', 'VBZ', 'RB', 'NP', 'NP', '.', 'VBZ', 'RB']	Isn't	False	0
+48	['NP', 'EX', 'EX']	there	False	0
+49	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False	0
+50	['NN']	law	False	0
+51	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False	0
+52	['S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	states	True	0
+53	['NP', 'DT', 'NN', 'DT']	that	False	0
+54	['NN']	fact	False	0
+55	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'WHADVP', 'S', '.', 'WHADVP', 'WRB', 'WRB']	When	False	0
+56	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	0
+57	['VP', 'VBP', 'S', 'VBP']	have	False	0
+58	['S', 'NP', 'VP', 'NP', 'JJ', 'NNS', 'JJ']	uh	True	0
+59	['NNS']	people	False	0
+60	['VP', 'VP', 'CC', 'VP', 'VP', 'VB', 'PP', 'VB']	work	False	0
+61	['PP', 'IN', 'NP', 'IN']	for	False	0
+62	['NP', 'PRP', 'PRP']	you	False	0
+63	['CC']	and	False	0
+64	['VP', 'VB', 'PRT', 'NP', 'PP', 'VB']	fill	False	0
+65	['PRT', 'RP', 'RP']	out	False	0
+66	['NP', 'JJ', 'NNS', 'JJ']	specific	False	0
+67	['NNS']	forms	False	0
+68	['PP', 'TO', 'NP', 'TO']	to	False	0
+69	['NP', 'NP', 'NP', 'DT', 'NN', 'DT']	the	False	0
+70	['NN']	state	False	0
+71	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'RB', 'VP', 'VB', 'RB']	don't	True	1
+72	['VP', 'VB', 'PP', 'VB']	believe	False	1
+73	['PP', 'IN', 'NP', 'IN']	in	False	1
+74	['NP', 'DT', 'DT']	that	False	1
+75	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT', 'VP', 'VBZ', 'ADVP', 'SBAR', 'VBZ']	That's	True	1
+76	['ADVP', 'RB', 'RB']	probably	False	1
+77	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	why	False	1
+78	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'MD', 'ADVP', 'VP', 'MD']	I'll	True	1
+79	['ADVP', 'RB', 'RB']	always	False	1
+80	['VP', 'VB', 'ADJP', 'VB']	be	False	1
+81	['ADJP', 'JJ', 'JJ']	poor	False	1
+82	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	But	True	1
+83	['NP', 'PRP', 'PRP']	I	False	1
+84	['VP', 'VBP', 'NP', 'VBP']	do	False	1
+85	['NP', 'DT', 'JJ', 'NN', 'NN', 'DT']	a	False	1
+86	['JJ']	lotta	False	1
+87	['NN']	horse	False	1
+88	['NN']	rescue	False	1
+89	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	I've	True	1
+90	['VP', 'VBN', 'NP', 'PP', 'VBN']	bought	False	1
+91	['NP', 'DT', 'NN', 'DT']	a	False	1
+92	['NN']	lot	False	1
+93	['PP', 'IN', 'NP', 'IN']	from	False	1
+94	['NP', 'DT', 'NNS', 'DT']	the	False	1
+95	['NNS']	killers	False	1
+96	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'PP', 'NP', 'NNP', 'NNP']	Um	True	1
+97	['PP', 'IN', 'NP', 'IN']	in	False	1
+98	['NP', 'NP', 'SBAR', 'NP', 'NN', 'NN']	fact	False	1
+99	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'DT', 'JJ', 'NN', 'DT']	this	True	1
+100	['JJ']	black	False	1
+101	['NN']	horse	False	1
+102	['PP', 'IN', 'NP', 'IN']	of	False	1
+103	['NP', 'PRP$', 'NN', 'PRP$']	my	False	1
+104	['NN', 'VP', 'VBZ', 'VP', 'VBZ']	roommate's	False	1
+105	['VP', 'VBD', 'PP', 'VBD']	came	False	1
+106	['PP', 'IN', 'NP', 'IN']	from	False	1
+107	['NP', 'PRP', 'PRP']	he	False	1
+108	['VP', 'VBD', 'VP', 'VBD']	was	False	1
+109	['VP', 'VBG', 'PP', 'ADVP', 'VBG']	going	False	1
+110	['PP', 'TO', 'NP', 'TO']	to	False	1
+111	['NP', 'NP', 'CD', 'NNS', 'NP', 'DT', 'NN', 'POS', 'DT']	the	False	1
+112	['NN', 'POS']	killer's	False	1
+113	['CD']	four	False	1
+114	['NNS']	years	False	1
+115	['ADVP', 'IN', 'IN']	ago	False	1
+116	['ROOT', 'NP', 'NP', 'RB', 'DT', 'NN', '.', 'RB']	Not	False	1
+117	['DT']	this	False	1
+118	['NN']	one	False	1
+119	['ROOT', 'NP', 'NP', 'DT', 'NN', 'SBAR', '.', 'DT']	The	False	1
+120	['NN']	one	False	1
+121	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False	1
+122	['S', 'VP', 'VP', 'VBZ', 'ADJP', 'ADVP', 'VBZ']	is	True	1
+123	['ADJP', 'RB', 'JJ', 'RB']	b	False	1
+124	['JJ']	blind	False	1
+125	['ADVP', 'RB', 'RB']	now	False	1
+126	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	1
+127	['NP', 'PRP', 'PRP']	he	False	1
+128	['VP', 'VBD', 'VP', 'VBD']	was	False	1
+129	['VP', 'VBN', 'NP', 'VBN']	considered	False	1
+130	['NP', 'DT', 'NN', 'DT']	a	False	1
+131	['NN']	killer	False	1
+132	['ROOT', 'NP', 'NP', 'DT', 'NN', '.', 'DT']	An	False	1
+133	['NN']	unmanageable	False	1
+134	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	1
+135	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	False	1
+136	['VP', 'VBN', 'ADJP', 'VBN']	been	False	1
+137	['ADJP', 'RB', 'JJ', 'SBAR', 'RB']	perfectly	False	1
+138	['JJ']	lovely	False	1
+139	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	1
+140	['VP', 'VBP', 'NP', 'NP', 'VBP']	give	False	1
+141	['NP', 'DT', 'JJ', 'NNS', 'DT']	the	False	1
+142	['JJ']	little	False	1
+143	['NNS']	kids	False	1
+144	['NP', 'NP', 'PP', 'NP', 'NNS', 'NNS']	lessons	False	1
+145	['PP', 'IN', 'NP', 'IN']	on	False	1
+146	['NP', 'PRP', 'PRP']	him	False	1
+147	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Anyway	True	2
+148	['NP', 'DT', 'NN', 'DT']	this	False	2
+149	['NN']	girl	False	2
+150	['VP', 'MD', 'ADVP', 'VP', 'MD']	must	False	2
+151	['ADVP', 'RB', 'RB']	only	False	2
+152	['VP', 'VB', 'PP', 'VB']	weigh	False	2
+153	['PP', 'IN', 'NP', 'IN']	like	False	2
+154	['NP', 'DT', 'CD', 'CC', 'CD', 'NNS', 'DT']	a	False	2
+155	['CD']	hundred	False	2
+156	['CC']	and	False	2
+157	['CD']	ten	False	2
+158	['NNS']	pounds	False	2
+159	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	2
+160	['VP', 'VBP', 'SBAR', 'VBP']	mean	False	2
+161	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'NP', 'VBZ']	she's	True	2
+162	['ADVP', 'RB', 'RB']	just	False	2
+163	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False	2
+164	['JJ']	little	False	2
+165	['NN']	shit	False	2
+166	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'CC', 'NP', 'VP', 'CC']	and	True	2
+167	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	she's	False	2
+168	['PP', 'IN', 'NP', 'IN']	out	False	2
+169	['NP', 'RB', 'RB']	there	False	2
+170	['CC']	and	False	2
+171	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	she's	True	2
+172	['VP', 'VBN', 'NP', 'VBN']	got	False	2
+173	['NP', 'JJ', 'NNS', 'JJ']	huge	False	2
+174	['NNS']	arms	False	2
+175	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	2
+176	['VP', 'VBP', 'SBAR', 'VBP']	mean	False	2
+177	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'SBAR', 'VBZ']	she's	True	2
+178	['PP', 'IN', 'NP', 'IN']	in	False	2
+179	['NP', 'NN', 'NN']	shape	False	2
+180	['SBAR', 'IN', 'S', 'IN']	like	False	2
+181	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	2
+182	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	can't	False	2
+183	['VP', 'VB', 'VB']	believe	False	2
+184	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'VP', 'VBZ']	She's	True	2
+185	['ADVP', 'IN', 'RB', 'IN']	out	False	2
+186	['RB']	there	False	2
+187	['VP', 'ADVP', 'VBG', 'PRT', 'ADVP', 'RB', 'RB']	just	False	2
+188	['VBG']	working	False	2
+189	['PRT', 'RP', 'RP']	away	False	2
+190	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	2
+191	['NP', 'DT', 'NNS', 'DT']	those	False	2
+192	['NNS']	guys	False	2
+193	['VP', 'VBP', 'ADJP', 'VBP']	are	False	2
+194	['ADJP', 'RB', 'VBN', 'PP', 'SBAR', 'RB']	so	False	2
+195	['VBN']	used	False	2
+196	['PP', 'TO', 'NP', 'TO']	to	False	2
+197	['NP', 'PRP', 'PRP']	it	False	2
+198	['SBAR', 'IN', 'S', 'IN']	that	False	2
+199	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	2
+200	['VP', 'VBP', 'NP', 'ADVP', 'VBP']	do	False	2
+201	['NP', 'PRP', 'PRP']	it	False	2
+202	['ADVP', 'NP', 'RB', 'NP', 'DT', 'NN', 'DT']	all	False	2
+203	['NN']	day	False	2
+204	['RB']	long	False	2
+205	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP']	you	True	2
+206	['VP', 'VBP', 'VBP']	know	False	2
+207	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	3
+208	['VP', 'VBD', 'SBAR', 'VBD']	came	False	3
+209	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	back	True	3
+210	['NP', 'PRP', 'PRP']	I	False	3
+211	['VP', 'VBD', 'PP', 'PP', 'VBD']	went	False	3
+212	['PP', 'TO', 'NP', 'TO']	to	False	3
+213	['NP', 'NN', 'NN']	school	False	3
+214	['PP', 'IN', 'NP', 'IN']	for	False	3
+215	['NP', 'NP', 'SBAR', 'NP', 'DT', 'JJ', 'NNS', 'DT']	a	False	3
+216	['JJ']	few	False	3
+217	['NNS']	months	False	3
+218	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	3
+219	['VP', 'VBD', 'VP', 'VBD']	was	False	3
+220	['VP', 'VBN', 'PP', 'VBN']	involved	False	3
+221	['PP', 'IN', 'S', 'IN']	in	False	3
+222	['S', 'S', 'CC', 'S', 'CC', 'S', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH']	uh	True	3
+223	['NP', 'PRP', 'PRP']	I	False	3
+224	['VP', 'VBD', 'NP', 'VBD']	was	False	3
+225	['NP', 'NP', 'PP', 'SBAR', 'NP', 'JJ', 'NN', 'JJ']	second	False	3
+226	['NN']	mate	False	3
+227	['PP', 'IN', 'NP', 'IN']	in	False	3
+228	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False	3
+229	['NN']	ship	False	3
+230	['PP', 'IN', 'NP', 'IN']	at	False	3
+231	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False	3
+232	['NN']	uh	False	3
+233	['PP', 'IN', 'NP', 'IN']	in	False	3
+234	['NP', 'NNP', 'NNP']	Normandy	False	3
+235	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	We	True	3
+236	['VP', 'VBD', 'NP', 'PP', 'S', 'VBD']	made	False	3
+237	['NP', 'CD', 'NNS', 'CD']	twelve	False	3
+238	['NNS']	trips	False	3
+239	['PP', 'IN', 'NP', 'IN']	from	False	3
+240	['NP', 'NNP', 'NNP']	Southampton	False	3
+241	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	3
+242	['VP', 'VB', 'NP', 'SBAR', 'VB']	uh	False	3
+243	['NP', 'DT', 'NNS', 'DT']	the	False	3
+244	['NNS']	beaches	False	3
+245	['SBAR', 'IN', 'S', 'IN']	until	False	3
+246	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True	3
+247	['VP', 'VBD', 'PP', 'VBD']	were	False	3
+248	['PP', 'IN', 'NP', 'IN']	in	False	3
+249	['NP', 'DT', 'NN', 'DT']	a	False	3
+250	['NN']	collision	False	3
+251	['CC']	and	False	3
+252	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	then	True	3
+253	['NP', 'PRP', 'PRP']	they	False	3
+254	['VP', 'VBD', 'SBAR', 'VBD']	sent	False	3
+255	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'NP', 'ADVP', 'VP', 'NP', 'PRP', 'PRP']	us	True	3
+256	['ADVP', 'RB', 'RB']	home	False	3
+257	['VP', 'VBD', 'SBAR', 'VBD']	patched	False	3
+258	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	us	True	3
+259	['VP', 'ADVP', 'VBD', 'NP', 'NP', 'ADVP', 'RB', 'RB']	up	False	3
+260	['VBD']	sent	False	3
+261	['NP', 'PRP', 'PRP']	us	False	3
+262	['NP', 'NN', 'NN']	home	False	3
+263	['CC']	and	False	3
+264	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	then	True	3
+265	['NP', 'PRP', 'PRP']	I	False	3
+266	['VP', 'VBD', 'ADVP', 'PP', 'VBD']	came	False	3
+267	['ADVP', 'RB', 'RB']	back	False	3
+268	['PP', 'IN', 'NP', 'IN']	into	False	3
+269	['NP', 'NNP', 'NNP']	Italy	False	3
+270	['CC']	and	False	3
+271	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True	3
+272	['VP', 'VBD', 'PP', 'VBD']	went	False	3
+273	['PP', 'IN', 'NP', 'IN']	into	False	3
+274	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False	3
+275	['NN']	invasion	False	3
+276	['PP', 'IN', 'NP', 'IN']	of	False	3
+277	['NP', 'JJ', 'NNP', 'JJ']	south	False	3
+278	['NNP']	France	False	3
+279	['CC']	and	False	3
+280	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True	3
+281	['VP', 'VBD', 'PP', 'NP', 'VBD']	went	False	3
+282	['PP', 'IN', 'NP', 'IN']	across	False	3
+283	['NP', 'DT', 'NN', 'DT']	the	False	3
+284	['NN']	uh	False	3
+285	['NP', 'DT', 'NNP', 'CC', 'NNP', 'DT']	the	False	3
+286	['NNP']	Atlantic	False	3
+287	['CC']	and	False	3
+288	['NNP']	Pacific	False	3
+289	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	4
+290	['NP', 'PRP', 'PRP']	they	False	4
+291	['VP', 'VBD', 'PRT', 'SBAR', 'VBD']	came	False	4
+292	['PRT', 'RP', 'RP']	out	False	4
+293	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True	4
+294	['VP', 'VBZ', 'SBAR', 'VBZ']	says	False	4
+295	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	4
+296	['VP', 'VBD', 'ADJP', 'VBD']	were	False	4
+297	['ADJP', 'JJ', 'RB', 'JJ']	afraid	False	4
+298	['RB']	too	False	4
+299	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	They	True	4
+300	['VP', 'VBD', 'ADJP', 'VBD']	were	False	4
+301	['ADJP', 'JJ', 'JJ']	afraid	False	4
+302	['ROOT', 'FRAG', 'FRAG', 'ADVP', 'SBAR', '.', 'ADVP', 'RB', 'RB']	Just	False	4
+303	['SBAR', 'IN', 'S', 'IN']	like	False	4
+304	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True	4
+305	['NNS']	disciples	False	4
+306	['VP', 'VBD', 'ADJP', 'VBD']	were	False	4
+307	['ADJP', 'JJ', 'JJ']	afraid	False	4
+308	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	They	True	4
+309	['VP', 'VBD', 'ADJP', 'VBD']	were	False	4
+310	['ADJP', 'JJ', 'JJ']	afraid	False	4
+311	['CC']	and	False	4
+312	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	4
+313	['VP', 'VBD', 'S', 'VBD']	asked	False	4
+314	['S', 'NP', 'VP', 'NP', 'NNP', 'NNP']	Jesus	True	4
+315	['VP', 'TO', 'VP', 'TO']	to	False	4
+316	['VP', 'VB', 'NP', 'VB']	leave	False	4
+317	['NP', 'DT', 'NN', 'DT']	the	False	4
+318	['NN']	region	False	4
+319	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True	4
+320	['VP', 'VBP', 'SBAR', 'VBP']	know	False	4
+321	['SBAR', 'SBAR', 'CC', 'SBAR', 'SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADJP', 'VBZ']	it's	True	4
+322	['ADJP', 'JJ', 'JJ']	amazing	False	4
+323	['CC']	but	False	4
+324	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False	4
+325	['S', 'VP', 'VP', 'VBP', 'VBP']	fear	True	4
+326	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'S', 'IN']	because	False	4
+327	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	4
+328	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	didn't	False	4
+329	['VP', 'VB', 'VB']	understand	False	4
+330	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	4
+331	['NP', 'PRP', 'PRP']	they	False	4
+332	['VP', 'VBD', 'S', 'VBD']	wanted	False	4
+333	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	4
+334	['VP', 'VB', 'VB']	control	False	4
+335	['ROOT', 'NP', 'NP', 'DT', 'NN', '.', 'DT']	the	False	4
+336	['NN']	situation	False	4
+337	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True	4
+338	['VP', 'VBP', 'SBAR', 'VBP']	know	False	4
+339	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NN', 'NN']	fear	True	4
+340	['VP', 'VBZ', 'NP', 'VBZ']	is	False	4
+341	['NP', 'NN', 'JJ', 'NN']	so	False	4
+342	['JJ']	crippling	False	4
+343	['ROOT', 'S', 'S', 'S', 'CC', 'ADVP', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'MD', 'VP', 'MD']	They'll	True	5
+344	['VP', 'VB', 'PRT', 'PP', 'VB']	fall	False	5
+345	['PRT', 'RP', 'RP']	back	False	5
+346	['PP', 'IN', 'NP', 'IN']	under	False	5
+347	['NP', 'DT', 'JJ', 'NN', 'DT']	the	False	5
+348	['JJ']	forty	False	5
+349	['NN']	percent	False	5
+350	['CC']	But	False	5
+351	['ADVP', 'RB', 'RB', 'RB']	right	False	5
+352	['RB']	now	False	5
+353	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'PP', 'SBAR', 'VBP']	they're	True	5
+354	['PP', 'IN', 'NP', 'IN']	over	False	5
+355	['NP', 'DT', 'NN', 'DT']	the	False	5
+356	['NN']	forty	False	5
+357	['SBAR', 'IN', 'S', 'IN']	because	False	5
+358	['S', 'NP', 'ADVP', 'VP', 'NP', 'PRP', 'PRP']	we	True	5
+359	['ADVP', 'RB', 'RB']	st	False	5
+360	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	can't	False	5
+361	['VP', 'VB', 'NP', 'PP', 'VB']	show	False	5
+362	['NP', 'DT', 'NN', 'DT']	any	False	5
+363	['NN']	income	False	5
+364	['PP', 'IN', 'NP', 'IN']	from	False	5
+365	['NP', 'DT', 'NN', 'DT']	the	False	5
+366	['NN']	daycare	False	5
+367	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'SBAR', 'VB']	Um	True	5
+368	['SBAR', 'SINV', 'SINV', 'S', 'VP', 'NP', '.', 'S', 'CC', 'NP', 'VP', 'CC']	but	True	5
+369	['NP', 'PRP', 'PRP']	you	False	5
+370	['VP', 'VBP', 'S', 'SBAR', 'VBP']	know	False	5
+371	['S', 'NP', 'NP', 'NP', 'PRP', 'PRP']	it	True	5
+372	['NP', 'PRP', 'PRP']	it	False	5
+373	['SBAR', 'SBAR', 'CC', 'SBAR', 'SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	5
+374	['VP', 'VBP', 'SBAR', 'VBP']	know	False	5
+375	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	5
+376	['VP', 'VBP', 'ADJP', 'VBP']	feel	False	5
+377	['ADJP', 'JJ', 'SBAR', 'JJ']	comfortable	False	5
+378	['SBAR', 'IN', 'S', 'IN']	that	False	5
+379	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'VBZ']	it's	True	5
+380	['ADVP', 'RB', 'RB']	there	False	5
+381	['CC']	and	False	5
+382	['SBAR', 'IN', 'S', 'IN']	like	False	5
+383	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	5
+384	['VP', 'VBP', 'SBAR', 'VBP']	say	False	5
+385	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'VP', 'VBZ']	he's	True	5
+386	['ADVP', 'RB', 'RB']	always	False	5
+387	['VP', 'VBN', 'NP', 'SBAR', 'VBN']	serviced	False	5
+388	['NP', 'NN', 'NN']	debt	False	5
+389	['SBAR', 'IN', 'S', 'IN']	as	False	5
+390	['S', 'S', 'CC', 'S', 'S', 'VP', 'VP', 'VBN', 'VBN']	agreed	True	5
+391	['CC']	and	False	5
+392	['S', 'CC', 'S', 'CC']	and	True	5
+393	['S', 'NP', 'VP', 'NP', 'PRP$', 'JJ', 'NN', 'PRP$']	his	True	5
+394	['JJ']	overall	False	5
+395	['NN']	debt	False	5
+396	['VP', 'VBZ', 'VP', 'VBZ']	is	False	5
+397	['VP', 'VBG', 'PRT', 'NP', 'VBG']	working	False	5
+398	['PRT', 'RP', 'RP']	down	False	5
+399	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VBZ']	it's	False	5
+400	['NP', 'NP', 'PP', 'NP', 'RB', 'PDT', 'DT', 'NN', 'RB']	just	False	5
+401	['PDT']	quite	False	5
+402	['DT']	a	False	5
+403	['NN']	bit	False	5
+404	['PP', 'IN', 'NP', 'IN']	of	False	5
+405	['NP', 'NN', 'NN']	debt	False	5
+406	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	6
+407	['VP', 'VBD', 'VBD']	said	False	6
+408	['CC']	and	False	6
+409	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	6
+410	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False	6
+411	['VP', 'VB', 'S', 'VB']	want	False	6
+412	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	him	True	6
+413	['VP', 'TO', 'VP', 'TO']	to	False	6
+414	['VP', 'VB', 'VB']	spook	False	6
+415	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True	6
+416	['VP', 'VBD', 'NP', 'VBD']	said	False	6
+417	['NP', 'NP', 'SBAR', 'NP', 'NN', 'NN']	nah	False	6
+418	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	True	6
+419	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True	6
+420	['VP', 'VB', 'ADJP', 'VB']	be	False	6
+421	['ADJP', 'RB', 'JJ', 'RB']	just	False	6
+422	['JJ']	fine	False	6
+423	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True	6
+424	['VP', 'VBD', 'NP', 'PP', 'VBD']	hooked	False	6
+425	['NP', 'PRP', 'PRP']	him	False	6
+426	['PP', 'TO', 'NP', 'TO']	to	False	6
+427	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	the	False	6
+428	['NN']	cart	False	6
+429	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	He	True	6
+430	['VP', 'VBD', 'SBAR', 'VBD']	got	False	6
+431	['SBAR', 'IN', 'S', 'IN']	in	False	6
+432	['S', 'VP', 'VP', 'VBD', 'SBAR', 'VBD']	told	True	6
+433	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True	6
+434	['VP', 'VBP', 'S', 'VBP']	let	False	6
+435	['S', 'VP', 'VP', 'VB', 'SBAR', 'VB']	go	True	6
+436	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	6
+437	['VP', 'VBD', 'PRT', 'NP', 'VBD']	stepped	False	6
+438	['PRT', 'RP', 'RP']	back	False	6
+439	['NP', 'NP', 'SBAR', 'NP', 'CD', 'NNS', 'CD']	two	False	6
+440	['NNS']	steps	False	6
+441	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	the	True	6
+442	['NN']	horse	False	6
+443	['VP', 'VBD', 'SBAR', 'VBD']	took	False	6
+444	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'CD', 'NNS', 'CD']	two	True	6
+445	['NNS']	steps	False	6
+446	['VP', 'VBD', 'SBAR', 'VBD']	bucked	False	6
+447	['SBAR', 'S', 'S', 'VP', 'VP', 'VBD', 'SBAR', 'VBD']	kicked	True	6
+448	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	True	6
+449	['NN']	guy	False	6
+450	['PP', 'RB', 'IN', 'NP', 'RB']	out	False	6
+451	['IN']	of	False	6
+452	['NP', 'DT', 'NN', 'DT']	the	False	6
+453	['NN']	cart	False	6
+454	['VP', 'VBD', 'PRT', 'SBAR', 'VBD']	took	False	6
+455	['PRT', 'RP', 'RP']	off	False	6
+456	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NN', 'NN', 'DT']	the	True	6
+457	['NN']	barn	False	6
+458	['NN']	door	False	6
+459	['VP', 'VBD', 'ADJP', 'VBD']	was	False	6
+460	['ADJP', 'JJ', 'JJ']	open	False	6
+461	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT']	This	True	6
+462	['VP', 'VBD', 'S', 'VBD']	used	False	6
+463	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	6
+464	['VP', 'VB', 'VP', 'VB']	be	False	6
+465	['VP', 'VBN', 'ADVP', 'ADVP', 'VBN']	set	False	6
+466	['ADVP', 'RB', 'NP', 'RB']	up	False	6
+467	['NP', 'DT', 'RB', 'DT']	a	False	6
+468	['RB']	little	False	6
+469	['ADVP', 'RB', 'RB']	differently	False	6
+470	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'VB']	Um	True	6
+471	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	They	True	7
+472	['VP', 'VBD', 'PP', 'PP', 'VBD']	went	False	7
+473	['PP', 'IN', 'NP', 'IN']	in	False	7
+474	['NP', 'CD', 'NNS', 'CD']	five	False	7
+475	['NNS']	inches	False	7
+476	['PP', 'IN', 'NP', 'IN']	on	False	7
+477	['NP', 'DT', 'CD', 'JJ', 'NNS', 'DT']	the	False	7
+478	['CD']	two	False	7
+479	['JJ']	outside	False	7
+480	['NNS']	walls	False	7
+481	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	They	True	7
+482	['VP', 'VBD', 'PP', 'VBD']	put	False	7
+483	['PP', 'IN', 'NP', 'IN']	in	False	7
+484	['NP', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	False	7
+485	['VP', 'VBN', 'NP', 'PP', 'VBN']	studded	False	7
+486	['NP', 'DT', 'JJ', 'NNS', 'DT']	the	False	7
+487	['JJ']	outside	False	7
+488	['NNS']	walls	False	7
+489	['PP', 'IN', 'NP', 'IN']	from	False	7
+490	['NP', 'DT', 'NN', 'DT']	the	False	7
+491	['NN']	inside	False	7
+492	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True	7
+493	['VP', 'VBP', 'NP', 'VBP']	know	False	7
+494	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False	7
+495	['NN']	inside	False	7
+496	['PP', 'IN', 'NP', 'IN']	of	False	7
+497	['NP', 'DT', 'NN', 'DT']	the	False	7
+498	['NN']	room	False	7
+499	['ROOT', 'S', 'S', 'S', 'CC', 'RB', 'S', '.', 'S', 'FRAG', 'NP', 'VP', 'FRAG', 'NP', 'CC', 'RB', 'NP', 'NNP', 'NNP']	Um	True	7
+500	['CC']	and	False	7
+501	['RB']	then	False	7
+502	['NP', 'PRP', 'PRP']	they	False	7
+503	['VP', 'VBD', 'NP', 'VBD']	put	False	7
+504	['NP', 'NN', 'NN']	insulation	False	7
+505	['CC']	and	False	7
+506	['RB']	then	False	7
+507	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	7
+508	['VP', 'VBD', 'NP', 'VBD']	put	False	7
+509	['NP', 'NN', 'NNS', 'NN']	soundproof	False	7
+510	['NNS']	boards	False	7
+511	['ROOT', 'S', 'S', 'RB', 'NP', 'VP', '.', 'RB']	Then	True	7
+512	['NP', 'PRP', 'PRP']	they	False	7
+513	['VP', 'VBD', 'NP', 'VBD']	put	False	7
+514	['NP', 'NP', 'PP', 'NP', 'CD', 'NNS', 'CD']	two	False	7
+515	['NNS']	layers	False	7
+516	['PP', 'IN', 'NP', 'IN']	of	False	7
+517	['NP', 'JJ', 'NN', 'JJ']	three	False	7
+518	['NP', 'JJ', 'NN', 'JJ']	quarter	False	7
+519	['NP', 'JJ', 'NN', 'JJ']	inch	False	7
+520	['NN']	drywall	False	7
+521	['ROOT', 'S', 'S', 'CC', 'ADVP', 'NP', 'VP', '.', 'CC']	And	True	7
+522	['ADVP', 'RB', 'RB']	then	False	7
+523	['NP', 'PRP', 'PRP']	they	False	7
+524	['VP', 'VBD', 'SBAR', 'VBD']	taped	False	7
+525	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True	7
+526	['VP', 'ADVP', 'VBN', 'NP', 'ADVP', 'DT', 'CC', 'NN', 'DT']	all	False	7
+527	['CC']	and	False	7
+528	['NN']	skim	False	7
+529	['VBN']	coated	False	7
+530	['NP', 'PRP', 'PRP']	it	False	7
+531	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADJP', 'VBZ']	It's	True	7
+532	['ADJP', 'JJ', 'JJ']	beautiful	False	7
+533	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	It	True	8
+534	['VP', 'VBD', 'NP', 'VBD']	was	False	8
+535	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False	8
+536	['NN']	business	False	8
+537	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH']	No	True	8
+538	['NP', 'PRP', 'PRP']	it	False	8
+539	['VP', 'VBD', 'NP', 'VBD']	was	False	8
+540	['NP', 'DT', 'NN', 'NN', 'NN', 'DT']	a	False	8
+541	['NN']	business	False	8
+542	['NN']	uh	False	8
+543	['NN']	bankruptcy	False	8
+544	['CC']	and	False	8
+545	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True	8
+546	['VP', 'VBD', 'ADJP', 'VBD']	was	False	8
+547	['ADJP', 'JJ', 'SBAR', 'JJ']	pretty	False	8
+548	['SBAR', 'S', 'S', 'VP', 'VP', 'VP', 'CC', 'VP', 'VP', 'VBD', 'VBD']	cut	True	8
+549	['CC']	and	False	8
+550	['VP', 'VBD', 'SBAR', 'VBD']	dried	False	8
+551	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'NP', 'ADVP', 'VP', 'NP', 'PRP', 'PRP']	they	True	8
+552	['ADVP', 'RB', 'RB']	just	False	8
+553	['VP', 'VBD', 'VP', 'VBD']	were	False	8
+554	['VP', 'VBG', 'NP', 'VBG']	eliminating	False	8
+555	['NP', 'DT', 'NN', 'NN', 'NN', 'DT']	the	False	8
+556	['NN']	business	False	8
+557	['NN']	um	False	8
+558	['NN']	debt	False	8
+559	['CC']	and	False	8
+560	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	apparently	True	8
+561	['NP', 'NN', 'NN']	nobody	False	8
+562	['VP', 'VBD', 'PP', 'VBD']	objected	False	8
+563	['PP', 'TO', 'NP', 'TO']	to	False	8
+564	['NP', 'DT', 'DT', 'NN', 'DT']	the	False	8
+565	['DT']	the	False	8
+566	['NN']	bankruptcy	False	8
+567	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'S', 'IN']	Since	False	8
+568	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	8
+569	['VP', 'VBD', 'PP', 'VBD']	reaffirmed	False	8
+570	['PP', 'IN', 'NP', 'IN']	with	False	8
+571	['NP', 'PRP$', 'JJ', 'NNS', 'PRP$']	their	False	8
+572	['JJ']	secured	False	8
+573	['NNS']	creditors	False	8
+574	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'SBAR', 'NP', 'PDT', 'DT', 'NN', 'PDT']	All	True	8
+575	['DT']	the	False	8
+576	['NN']	debt	False	8
+577	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False	8
+578	['S', 'VP', 'VP', 'VBD', 'VP', 'VBD']	was	True	8
+579	['VP', 'VBN', 'SBAR', 'VBN']	charged	False	8
+580	['SBAR', 'IN', 'S', 'IN']	that	False	8
+581	['S', 'VP', 'VP', 'VBD', 'NP', 'VBD']	was	True	8
+582	['NP', 'NN', 'NN']	bank	False	8
+583	['VP', 'VBD', 'SBAR', 'VBD']	filed	False	8
+584	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'PP', 'NP', 'NN', 'NN']	bankruptcy	True	8
+585	['PP', 'IN', 'IN']	against	False	8
+586	['VP', 'VBD', 'NP', 'VBD']	was	False	8
+587	['NP', 'JJ', 'NNS', 'JJ']	unsecured	False	8
+588	['NNS']	creditors	False	8
+589	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Yeah	False	9
+590	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'VP', 'VP', 'VP', 'CONJP', 'VP', 'VP', 'VBG', 'SBAR', 'VBG']	Folks	True	9
+591	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	the	True	9
+592	['NN']	dam	False	9
+593	['VP', 'VBD', 'VP', 'VBD']	was	False	9
+594	['VP', 'VBN', 'PP', 'VBN']	built	False	9
+595	['PP', 'IN', 'NP', 'IN']	as	False	9
+596	['NP', 'DT', 'NN', 'NN', 'DT']	a	False	9
+597	['NN']	tourist	False	9
+598	['NN']	attraction	False	9
+599	['CONJP', 'RB', 'RB', 'IN', 'RB']	as	False	9
+600	['RB']	well	False	9
+601	['IN']	as	False	9
+602	['VP', 'VBG', 'ADJP', 'VBG']	being	False	9
+603	['ADJP', 'ADJP', 'CC', 'ADJP', 'ADJP', 'RB', 'JJ', 'SBAR', 'RB']	very	False	9
+604	['JJ']	functional	False	9
+605	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	this	True	9
+606	['NN']	terrazzo	False	9
+607	['VP', 'VBD', 'SBAR', 'VBD']	flooring	False	9
+608	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	9
+609	['VP', 'VBP', 'SBAR', 'VBP']	see	False	9
+610	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NN', 'NN']	terrazzo	True	9
+611	['VP', 'VBZ', 'NP', 'VBZ']	is	False	9
+612	['NP', 'NP', 'VP', 'NP', 'NN', 'NNS', 'NN']	marble	False	9
+613	['NNS']	chips	False	9
+614	['VP', 'VBN', 'PRT', 'PP', 'VBN']	put	False	9
+615	['PRT', 'RP', 'RP']	down	False	9
+616	['PP', 'IN', 'NP', 'IN']	in	False	9
+617	['NP', 'JJ', 'NN', 'RP', 'JJ']	concrete	False	9
+618	['NN']	ground	False	9
+619	['RP']	down	False	9
+620	['CC']	and	False	9
+621	['ADJP', 'VBN', 'VBN']	polished	False	9
+622	['NP', 'DT', 'NN', 'NN', 'DT']	this	False	9
+623	['NN']	terrazzo	False	9
+624	['NN']	flooring	False	9
+625	['VP', 'VBD', 'VP', 'VBD']	was	False	9
+626	['VP', 'VBN', 'PP', 'PP', 'PP', 'VBN']	put	False	9
+627	['PP', 'IN', 'NP', 'IN']	in	False	9
+628	['NP', 'RB', 'RB']	here	False	9
+629	['PP', 'IN', 'NP', 'IN']	by	False	9
+630	['NP', 'CD', 'JJ', 'NN', 'CD']	one	False	9
+631	['JJ']	Italian	False	9
+632	['NN']	family	False	9
+633	['PP', 'IN', 'NP', 'IN']	by	False	9
+634	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False	9
+635	['NN']	name	False	9
+636	['PP', 'IN', 'NP', 'IN']	of	False	9
+637	['NP', 'NNP', 'NNP']	Martina	False	9
+638	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH']	Okay	True	9
+639	['NP', 'EX', 'EX', 'VP', 'VBZ', 'NP', 'VBZ']	there's	False	9
+640	['NP', 'NP', 'CC', 'NP', 'NP', 'CD', 'CD']	two	False	9
+641	['CC']	and	False	9
+642	['NP', 'NP', 'PP', 'NP', 'NN', 'NNS', 'NN']	three	False	9
+643	['NP', 'NP', 'PP', 'NP', 'NN', 'NNS', 'NN']	quarter	False	9
+644	['NNS']	acres	False	9
+645	['PP', 'IN', 'NP', 'IN']	of	False	9
+646	['NP', 'NP', 'PP', 'NP', 'DT', 'NNP', 'NNP', 'NNP', 'NN', 'NN', 'DT']	this	False	9
+647	['NNP']	uh	False	9
+648	['NNP']	t	False	9
+649	['NNP']	uh	False	9
+650	['NN']	terrazzo	False	9
+651	['NN']	flooring	False	9
+652	['PP', 'IN', 'NP', 'IN']	in	False	9
+653	['NP', 'DT', 'NN', 'DT']	the	False	9
+654	['NN']	floor	False	9
+655	['CC']	but	False	9
+656	['S', 'NP', 'VP', 'NP', 'NP', 'SBAR', 'NP', 'DT', 'NNS', 'DT']	the	True	9
+657	['NNS']	designs	False	9
+658	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	9
+659	['VP', 'VBP', 'VBP']	see	False	9
+660	['VP', 'VBZ', 'SBAR', 'VBZ']	is	False	9
+661	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	9
+662	['S', 'NP', 'VP', 'NP', 'DT', 'JJ', 'NN', 'DT']	that	True	9
+663	['JJ']	Italian	False	9
+664	['NN']	family	False	9
+665	['VP', 'VBD', 'CC', 'VBD', 'PP', 'VBD']	saw	False	9
+666	['CC']	and	False	9
+667	['VBD']	interpretated	False	9
+668	['PP', 'IN', 'NP', 'IN']	from	False	9
+669	['NP', 'NP', 'CC', 'NP', 'NP', 'JJ', 'JJ', 'NNS', 'JJ']	southwest	False	9
+670	['JJ']	Indian	False	9
+671	['NNS']	blankets	False	9
+672	['CC']	and	False	9
+673	['NP', 'NN', 'NN']	pottery	False	9
+674	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT', 'VP', 'VBZ', 'SBAR', 'VBZ']	That's	True	9
+675	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	where	False	9
+676	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True	9
+677	['NNS']	designs	False	9
+678	['VP', 'VBD', 'PP', 'VBD']	came	False	9
+679	['PP', 'IN', 'IN']	from	False	9
+680	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'DT', 'JJ', 'DT']	Any	True	9
+681	['JJ']	other	False	9
+682	['VP', 'VBZ', 'VBZ']	questions	False	9
+683	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'CC', 'ADVP', 'NP', 'VP', 'CC']	And	True	10
+684	['ADVP', 'RB', 'RB']	apparently	False	10
+685	['NP', 'PRP', 'PRP']	it	False	10
+686	['VP', 'VBD', 'ADJP', 'VBD']	was	False	10
+687	['ADJP', 'RB', 'RB', 'JJ', 'SBAR', 'RB']	very	False	10
+688	['RB']	very	False	10
+689	['JJ']	muddy	False	10
+690	['SBAR', 'S', 'S', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True	10
+691	['VP', 'VBD', 'ADJP', 'VBD']	was	False	10
+692	['ADJP', 'RB', 'JJ', 'RB']	abnormally	False	10
+693	['JJ']	warm	False	10
+694	['CC']	and	False	10
+695	['S', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True	10
+696	['VP', 'VBD', 'ADVP', 'NP', 'PP', 'VBD']	was	False	10
+697	['ADVP', 'RB', 'RB']	just	False	10
+698	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False	10
+699	['JJ']	big	False	10
+700	['NN']	mudbath	False	10
+701	['PP', 'IN', 'NP', 'IN']	out	False	10
+702	['NP', 'RB', 'RB']	there	False	10
+703	['CC']	and	False	10
+704	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	10
+705	['VP', 'MD', 'RB', 'MD', 'RB']	couldn't	False	10
+706	['NP', 'PRP', 'PRP']	They	False	10
+707	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	couldn't	False	10
+708	['VP', 'VB', 'PRT', 'NP', 'ADVP', 'VB']	clean	False	10
+709	['PRT', 'RP', 'RP']	off	False	10
+710	['NP', 'DT', 'NN', 'DT']	the	False	10
+711	['NN']	mud	False	10
+712	['ADVP', 'RB', 'S', 'RB']	enough	False	10
+713	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	10
+714	['VP', 'VB', 'ADJP', 'VB']	be	False	10
+715	['ADJP', 'JJ', 'S', 'JJ']	able	False	10
+716	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	10
+717	['VP', 'VB', 'ADVP', 'VB']	see	False	10
+718	['ADVP', 'RB', 'RB']	inside	False	10
+719	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'TO', 'VP', 'TO']	To	True	10
+720	['VP', 'VB', 'SBAR', 'VB']	see	False	10
+721	['SBAR', 'IN', 'IN', 'S', 'IN']	if	False	10
+722	['IN']	if	False	10
+723	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True	10
+724	['VP', 'VBD', 'ADJP', 'VBD']	was	False	10
+725	['ADJP', 'JJ', 'JJ']	viable	False	10
+726	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True	10
+727	['NP', 'PRP', 'PRP']	they	False	10
+728	['VP', 'VBD', 'NP', 'PP', 'VBD']	took	False	10
+729	['NP', 'DT', 'NN', 'DT']	an	False	10
+730	['NN']	egg	False	10
+731	['PP', 'IN', 'NP', 'IN']	from	False	10
+732	['NP', 'NP', 'SBAR', 'NP', 'NNS', 'NNS']	nests	False	10
+733	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False	10
+734	['S', 'VP', 'VP', 'VBD', 'NP', 'VBD']	had	True	10
+735	['NP', 'CD', 'NNS', 'CD']	two	False	10
+736	['NNS']	eggs	False	10
+737	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	10
+738	['NP', 'PRP', 'PRP']	I	False	10
+739	['VP', 'VBP', 'SBAR', 'VBP']	think	False	10
+740	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'NP', 'NP', 'DT', 'DT']	this	True	10
+741	['NP', 'DT', 'NN', 'DT']	this	False	10
+742	['NN']	report	False	10
+743	['VP', 'VBZ', 'PP', 'VBZ']	says	False	10
+744	['PP', 'IN', 'NP', 'IN']	within	False	10
+745	['NP', 'NP', 'SBAR', 'NP', 'JJ', 'NNS', 'JJ']	thirty	False	10
+746	['NP', 'NP', 'SBAR', 'NP', 'JJ', 'NNS', 'JJ']	one	False	10
+747	['NNS']	hours	False	10
+748	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True	10
+749	['NNS']	eggs	False	10
+750	['VP', 'VBD', 'ADVP', 'PP', 'VBD']	were	False	10
+751	['ADVP', 'RB', 'RB', 'RB']	back	False	10
+752	['RB']	here	False	10
+753	['PP', 'IN', 'NP', 'IN']	in	False	10
+754	['NP', 'NNP', 'NNP']	Chicago	False	10
+755	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'VP', 'VP', 'VB', 'S', 'VB']	Uh	True	11
+756	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	11
+757	['VP', 'VB', 'FRAG', 'VB']	guess	False	11
+758	['FRAG', 'INTJ', 'INTJ', 'UH', 'UH']	uh	False	11
+759	['NP', 'PRP', 'PRP']	I	False	11
+760	['VP', 'VBP', 'SBAR', 'VBP']	wish	False	11
+761	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	11
+762	['VP', 'MD', 'VP', 'MD']	could	False	11
+763	['VP', 'VB', 'PP', 'VB']	think	False	11
+764	['PP', 'IN', 'NP', 'IN']	of	False	11
+765	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False	11
+766	['NN']	name	False	11
+767	['PP', 'IN', 'NP', 'IN']	of	False	11
+768	['NP', 'DT', 'JJ', 'NN', 'DT']	that	False	11
+769	['JJ']	other	False	11
+770	['NN']	program	False	11
+771	['ROOT', 'S', 'S', 'S', 'CC', 'RB', 'S', '.', 'S', 'S', 'VP', 'S', 'VP', 'VP', 'VB', 'NP', 'PP', 'VB']	See	True	11
+772	['NP', 'DT', 'CD', 'NN', 'DT']	this	False	11
+773	['CD']	one	False	11
+774	['NN']	guy	False	11
+775	['PP', 'IN', 'NP', 'IN']	at	False	11
+776	['NP', 'DT', 'NN', 'DT']	the	False	11
+777	['NN']	store	False	11
+778	['VP', 'VBD', 'NP', 'SBAR', 'VBD']	had	False	11
+779	['NP', 'DT', 'NN', 'DT']	a	False	11
+780	['NN']	house	False	11
+781	['SBAR', 'IN', 'S', 'IN']	that	False	11
+782	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	11
+783	['VP', 'VBD', 'VBD']	bought	False	11
+784	['CC']	and	False	11
+785	['RB']	then	False	11
+786	['S', 'S', 'IN', 'S', 'CC', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	11
+787	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	couldn't	False	11
+788	['VP', 'VB', 'NP', 'ADVP', 'VB']	afford	False	11
+789	['NP', 'DT', 'NN', 'NNS', 'DT']	the	False	11
+790	['NN']	house	False	11
+791	['NNS']	payments	False	11
+792	['ADVP', 'RB', 'RB']	anymore	False	11
+793	['IN']	so	False	11
+794	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	11
+795	['VP', 'VBD', 'PP', 'PP', 'VBD']	got	False	11
+796	['PP', 'IN', 'NP', 'IN']	with	False	11
+797	['NP', 'NP', 'PP', 'NP', 'CD', 'CD']	one	False	11
+798	['PP', 'IN', 'NP', 'IN']	of	False	11
+799	['NP', 'DT', 'NN', 'NN', 'NNS', 'CC', 'NNS', 'DT']	these	False	11
+800	['NN']	um	False	11
+801	['NN']	support	False	11
+802	['NNS']	things	False	11
+803	['CC']	and	False	11
+804	['NNS']	uh	False	11
+805	['PP', 'IN', 'NP', 'IN']	like	False	11
+806	['NP', 'NNP', 'NNP']	HUD	False	11
+807	['CC']	and	False	11
+808	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	11
+809	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	can't	False	11
+810	['VP', 'VB', 'PP', 'VB']	think	False	11
+811	['PP', 'IN', 'NP', 'IN']	of	False	11
+812	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False	11
+813	['NN']	name	False	11
+814	['PP', 'IN', 'NP', 'IN']	of	False	11
+815	['NP', 'PRP', 'PRP']	it	False	11
+816	['CC']	and	False	11
+817	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	11
+818	['VP', 'VBD', 'S', 'VBD']	guaranteed	False	11
+819	['S', 'NP', 'NP', 'NP', 'PRP', 'PRP']	him	True	11
+820	['NP', 'DT', 'NN', 'DT']	a	False	11
+821	['NN']	residence	False	11
+822	['ROOT', 'S', 'S', 'CC', 'SBAR', 'NP', 'VP', '.', 'CC']	But	True	12
+823	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	False	12
+824	['S', 'SBAR', 'NP', 'VP', 'SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	True	12
+825	['S', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'NP', 'VBP']	you're	True	12
+826	['NP', 'DT', 'NN', 'NN', 'DT']	a	False	12
+827	['NN']	drug	False	12
+828	['NN']	addict	False	12
+829	['CC']	and	False	12
+830	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	12
+831	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False	12
+832	['VP', 'VB', 'NP', 'ADVP', 'VB']	do	False	12
+833	['NP', 'PRP', 'PRP']	it	False	12
+834	['ADVP', 'RB', 'RB']	anymore	False	12
+835	['NP', 'PRP', 'PRP']	they	False	12
+836	['VP', 'VBP', 'VP', 'VBP']	say	False	12
+837	['VP', 'FRAG', 'FRAG', 'INTJ', 'INTJ', 'UH', 'UH']	oh	False	12
+838	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	you've	False	12
+839	['VP', 'VBN', 'S', 'VBN']	come	False	12
+840	['S', 'ADJP', 'ADJP', 'JJ', 'JJ']	clean	True	12
+841	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'SBAR', 'VB']	Do	True	12
+842	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	12
+843	['VP', 'VBP', 'SBAR', 'VBP']	know	False	12
+844	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	12
+845	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	12
+846	['VP', 'VBP', 'SBAR', 'VBP']	mean	False	12
+847	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	12
+848	['VP', 'VBP', 'SBAR', 'VBP']	go	False	12
+849	['SBAR', 'IN', 'S', 'IN']	that	False	12
+850	['S', 'S', 'CC', 'S', 'S', 'VP', 'VP', 'ADVP', 'VBG', 'NP', 'ADVP', 'RB', 'RB']	really	True	12
+851	['VBG']	bugs	False	12
+852	['NP', 'PRP', 'PRP']	me	False	12
+853	['CC']	and	False	12
+854	['S', 'CC', 'S', 'CC']	and	True	12
+855	['S', 'CC', 'NP', 'VP', 'CC']	and	True	12
+856	['NP', 'NNP', 'NNP']	Kent	False	12
+857	['VP', 'VBD', 'PP', 'VBD']	was	False	12
+858	['PP', 'IN', 'NP', 'IN']	in	False	12
+859	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	the	False	12
+860	['NN']	back	False	12
+861	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	12
+862	['VP', 'VBD', 'NP', 'VBD']	was	False	12
+863	['NP', 'NP', 'SBAR', 'NP', 'DT', 'DT']	all	False	12
+864	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	12
+865	['VP', 'VBP', 'SBAR', 'VBP']	think	False	12
+866	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	True	12
+867	['NN']	person	False	12
+868	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	who	False	12
+869	['S', 'VP', 'VP', 'VBD', 'NP', 'ADVP', 'VBD']	was	True	12
+870	['NP', 'DT', 'NN', 'NN', 'DT']	a	False	12
+871	['NN']	drug	False	12
+872	['NN']	addict	False	12
+873	['ADVP', 'RB', 'RB']	once	False	12
+874	['VP', 'VBD', 'NP', 'VBD']	was	False	12
+875	['NP', 'DT', 'NN', 'NN', 'DT']	a	False	12
+876	['NN']	drug	False	12
+877	['NN']	addict	False	12
+878	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NNP', 'NNP']	Always	True	12
+879	['VP', 'VBZ', 'NP', 'VBZ']	is	False	12
+880	['NP', 'DT', 'NN', 'NN', 'DT']	a	False	12
+881	['NN']	drug	False	12
+882	['NN']	addict	False	12
+883	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	12
+884	['VP', 'VBD', 'SBAR', 'VBD']	said	False	12
+885	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADVP', 'NP', 'VBP']	they're	True	12
+886	['ADVP', 'RB', 'RB']	just	False	12
+887	['NP', 'DT', 'JJ', 'NN', 'NN', 'DT']	a	False	12
+888	['JJ']	recovered	False	12
+889	['NN']	drug	False	12
+890	['NN']	addict	False	12
+891	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	12
+892	['NP', 'PRP', 'PRP']	I	False	12
+893	['VP', 'VBD', 'VP', 'VBD']	was	False	12
+894	['VP', 'VBG', 'NP', 'PP', 'VBG']	saying	False	12
+895	['NP', 'PRP', 'PRP']	it	False	12
+896	['PP', 'IN', 'FRAG', 'IN']	like	False	12
+897	['FRAG', 'ADJP', '.', 'ADJP', 'RB', 'JJ', 'RB']	really	False	12
+898	['JJ']	loud	False	12
+899	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'SBAR', 'VBZ']	It's	True	13
+900	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADJP', 'VBZ']	it's	True	13
+901	['ADJP', 'RB', 'JJ', 'RB']	really	False	13
+902	['JJ']	difficult	False	13
+903	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	you	True	13
+904	['VP', 'MD', 'RB', 'VP', 'MD']	can	False	13
+905	['RB']	either	False	13
+906	['VP', 'VB', 'NP', 'VB']	have	False	13
+907	['NP', 'NP', 'PP', 'NP', 'DT', 'CC', 'NN', 'DT']	either	False	13
+908	['CC']	or	False	13
+909	['NN']	sort	False	13
+910	['PP', 'IN', 'NP', 'IN']	of	False	13
+911	['NP', 'DT', 'NN', 'DT']	a	False	13
+912	['NN']	thing	False	13
+913	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NNP', 'POS', 'NNP', 'POS']	Let's	True	13
+914	['VP', 'VBP', 'S', 'VBP']	see	False	13
+915	['S', 'NP', 'ADJP', 'NP', 'JJ', 'NN', 'JJ']	sixty	True	13
+916	['NN']	seventy	False	13
+917	['NN']	two	False	13
+918	['ADJP', 'JJ', 'JJ']	okay	False	13
+919	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True	13
+920	['NP', 'DT', 'DT']	that	False	13
+921	['VP', 'VBZ', 'NP', 'NP', 'VBZ']	gives	False	13
+922	['NP', 'PRP', 'PRP']	us	False	13
+923	['NP', 'DT', 'NN', 'S', 'DT']	a	False	13
+924	['NN']	twenty	False	13
+925	['NN']	eight	False	13
+926	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	13
+927	['VP', 'VB', 'PP', 'VB']	distribute	False	13
+928	['PP', 'IN', 'NP', 'IN']	throughout	False	13
+929	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False	13
+930	['NN']	rest	False	13
+931	['PP', 'IN', 'NP', 'IN']	of	False	13
+932	['NP', 'DT', 'NN', 'DT']	the	False	13
+933	['NN']	day	False	13
+934	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	13
+935	['NP', 'NP', 'VP', 'NP', 'NN', 'NN']	um	False	13
+936	['VP', 'VBG', 'NP', 'VBG']	making	False	13
+937	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False	13
+938	['NN']	decision	False	13
+939	['PP', 'IN', 'SBAR', 'IN']	of	False	13
+940	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	how	False	13
+941	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	13
+942	['VP', 'VB', 'NP', 'ADVP', 'VB']	do	False	13
+943	['NP', 'DT', 'DT']	that	False	13
+944	['ADVP', 'RB', 'RB']	really	False	13
+945	['VP', 'VBZ', 'NP', 'VBZ']	involves	False	13
+946	['NP', 'PRP$', 'NNS', 'PRP$']	your	False	13
+947	['NNS']	insulins	False	13
+948	['ROOT', 'S', 'S', 'ADVP', 'PP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Now	True	13
+949	['PP', 'IN', 'NP', 'IN']	in	False	13
+950	['NP', 'DT', 'NN', 'DT']	the	False	13
+951	['NN']	morning	False	13
+952	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	you've	False	13
+953	['VP', 'VBN', 'NP', 'VBN']	got	False	13
+954	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False	13
+955	['JJ']	good	False	13
+956	['NN']	amount	False	13
+957	['ROOT', 'FRAG', 'FRAG', 'PP', '.', 'PP', 'IN', 'NP', '.', 'IN']	Of	False	13
+958	['NP', 'NP', 'SBAR', 'NP', 'JJ', 'NN', 'JJ']	regular	False	13
+959	['NN']	insulin	False	13
+960	['SBAR', 'IN', 'S', 'IN']	that	False	13
+961	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	13
+962	['VP', 'VBP', 'VBP']	take	False	13
+963	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP$', 'NN', 'PRP$']	My	True	14
+964	['NN']	handyman	False	14
+965	['VP', 'VBD', 'NP', 'VBD']	did	False	14
+966	['NP', 'DT', 'DT']	that	False	14
+967	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	14
+968	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	haven't	False	14
+969	['VP', 'VBN', 'NP', 'PP', 'VBN']	seen	False	14
+970	['NP', 'PRP', 'PRP']	him	False	14
+971	['PP', 'IN', 'NP', 'IN']	for	False	14
+972	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False	14
+973	['NN']	while	False	14
+974	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	14
+975	['VP', 'VBP', 'SBAR', 'VBP']	think	False	14
+976	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	14
+977	['VP', 'VBD', 'VBD']	quit	False	14
+978	['ROOT', 'S', 'S', 'CC', 'VP', '.', 'CC']	And	True	14
+979	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	didn't	False	14
+980	['VP', 'VB', 'NP', 'VB']	tell	False	14
+981	['NP', 'PRP', 'PRP']	me	False	14
+982	['ROOT', 'S', 'S', 'S', 'CC', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'DT', 'DT', 'VP', 'VBZ', 'NP', 'VBZ']	That's	True	14
+983	['NP', 'NP', 'SBAR', 'NP', 'PRP$', 'NN', 'PRP$']	my	False	14
+984	['NN']	roommate	False	14
+985	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'CD', 'CD']	One	True	14
+986	['PP', 'IN', 'NP', 'IN']	of	False	14
+987	['NP', 'NP', 'NNS', 'NP', 'PRP$', 'NN', 'POS', 'PRP$']	my	False	14
+988	['NN', 'POS']	roommate's	False	14
+989	['NNS']	horses	False	14
+990	['VP', 'VBZ', 'ADVP', 'VBZ']	is	False	14
+991	['ADVP', 'RB', 'RB']	here	False	14
+992	['CC']	and	False	14
+993	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	one's	True	14
+994	['PP', 'IN', 'NP', 'IN']	in	False	14
+995	['NP', 'RB', 'RB']	there	False	14
+996	['CC']	but	False	14
+997	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	True	14
+998	['VP', 'VBG', 'VBG']	hiding	False	14
+999	['ROOT', 'FRAG', 'FRAG', 'CC', 'ADVP', 'NP', '.', 'CC']	And	False	14
+1000	['ADVP', 'RB', 'RB']	then	False	14
+1001	['NP', 'NP', 'SBAR', '.', 'NP', 'DT', 'DT']	this	False	14
+1002	['SBAR', 'S', 'S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	is	True	14
+1003	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	the	False	14
+1004	['NN']	field	False	14
+1005	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'DT']	This	True	14
+1006	['VP', 'VBZ', 'SBAR', 'VBZ']	is	False	14
+1007	['SBAR', 'SBAR', 'CC', 'SBAR', 'SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	14
+1008	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True	14
+1009	['VP', 'VBP', 'NP', 'VBP']	call	False	14
+1010	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'NN', 'DT']	the	False	14
+1011	['NN']	witch	False	14
+1012	['NN']	field	False	14
+1013	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True	14
+1014	['NNS']	mares	False	14
+1015	['VP', 'VBP', 'PRT', 'S', 'VBP']	live	False	14
+1016	['PRT', 'RP', 'RP']	out	False	14
+1017	['S', 'S', 'CC', 'S', 'CC', 'S', 'S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	there	True	14
+1018	['NP', 'PRP', 'PRP']	they	False	14
+1019	['VP', 'VBP', 'S', 'VBP']	get	False	14
+1020	['S', 'VP', 'VP', 'VBN', 'PRT', 'ADVP', 'PP', 'VBN']	turned	True	14
+1021	['PRT', 'RP', 'RP']	out	False	14
+1022	['ADVP', 'RB', 'RB']	there	False	14
+1023	['PP', 'IN', 'NP', 'IN']	during	False	14
+1024	['NP', 'DT', 'NN', 'DT']	the	False	14
+1025	['NN']	day	False	14
+1026	['CC']	and	False	14
+1027	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	then	True	14
+1028	['NP', 'DT', 'DT', 'VP', 'VBZ', 'UCP', 'VBZ']	that's	False	14
+1029	['UCP', 'NP', 'CC', 'S', 'NP', 'DT', 'VBG', 'NN', 'DT']	the	False	14
+1030	['VBG']	gelding	False	14
+1031	['NN']	field	False	14
+1032	['CC']	and	False	14
+1033	['S', 'NP', 'VP', 'NP', 'PRP$', 'NN', 'PRP$']	my	True	14
+1034	['NN']	stallion	False	14
+1035	['VP', 'VBZ', 'PRT', 'PP', 'VBZ']	lives	False	14
+1036	['PRT', 'RP', 'RP']	out	False	14
+1037	['PP', 'IN', 'NP', 'IN']	with	False	14
+1038	['NP', 'DT', 'NNS', 'DT']	the	False	14
+1039	['NNS']	geldings	False	14
+1040	['CC']	And	False	14
+1041	['S', 'NP', 'VP', 'NP', 'NNP', 'NNP']	Bruge	True	14
+1042	['VP', 'VBZ', 'NP', 'VBZ']	stands	False	14
+1043	['NP', 'NP', 'VP', 'NP', 'RB', 'PDT', 'DT', 'NN', 'RB']	here	False	14
+1044	['PDT']	half	False	14
+1045	['DT']	the	False	14
+1046	['NN']	day	False	14
+1047	['VP', 'VBG', 'S', 'VBG']	wanting	False	14
+1048	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	14
+1049	['VP', 'VB', 'PRT', 'VB']	come	False	14
+1050	['PRT', 'RP', 'RP']	in	False	14
+1051	['CC']	and	False	14
+1052	['SBAR', 'ADVP', 'IN', 'S', 'ADVP', 'RB', 'RB']	then	False	14
+1053	['IN']	after	False	14
+1054	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	14
+1055	['VP', 'VBZ', 'SBAR', 'VBZ']	goes	False	14
+1056	['SBAR', 'IN', 'S', 'IN']	in	False	14
+1057	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	14
+1058	['VP', 'VBZ', 'S', 'VBZ']	wants	False	14
+1059	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	14
+1060	['VP', 'VB', 'PRT', 'VB']	go	False	14
+1061	['PRT', 'RP', 'RP']	out	False	14
+1062	['ROOT', 'S', 'S', 'INTJ', 'VP', '.', 'INTJ', 'UH', 'UH']	Okay	True	15
+1063	['VP', 'VB', 'S', 'VB']	mm	False	15
+1064	['S', 'S', 'S', 'S', 'S', 'S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	well	True	15
+1065	['NP', 'PRP', 'PRP']	I	False	15
+1066	['VP', 'VBP', 'SBAR', 'VBP']	guess	False	15
+1067	['SBAR', 'IN', 'S', 'IN']	if	False	15
+1068	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	15
+1069	['VP', 'VBD', 'ADJP', 'PP', 'VBD']	got	False	15
+1070	['ADJP', 'JJ', 'JJ']	good	False	15
+1071	['PP', 'IN', 'PP', 'IN']	at	False	15
+1072	['PP', 'IN', 'S', 'IN']	at	False	15
+1073	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	doing	True	15
+1074	['NP', 'PRP', 'PRP']	it	False	15
+1075	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	15
+1076	['VP', 'VBP', 'SBAR', 'VBP']	know	False	15
+1077	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	where	False	15
+1078	['S', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	15
+1079	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	didn't	False	15
+1080	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	Wasn't	False	15
+1081	['VP', 'VBG', 'NP', 'PP', 'VBG']	getting	False	15
+1082	['NP', 'PRP', 'PRP']	yourself	False	15
+1083	['PP', 'IN', 'NP', 'IN']	in	False	15
+1084	['NP', 'JJ', 'NNS', 'JJ']	awkward	False	15
+1085	['NNS']	positions	False	15
+1086	['CC']	and	False	15
+1087	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	15
+1088	['VP', 'VBP', 'S', 'VBP']	know	False	15
+1089	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	getting	True	15
+1090	['NP', 'PRP$', 'NN', 'PRP$']	your	False	15
+1091	['NN']	knee	False	15
+1092	['S', 'NP', 'VP', 'NP', 'DT', 'DT']	all	True	15
+1093	['VP', 'VBN', 'PRT', 'PP', 'VBN']	twisted	False	15
+1094	['PRT', 'RP', 'RP']	up	False	15
+1095	['PP', 'IN', 'NP', 'IN']	underneath	False	15
+1096	['NP', 'NP', 'CC', 'NP', 'NP', 'PRP', 'PRP']	you	False	15
+1097	['CC']	or	False	15
+1098	['NP', 'NN', 'NN']	something	False	15
+1099	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	15
+1100	['VP', 'VBP', 'SBAR', 'VBP']	know	False	15
+1101	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	15
+1102	['VP', 'MD', 'ADVP', 'VP', 'MD']	could	False	15
+1103	['ADVP', 'RB', 'RB']	probably	False	15
+1104	['VP', 'VB', 'S', 'VB']	handle	False	15
+1105	['S', 'NP', 'ADJP', 'NP', 'PRP', 'PRP']	it	True	15
+1106	['ADJP', 'JJ', 'JJ']	okay	False	15
+1107	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	15
+1108	['VP', 'VBP', 'SBAR', 'VBP']	think	False	15
+1109	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	15
+1110	['VP', 'VBP', 'SBAR', 'VBP']	think	False	15
+1111	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'MD', 'MD']	you'll	True	15
+1112	['NP', 'PRP', 'PRP', 'VP', 'MD', 'VP', 'MD']	you'll	False	15
+1113	['VP', 'VB', 'ADJP', 'VB']	be	False	15
+1114	['ADJP', 'JJ', 'S', 'JJ']	able	False	15
+1115	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	15
+1116	['VP', 'VB', 'PP', 'VB']	see	False	15
+1117	['PP', 'IN', 'NP', 'IN']	for	False	15
+1118	['NP', 'PRP', 'PRP']	yourself	False	15
+1119	['ROOT', 'S', 'S', 'SBAR', 'NP', 'VP', '.', 'SBAR', 'IN', 'S', 'IN']	Because	True	15
+1120	['S', 'SBAR', 'NP', 'VP', 'SBAR', 'IN', 'S', 'IN']	once	True	15
+1121	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	15
+1122	['VP', 'VBP', 'S', 'VBP']	get	False	15
+1123	['S', 'NP', 'ADJP', 'SBAR', 'NP', 'PRP$', 'NNS', 'PRP$']	your	True	15
+1124	['NNS']	muscles	False	15
+1125	['ADJP', 'JJ', 'JJ']	strong	False	15
+1126	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	15
+1127	['VP', 'VBP', 'NP', 'VBP']	get	False	15
+1128	['NP', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	this	False	15
+1129	['NN']	thing	False	15
+1130	['VP', 'VBG', 'NP', 'ADVP', 'VBG']	controlling	False	15
+1131	['NP', 'PRP$', 'NN', 'PRP$']	your	False	15
+1132	['NN']	knee	False	15
+1133	['ADVP', 'RB', 'RB']	well	False	15
+1134	['NP', 'PRP', 'PRP', 'VP', 'MD', 'VP', 'MD']	you'll	False	15
+1135	['VP', 'VB', 'SBAR', 'VB']	see	False	15
+1136	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'NN', 'PP', 'WP']	what	False	15
+1137	['NN']	kind	False	15
+1138	['PP', 'IN', 'NP', 'IN']	of	False	15
+1139	['NP', 'NN', 'NN', 'NN']	knee	False	15
+1140	['NN']	control	False	15
+1141	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	15
+1142	['VP', 'VBP', 'S', 'VBP']	have	False	15
+1143	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'MD', 'VP', 'MD']	it'll	True	15
+1144	['VP', 'VB', 'ADJP', 'PP', 'SBAR', 'VB']	be	False	15
+1145	['ADJP', 'RB', 'JJ', 'RB']	pretty	False	15
+1146	['JJ']	obvious	False	15
+1147	['PP', 'TO', 'NP', 'TO']	to	False	15
+1148	['NP', 'PRP', 'PRP']	you	False	15
+1149	['SBAR', 'IN', 'S', 'IN']	whether	False	15
+1150	['S', 'NP', 'NP', 'PRP', 'PRP']	you	True	15
+1151	['NP', 'PRP', 'PRP']	you	False	15
+1152	['VP', 'VBP', 'NP', 'S', 'VBP']	have	False	15
+1153	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False	15
+1154	['NN']	type	False	15
+1155	['PP', 'IN', 'NP', 'IN']	of	False	15
+1156	['NP', 'NN', 'NN']	control	False	15
+1157	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	15
+1158	['VP', 'VB', 'FRAG', 'VB']	do	False	15
+1159	['FRAG', 'WHNP', '.', 'WHNP', 'WDT', 'WDT']	that	False	15
+1160	['ROOT', 'S', 'S', 'NP', 'NP', 'VP', '.', 'NP', 'DT', 'NN', 'DT']	every	True	16
+1161	['NN']	month	False	16
+1162	['NP', 'PRP', 'PRP']	we	False	16
+1163	['VP', 'VBD', 'NP', 'VBD']	had	False	16
+1164	['NP', 'DT', 'NN', 'DT']	a	False	16
+1165	['NN']	party	False	16
+1166	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	16
+1167	['NP', 'NP', 'PP', 'NP', 'DT', 'DT']	all	False	16
+1168	['PP', 'IN', 'NP', 'IN']	of	False	16
+1169	['NP', 'PRP', 'PRP']	us	False	16
+1170	['VP', 'VBN', 'ADVP', 'PP', 'VBN']	mixed	False	16
+1171	['ADVP', 'RB', 'RB']	together	False	16
+1172	['PP', 'IN', 'NP', 'IN']	in	False	16
+1173	['NP', 'NN', 'NN']	friendship	False	16
+1174	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT']	That	True	16
+1175	['VP', 'VBZ', 'ADJP', 'VBZ']	is	False	16
+1176	['ADJP', 'JJ', 'JJ']	wonderful	False	16
+1177	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	16
+1178	['NP', 'NP', 'PP', 'NP', 'NN', 'NN']	something	False	16
+1179	['PP', 'IN', 'NP', 'IN']	like	False	16
+1180	['NP', 'DT', 'DT']	this	False	16
+1181	['VP', 'MD', 'VP', 'MD']	could	False	16
+1182	['VP', 'VB', 'VB']	happen	False	16
+1183	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'S', 'IN']	If	False	16
+1184	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True	16
+1185	['VP', 'VBD', 'NP', 'VBD']	had	False	16
+1186	['NP', 'JJ', 'NNS', 'JJ']	great	False	16
+1187	['NNS']	dances	False	16
+1188	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True	16
+1189	['NP', 'PRP', 'PRP']	I	False	16
+1190	['VP', 'VBP', 'PRT', 'NP', 'VBP']	come	False	16
+1191	['PRT', 'RP', 'RP']	back	False	16
+1192	['NP', 'NP', 'SBAR', 'NP', 'PRP$', 'JJ', 'NN', 'PRP$']	my	False	16
+1193	['JJ']	last	False	16
+1194	['NN']	word	False	16
+1195	['SBAR', 'S', 'S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	is	True	16
+1196	['NP', 'NP', 'VP', 'NP', 'NN', 'NN']	violence	False	16
+1197	['VP', 'ADVP', 'VBZ', 'PP', 'ADVP', 'RB', 'RB']	never	False	16
+1198	['VBZ']	ends	False	16
+1199	['PP', 'IN', 'NP', 'IN']	with	False	16
+1200	['NP', 'NN', 'NN']	violence	False	16
+1201	['ROOT', 'FRAG', 'FRAG', 'CC', 'ADVP', 'NP', '.', 'CC']	And	False	16
+1202	['ADVP', 'RB', 'RB']	right	False	16
+1203	['NP', 'NP', 'SBAR', '.', 'NP', 'NN', 'NN']	education	False	16
+1204	['SBAR', 'S', 'S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	is	True	16
+1205	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	the	False	16
+1206	['NN']	basis	False	16
+1207	['PP', 'IN', 'NP', 'IN']	of	False	16
+1208	['NP', 'NN', 'NN']	everything	False	16
+1209	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'ADVP', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB', 'RB']	Okay	True	17
+1210	['RB']	so	False	17
+1211	['ADVP', 'RB', 'RB']	therefore	False	17
+1212	['NP', 'PRP', 'PRP']	you	False	17
+1213	['VP', 'VBP', 'ADVP', 'PP', 'VBP']	know	False	17
+1214	['ADVP', 'RB', 'RB']	basically	False	17
+1215	['PP', 'IN', 'S', 'IN']	between	False	17
+1216	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	building	True	17
+1217	['NP', 'NP', 'CC', 'NP', 'NP', 'DT', 'NN', 'CC', 'NN', 'DT']	a	False	17
+1218	['NN']	nest	False	17
+1219	['CC']	and	False	17
+1220	['NN']	mating	False	17
+1221	['CC']	and	False	17
+1222	['NP', 'NP', 'PP', 'NP', 'DT', 'DT']	all	False	17
+1223	['PP', 'IN', 'NP', 'IN']	of	False	17
+1224	['NP', 'DT', 'JJ', 'NN', 'DT']	that	False	17
+1225	['JJ']	other	False	17
+1226	['NN']	stuff	False	17
+1227	['NP', 'PRP', 'PRP']	you	False	17
+1228	['VP', 'VBP', 'NP', 'SBAR', 'VBP']	know	False	17
+1229	['NP', 'PRP', 'PRP']	they	False	17
+1230	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	17
+1231	['VP', 'MD', 'VP', 'MD']	would	False	17
+1232	['VP', 'VB', 'SBAR', 'VB']	say	False	17
+1233	['SBAR', 'IN', 'S', 'IN']	that	False	17
+1234	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	17
+1235	['VP', 'VBP', 'NP', 'PP', 'S', 'VBP']	have	False	17
+1236	['NP', 'CD', 'NNS', 'CD']	three	False	17
+1237	['NNS']	months	False	17
+1238	['PP', 'TO', 'TO']	to	False	17
+1239	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	17
+1240	['VP', 'VP', 'CC', 'VP', 'VP', 'VB', 'VB']	grow	False	17
+1241	['CC']	and	False	17
+1242	['VP', 'VB', 'ADJP', 'VB']	get	False	17
+1243	['ADJP', 'JJ', 'JJ']	ready	False	17
+1244	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Okay	False	17
+1245	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True	17
+1246	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADJP', 'VBP']	they're	False	17
+1247	['ADJP', 'JJ', 'JJ']	big	False	17
+1248	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Now	True	17
+1249	['NP', 'NP', 'VP', 'NP', 'DT', 'JJ', 'NN', 'DT']	the	False	17
+1250	['JJ']	funny	False	17
+1251	['NN']	thing	False	17
+1252	['VP', 'VBZ', 'VBZ']	is	False	17
+1253	['VP', 'VBZ', 'SBAR', 'VBZ']	is	False	17
+1254	['SBAR', 'IN', 'FRAG', 'IN']	that	False	17
+1255	['FRAG', 'PP', '.', 'PP', 'VBG', 'PP', 'VBG']	according	False	17
+1256	['PP', 'TO', 'NP', 'TO']	to	False	17
+1257	['NP', 'NP', 'ADJP', 'NP', 'NNP', 'NNP', 'NNP']	Mark	False	17
+1258	['NNP']	Ryan	False	17
+1259	['ADJP', 'RB', 'JJ', 'RB']	well	False	17
+1260	['JJ']	hmm	False	17
+1261	['ROOT', 'FRAG', 'FRAG', 'ADJP', 'SBAR', '.', 'ADJP', 'JJ', 'JJ']	Oh	False	18
+1262	['SBAR', 'IN', 'S', '.', 'IN']	so	False	18
+1263	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	she	True	18
+1264	['VP', 'VBD', 'RB', 'VP', 'VBD', 'RB']	didn't	False	18
+1265	['VP', 'VB', 'NP', 'VB']	have	False	18
+1266	['NP', 'NP', 'PP', 'NP', 'CD', 'CD']	one	False	18
+1267	['PP', 'IN', 'NP', 'IN']	of	False	18
+1268	['NP', 'NP', 'PP', 'NP', 'DT', 'JJ', 'NNS', 'DT']	those	False	18
+1269	['JJ']	classic	False	18
+1270	['NNS']	signs	False	18
+1271	['PP', 'IN', 'NP', 'IN']	of	False	18
+1272	['NP', 'NN', 'NN']	diabetes	False	18
+1273	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Tonight	False	19
+1274	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP']	I	True	19
+1275	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False	19
+1276	['VP', 'VB', 'VB']	know	False	19
+1277	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'NN', 'DT']	No	True	20
+1278	['NN']	I	False	20
+1279	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False	20
+1280	['VP', 'VB', 'FRAG', 'VB']	remember	False	20
+1281	['FRAG', 'WHNP', '.', 'WHNP', 'WDT', 'WDT']	that	False	20
+1282	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Cathy	True	21
+1283	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	She's	False	21
+1284	['PP', 'RB', 'FRAG', 'RB']	not	False	21
+1285	['FRAG', 'NP', 'NP', '.', 'NP', 'DT', 'JJ', 'NN', 'DT']	a	False	21
+1286	['JJ']	good	False	21
+1287	['NN']	friend	False	21
+1288	['NP', 'PRP', 'PRP']	herself	False	21
+1289	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True	22
+1290	['VP', 'VB', 'PP', '.', 'VB']	know	False	22
+1291	['PP', 'IN', 'NP', 'IN']	on	False	22
+1292	['NP', 'NP', 'PP', 'NP', 'NNP', 'NNP']	Sundays	False	22
+1293	['PP', 'IN', 'NP', 'IN']	at	False	22
+1294	['NP', 'CD', 'RB', 'CD']	ten	False	22
+1295	['RB']	o'clock	False	22
+1296	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	23
+1297	['VP', 'VBP', 'VBP']	know	False	23
+1298	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	You	True	23
+1299	['VP', 'VBP', 'FRAG', 'VBP']	know	False	23
+1300	['FRAG', 'SBAR', '.', 'SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	23
+1301	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	23
+1302	['VP', 'VBD', 'VP', 'VBD']	was	False	23
+1303	['VP', 'VBG', 'PP', 'VBG']	thinking	False	23
+1304	['PP', 'IN', 'S', 'IN']	of	False	23
+1305	['S', 'VP', 'VP', 'VBG', 'VBG']	doing	True	23
+1306	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'S', 'VB']	Let	True	24
+1307	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True	24
+1308	['VP', 'VB', 'VB']	see	False	24
+1309	['ROOT', 'FRAG', 'FRAG', 'IN', 'SBAR', '.', 'IN']	If	False	24
+1310	['SBAR', 'WHNP', 'S', '.', 'WHNP', 'WDT', 'WDT', 'S', 'VP', 'VP', 'VBZ', 'SBAR', 'VBZ']	that's	True	24
+1311	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	how	False	24
+1312	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	24
+1313	['VP', 'VBP', 'NP', 'VBP']	do	False	24
+1314	['NP', 'PRP', 'PRP']	it	False	24
+1315	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	25
+1316	['VP', 'VBD', 'SBAR', '.', 'VBD']	said	False	25
+1317	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	25
+1318	['VP', 'VBP', 'SBAR', 'VBP']	know	False	25
+1319	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADJP', 'S', 'VBZ']	it's	True	25
+1320	['ADJP', 'NP', 'JJ', 'NP', 'DT', 'RB', 'DT']	a	False	25
+1321	['RB']	little	False	25
+1322	['JJ']	difficult	False	25
+1323	['S', 'VP', 'VP', 'VBG', 'NP', 'PP', 'VBG']	having	True	25
+1324	['NP', 'CD', 'CD']	three	False	25
+1325	['PP', 'IN', 'NP', 'IN']	in	False	25
+1326	['NP', 'DT', 'JJ', 'NN', 'DT']	the	False	25
+1327	['JJ']	same	False	25
+1328	['NN']	bedroom	False	25
+1329	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'SBAR', 'NP', 'NN', 'NN']	um	True	26
+1330	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	True	26
+1331	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True	26
+1332	['VP', 'VB', 'CC', 'VB', 'PP', 'VB']	try	False	26
+1333	['CC']	and	False	26
+1334	['VB']	focus	False	26
+1335	['PP', 'IN', 'NP', 'IN']	on	False	26
+1336	['NP', 'JJ', 'NNS', 'JJ']	little	False	26
+1337	['NNS']	things	False	26
+1338	['VP', 'VBP', 'FRAG', 'VBP']	cause	False	26
+1339	['FRAG', 'SBAR', '.', 'SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT', 'S', 'VP', 'VP', 'VBZ', 'NP', 'VBZ']	that's	True	26
+1340	['NP', 'NP', 'SBAR', 'NP', 'DT', 'DT']	all	False	26
+1341	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	26
+1342	['VP', 'MD', 'VP', 'MD']	can	False	26
+1343	['VP', 'VB', 'VB']	do	False	26
+1344	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	I've	True	27
+1345	['VP', 'VBN', 'NP', 'ADVP', 'ADVP', 'SBAR', 'VBN']	got	False	27
+1346	['NP', 'NN', 'NN', 'NN']	chicken	False	27
+1347	['NN']	cacciatore	False	27
+1348	['ADVP', 'RB', 'RB']	here	False	27
+1349	['ADVP', 'RB', 'RB', 'RB']	too	False	27
+1350	['RB']	honey	False	27
+1351	['SBAR', 'IN', 'S', 'IN']	that	False	27
+1352	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	27
+1353	['VP', 'MD', 'VP', 'MD']	can	False	27
+1354	['VP', 'VB', 'PRT', 'PP', 'SBAR', 'VB']	heat	False	27
+1355	['PRT', 'RP', 'RP']	up	False	27
+1356	['PP', 'IN', 'NP', 'IN']	for	False	27
+1357	['NP', 'PRP', 'PRP']	you	False	27
+1358	['SBAR', 'IN', 'S', 'IN']	if	False	27
+1359	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADJP', 'VBP']	you're	True	27
+1360	['ADJP', 'JJ', 'JJ']	hungry	False	27
+1361	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'S', 'IN']	If	False	27
+1362	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True	27
+1363	['VP', 'VBZ', 'ADVP', 'VBZ']	takes	False	27
+1364	['ADVP', 'ADVP', 'SBAR', 'ADVP', 'RB', 'RB', 'RB']	too	False	27
+1365	['RB']	long	False	27
+1366	['SBAR', 'IN', 'S', '.', 'IN']	for	False	27
+1367	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True	27
+1368	['VP', 'TO', 'VP', 'TO']	to	False	27
+1369	['VP', 'VB', 'NP', 'VB']	make	False	27
+1370	['NP', 'DT', 'NN', 'DT']	the	False	27
+1371	['NN']	pizza	False	27
+1372	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	28
+1373	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False	28
+1374	['VP', 'VB', 'SBAR', 'VB']	know	False	28
+1375	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	28
+1376	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'VP', 'VBZ']	he's	True	28
+1377	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True	28
+1378	['VP', 'VB', 'VB']	do	False	28
+1379	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True	28
+1380	['VP', 'VBZ', 'S', 'VBZ']	wants	False	28
+1381	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	28
+1382	['VP', 'VB', 'ADVP', 'NP', 'VB']	work	False	28
+1383	['ADVP', 'RB', 'RB']	actually	False	28
+1384	['NP', 'NNS', 'NNS']	features	False	28
+1385	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP']	He	True	28
+1386	['VP', 'VBZ', 'RB', 'ADVP', 'VP', 'VBZ', 'RB']	doesn't	False	28
+1387	['ADVP', 'RB', 'RB']	really	False	28
+1388	['VP', 'VB', 'S', 'VB', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	wanna	True	28
+1389	['VP', 'VB', 'NP', 'VB']	do	False	28
+1390	['NP', 'NN', 'NN']	TV	False	28
+1391	['ROOT', 'S', 'S', 'PP', 'NP', 'VP', '.', 'PP', 'IN', 'NP', 'IN']	Because	True	29
+1392	['NP', 'NNP', 'NNP']	uh	False	29
+1393	['NP', 'PRP', 'PRP', 'VP', 'MD', 'ADVP', 'VP', 'MD']	they'll	False	29
+1394	['ADVP', 'RB', 'RB']	really	False	29
+1395	['VP', 'VB', 'VB']	climb	False	29
+1396	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	29
+1397	['NP', 'PRP', 'PRP']	they	False	29
+1398	['VP', 'MD', 'VP', 'MD']	can	False	29
+1399	['VP', 'VB', 'FRAG', 'VB']	go	False	29
+1400	['FRAG', 'ADVP', 'ADVP', 'RB', 'RB', '.', 'RB']	fast	False	29
+1401	['RB']	too	False	29
+1402	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'SBAR', 'NP', 'NN', 'NN']	Anyone	True	30
+1403	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	who	False	30
+1404	['S', 'VP', 'VP', 'VBZ', 'PRT', 'S', 'VBZ']	sits	True	30
+1405	['PRT', 'RP', 'RP']	down	False	30
+1406	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	30
+1407	['VP', 'VB', 'NP', 'PP', 'VB']	write	False	30
+1408	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False	30
+1409	['NN']	book	False	30
+1410	['PP', 'IN', 'NP', 'IN']	about	False	30
+1411	['NP', 'NN', 'NN']	death	False	30
+1412	['PP', 'IN', 'NP', 'IN']	with	False	30
+1413	['NP', 'NP', 'PP', 'NP', 'DT', 'NNS', 'DT']	the	False	30
+1414	['NNS']	hopes	False	30
+1415	['PP', 'IN', 'S', 'IN']	of	False	30
+1416	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	enlightening	True	30
+1417	['NP', 'PRP$', 'JJ', 'JJ', 'NNS', 'PRP$']	his	False	30
+1418	['JJ']	fellow	False	30
+1419	['JJ']	human	False	30
+1420	['NNS']	beings	False	30
+1421	['VP', 'VBZ', 'PP', 'VBZ']	is	False	30
+1422	['PP', 'IN', 'NP', 'IN']	in	False	30
+1423	['NP', 'NP', 'FRAG', 'NP', 'PRP$', 'NN', 'PRP$']	my	False	30
+1424	['NN']	book	False	30
+1425	['FRAG', 'NP', 'NP', 'DT', 'NN', '.', 'DT']	a	False	30
+1426	['NN']	schmuck	False	30
+1427	['ROOT', 'INTJ', 'INTJ', 'UH', 'PP', '.', 'UH']	Yeah	False	31
+1428	['PP', 'IN', 'SBAR', 'IN']	but	False	31
+1429	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT', 'S', 'VP', 'VP', 'VBZ', 'ADVP', 'PP', 'VBZ']	that's	True	31
+1430	['ADVP', 'RB', 'RB']	just	False	31
+1431	['PP', 'IN', 'S', 'IN']	by	False	31
+1432	['S', 'VP', 'VP', 'VBG', 'NP', 'VBG']	learning	True	31
+1433	['NP', 'NNS', 'NNS']	tricks	False	31
+1434	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	31
+1435	['VP', 'VBP', 'SBAR', 'VBP']	know	False	31
+1436	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	31
+1437	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True	31
+1438	['NNS']	tricks	False	31
+1439	['VP', 'VBP', 'VBP']	are	False	31
+1440	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT', 'VP', 'VBZ', 'NP', 'VBZ']	That's	True	31
+1441	['NP', 'NP', 'SBAR', 'NP', 'DT', 'DT']	all	False	31
+1442	['SBAR', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	you	True	31
+1443	['VP', 'VBP', 'S', 'VBP']	need	False	31
+1444	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	31
+1445	['VP', 'VB', 'VB']	know	False	31
+1446	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'CC', 'PRP', 'PRP']	Him	True	32
+1447	['CC']	and	False	32
+1448	['PRP']	her	False	32
+1449	['VP', 'VBD', 'PRT', 'VBD']	pulled	False	32
+1450	['PRT', 'RP', 'RP']	up	False	32
+1451	['CC']	and	False	32
+1452	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	32
+1453	['VP', 'VBD', 'PP', 'VBD']	were	False	32
+1454	['PP', 'IN', 'NP', 'IN']	in	False	32
+1455	['NP', 'DT', 'NN', 'DT']	the	False	32
+1456	['NN']	van	False	32
+1457	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	32
+1458	['NP', 'PRP', 'PRP']	they	False	32
+1459	['VP', 'VBD', 'S', 'VBD']	stopped	False	32
+1460	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	32
+1461	['VP', 'VB', 'NP', 'VB']	ask	False	32
+1462	['NP', 'NP', 'SBAR', 'NP', 'NNP', 'NNP']	Ron	False	32
+1463	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	32
+1464	['S', 'VP', 'VP', 'VBD', 'VBD']	happened	True	32
+1465	['ROOT', 'FRAG', 'FRAG', 'CC', 'ADVP', 'NP', '.', 'CC']	And	False	32
+1466	['ADVP', 'RB', 'RB']	here	False	32
+1467	['NP', 'NP', 'SBAR', '.', 'NP', 'DT', 'NN', 'DT']	another	False	32
+1468	['NN']	car	False	32
+1469	['SBAR', 'S', 'S', 'VP', 'VP', 'VP', 'CC', 'VP', 'VP', 'VBD', 'VBD']	came	True	32
+1470	['CC']	and	False	32
+1471	['VP', 'VBD', 'NP', 'VBD']	rearended	False	32
+1472	['NP', 'NN', 'NN']	em	False	32
+1473	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	But	True	33
+1474	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADJP', 'VBP']	I'm	False	33
+1475	['ADJP', 'JJ', 'SBAR', 'JJ']	sure	False	33
+1476	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	those	True	33
+1477	['NNS']	guys	False	33
+1478	['VP', 'VBP', 'NP', 'PP', 'VBP']	get	False	33
+1479	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False	33
+1480	['NN']	lot	False	33
+1481	['PP', 'IN', 'NP', 'IN']	of	False	33
+1482	['NP', 'NN', 'NN']	attention	False	33
+1483	['PP', 'IN', 'NP', 'IN']	from	False	33
+1484	['NP', 'NNS', 'NNS']	women	False	33
+1485	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	They	True	33
+1486	['VP', 'VBP', 'NP', 'VBP']	travel	False	33
+1487	['NP', 'NP', 'PP', 'NP', 'DT', 'DT']	all	False	33
+1488	['PP', 'IN', 'NP', 'IN']	over	False	33
+1489	['NP', 'DT', 'NN', 'DT']	the	False	33
+1490	['NN']	world	False	33
+1491	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADJP', 'VBP']	I'm	True	33
+1492	['ADJP', 'JJ', 'SBAR', 'JJ']	sure	False	33
+1493	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	True	33
+1494	['NN']	lot	False	33
+1495	['PP', 'IN', 'NP', 'IN']	of	False	33
+1496	['NP', 'NNS', 'NNS']	women	False	33
+1497	['VP', 'VBP', 'NP', 'PP', 'ADVP', 'VBP']	throw	False	33
+1498	['NP', 'PRP', 'PRP']	themselves	False	33
+1499	['PP', 'IN', 'NP', 'IN']	at	False	33
+1500	['NP', 'NN', 'NN']	em	False	33
+1501	['ADVP', 'RB', 'SBAR', 'RB']	so	False	33
+1502	['SBAR', 'WHNP', 'S', '.', 'WHNP', 'WDT', 'WDT', 'S', 'VP', 'VP', 'VBZ', 'SBAR', 'VBZ']	that's	True	33
+1503	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	33
+1504	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	they	True	33
+1505	['VP', 'VBP', 'PP', 'VBP']	expect	False	33
+1506	['PP', 'IN', 'NP', 'IN']	from	False	33
+1507	['NP', 'NNS', 'NNS']	women	False	33
+1508	['ROOT', 'FRAG', 'FRAG', 'RB', 'PP', '.', 'RB']	Not	False	34
+1509	['PP', 'IN', 'NP', 'IN']	at	False	34
+1510	['NP', 'DT', 'DT']	all	False	34
+1511	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True	34
+1512	['VP', 'VBD', 'S', 'VBD']	wanted	False	34
+1513	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True	34
+1514	['VP', 'TO', 'VP', 'TO']	to	False	34
+1515	['VP', 'VB', 'NP', 'SBAR', 'FRAG', 'VB']	do	False	34
+1516	['NP', 'DT', 'NN', 'DT']	the	False	34
+1517	['NN']	job	False	34
+1518	['SBAR', 'IN', 'S', 'IN']	so	False	34
+1519	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	34
+1520	['VP', 'VBD', 'S', 'VBD']	offered	False	34
+1521	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	34
+1522	['VP', 'VB', 'NP', 'PP', 'VB']	take	False	34
+1523	['NP', 'NP', 'PP', 'NP', 'DT', 'DT']	some	False	34
+1524	['PP', 'IN', 'NP', 'IN']	of	False	34
+1525	['NP', 'DT', 'JJ', 'NN', 'DT']	the	False	34
+1526	['JJ']	monitory	False	34
+1527	['NN']	burden	False	34
+1528	['PP', 'IN', 'NP', 'IN']	off	False	34
+1529	['NP', 'PRP$', 'NN', 'PRP$']	my	False	34
+1530	['NN']	back	False	34
+1531	['FRAG', 'ADVP', 'SBAR', '.', 'ADVP', 'RB', 'RB']	so	False	34
+1532	['SBAR', 'IN', 'S', 'IN']	that	False	34
+1533	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	34
+1534	['VP', 'MD', 'VP', 'MD']	could	False	34
+1535	['VP', 'VB', 'NP', 'PP', 'SBAR', 'VB']	do	False	34
+1536	['NP', 'PRP', 'PRP']	it	False	34
+1537	['PP', 'IN', 'NP', 'IN']	for	False	34
+1538	['NP', 'DT', 'JJ', 'NNS', 'DT']	the	False	34
+1539	['JJ']	agreed	False	34
+1540	['NNS']	amounts	False	34
+1541	['SBAR', 'IN', 'S', 'IN']	that	False	34
+1542	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True	34
+1543	['VP', 'VBD', 'VP', 'VBD']	were	False	34
+1544	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True	34
+1545	['VP', 'VB', 'NP', 'PRT', 'VB']	do	False	34
+1546	['NP', 'PRP', 'PRP']	it	False	34
+1547	['PRT', 'RP', 'RP']	on	False	34
+1548	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	so	True	35
+1549	['NP', 'DT', 'NNS', 'DT']	those	False	35
+1550	['NNS']	guys	False	35
+1551	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	couldn't	False	35
+1552	['VP', 'VB', 'NP', 'VB']	get	False	35
+1553	['NP', 'PRP', 'PRP']	me	False	35
+1554	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'SBAR', 'VB']	cause	True	35
+1555	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	35
+1556	['VP', 'VBD', 'ADJP', 'VBD']	was	False	35
+1557	['ADJP', 'JJ', 'SBAR', 'JJ']	afraid	False	35
+1558	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	35
+1559	['VP', 'VBD', 'SBAR', 'VBD']	knew	False	35
+1560	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	35
+1561	['S', 'VP', 'VP', 'VBD', 'VP', 'VBD']	was	True	35
+1562	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True	35
+1563	['VP', 'VB', 'VB']	happen	False	35
+1564	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'DT', 'NNS', 'DT']	Those	True	35
+1565	['NNS']	guys	False	35
+1566	['VP', 'VBD', 'VP', 'VBD']	were	False	35
+1567	['VP', 'VBG', 'S', 'VBG', 'S', 'VP', 'VP', 'TO', 'VP', 'TO']	gonna	True	35
+1568	['VP', 'VB', 'NP', 'PRT', 'PP', 'VB']	beat	False	35
+1569	['NP', 'DT', 'NN', 'DT']	the	False	35
+1570	['NN']	tar	False	35
+1571	['PRT', 'RP', 'RP']	out	False	35
+1572	['PP', 'IN', 'NP', 'IN']	of	False	35
+1573	['NP', 'PRP', 'PRP']	me	False	35
+1574	['ROOT', 'FRAG', 'FRAG', 'ADJP', 'S', '.', 'ADJP', 'JJ', 'JJ']	Yeah	False	36
+1575	['S', 'CC', 'ADVP', 'NP', 'VP', 'CC']	but	True	36
+1576	['ADVP', 'RB', 'RB']	then	False	36
+1577	['NP', 'PRP', 'PRP']	it	False	36
+1578	['VP', 'MD', 'VP', 'MD']	would	False	36
+1579	['VP', 'VB', 'VP', 'VB']	be	False	36
+1580	['VP', 'VBG', 'S', 'VBG']	sitting	False	36
+1581	['S', 'NP', 'VP', 'NP', 'EX', 'EX']	there	True	36
+1582	['VP', 'VB', 'FRAG', 'VB']	sort	False	36
+1583	['FRAG', 'PP', 'PP', 'IN', 'S', '.', 'IN']	of	False	36
+1584	['S', 'VP', 'VP', 'VBG', 'CC', 'VBG', 'NP', 'PP', 'VBG']	decomposing	True	36
+1585	['CC']	or	False	36
+1586	['VBG']	doing	False	36
+1587	['NP', 'PRP$', 'NN', 'PRP$']	its	False	36
+1588	['NN']	thing	False	36
+1589	['PP', 'RB', 'PP', 'CONJP', 'PP', 'RB']	all	False	36
+1590	['PP', 'IN', 'NP', 'IN']	over	False	36
+1591	['NP', 'DT', 'NN', 'DT']	the	False	36
+1592	['NN']	lawn	False	36
+1593	['CONJP', 'RB', 'IN', 'RB']	instead	False	36
+1594	['IN']	of	False	36
+1595	['PP', 'IN', 'NP', 'IN']	in	False	36
+1596	['NP', 'DT', 'JJ', 'JJ', 'NN', 'NN', 'DT']	a	False	36
+1597	['JJ']	nice	False	36
+1598	['JJ']	little	False	36
+1599	['NN']	compost	False	36
+1600	['NN']	pile	False	36
+1601	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Oh	False	37
+1602	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Wow	False	37
+1603	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT']	This	True	37
+1604	['VP', 'VBZ', 'ADJP', 'VBZ']	is	False	37
+1605	['ADJP', 'JJ', 'JJ']	super	False	37
+1606	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Oh	True	37
+1607	['NP', 'DT', 'DT']	this	False	37
+1608	['VP', 'VBZ', 'ADJP', 'VBZ']	is	False	37
+1609	['ADJP', 'JJ', 'JJ']	wonderful	False	37
+1610	['ROOT', 'FRAG', 'FRAG', 'ADJP', '.', 'ADJP', 'JJ', '.', 'JJ']	Mm	False	37
+1611	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	and	True	38
+1612	['NP', 'PRP', 'PRP']	he	False	38
+1613	['VP', 'VBD', 'UCP', 'VBD']	was	False	38
+1614	['UCP', 'NP', 'CC', 'S', '.', 'NP', 'NP', 'PP', 'NP', 'DT', 'JJS', 'JJ', 'NN', 'DT']	the	False	38
+1615	['JJS']	best	False	38
+1616	['JJ']	like	False	38
+1617	['NN']	guy	False	38
+1618	['PP', 'IN', 'NP', 'IN']	out	False	38
+1619	['NP', 'NP', 'PP', 'NP', 'RB', 'RB']	there	False	38
+1620	['PP', 'IN', 'NP', 'IN']	at	False	38
+1621	['NP', 'DT', 'NNPS', 'DT']	the	False	38
+1622	['NNPS']	Olympics	False	38
+1623	['CC']	or	False	38
+1624	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	38
+1625	['VP', 'VBP', 'SBAR', 'VBP']	know	False	38
+1626	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	38
+1627	['VP', 'VBD', 'NP', 'VBD']	had	False	38
+1628	['NP', 'NP', 'CC', 'NP', 'NP', 'NN', 'JJ', 'NN', 'NN']	g	False	38
+1629	['JJ']	special	False	38
+1630	['NN']	coverage	False	38
+1631	['CC']	and	False	38
+1632	['NP', 'JJ', 'NN', 'CC', 'NN', 'JJ']	special	False	38
+1633	['NN']	protection	False	38
+1634	['CC']	and	False	38
+1635	['NN']	everything	False	38
+1636	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	39
+1637	['VP', 'VBP', 'SBAR', 'VBP']	feel	False	39
+1638	['SBAR', 'IN', 'S', 'IN']	like	False	39
+1639	['S', 'S', 'VP', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH']	uh	True	39
+1640	['NP', 'PRP', 'PRP', 'VP', 'VBP', 'ADVP', 'PP', 'VBP']	we're	False	39
+1641	['ADVP', 'RB', 'RB']	still	False	39
+1642	['PP', 'IN', 'NP', 'IN']	in	False	39
+1643	['NP', 'NP', 'PP', 'NP', 'DT', 'NN', 'DT']	a	False	39
+1644	['NN']	pickle	False	39
+1645	['PP', 'IN', 'NP', 'IN']	in	False	39
+1646	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	that	False	39
+1647	['NN']	um	False	39
+1648	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'ADVP', 'NP', 'VBZ']	it's	True	39
+1649	['ADVP', 'RB', 'RB']	just	False	39
+1650	['NP', 'DT', 'NN', 'DT']	every	False	39
+1651	['NN']	day	False	39
+1652	['VP', 'VBZ', 'ADJP', 'VBZ']	is	False	39
+1653	['ADJP', 'RB', 'JJ', 'RB']	so	False	39
+1654	['JJ']	different	False	39
+1655	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	and	True	40
+1656	['NP', 'PRP', 'PRP']	I	False	40
+1657	['VP', 'VBP', 'NP', 'PP', 'SBAR', 'VBP']	give	False	40
+1658	['NP', 'NNS', 'NNS']	stickers	False	40
+1659	['PP', 'TO', 'NP', 'TO']	to	False	40
+1660	['NP', 'NP', 'CC', 'NP', 'NP', 'DT', 'NNS', 'DT']	the	False	40
+1661	['NNS']	kids	False	40
+1662	['CC']	and	False	40
+1663	['NP', 'DT', 'NNS', 'DT']	the	False	40
+1664	['NNS']	ones	False	40
+1665	['SBAR', 'IN', 'SINV', 'IN']	that	False	40
+1666	['SINV', 'VP', 'NP', 'S', '.', 'VP', 'VBD', 'VBD']	got	False	40
+1667	['NP', 'NP', 'SBAR', 'NP', 'JJ', 'NNS', 'JJ']	good	False	40
+1668	['NNS']	grades	False	40
+1669	['SBAR', 'WHNP', 'S', 'WHNP', 'WDT', 'WDT']	that	False	40
+1670	['S', 'VP', 'VP', 'VP', 'CC', 'VP', 'VP', 'VBD', 'NP', 'VBD']	got	True	40
+1671	['NP', 'CD', 'NNS', 'CC', 'NNS', 'CD']	one	False	40
+1672	['NNS']	hundreds	False	40
+1673	['CC']	and	False	40
+1674	['NNS']	ninety	False	40
+1675	['NNS']	eights	False	40
+1676	['CC']	and	False	40
+1677	['VP', 'VBZ', 'VBZ']	ninety	False	40
+1678	['VP', 'VBZ', 'VBZ']	sixes	False	40
+1679	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	40
+1680	['VP', 'VBD', 'NP', 'PRT', 'PP', 'VBD']	put	False	40
+1681	['NP', 'PRP$', 'NNS', 'PRP$']	their	False	40
+1682	['NNS']	papers	False	40
+1683	['PRT', 'RP', 'RP']	up	False	40
+1684	['PP', 'IN', 'NP', 'IN']	on	False	40
+1685	['NP', 'DT', 'NN', 'DT']	the	False	40
+1686	['NN']	board	False	40
+1687	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NNP', 'NNP']	Um	True	41
+1688	['VP', 'VBD', 'SBAR', 'VBD']	let	False	41
+1689	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	me	True	41
+1690	['VP', 'VBP', 'PP', 'VBP']	look	False	41
+1691	['PP', 'IN', 'NP', 'IN']	for	False	41
+1692	['NP', 'PRP', 'PRP']	it	False	41
+1693	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	It's	True	41
+1694	['PP', 'IN', 'NP', 'IN']	in	False	41
+1695	['NP', 'RB', 'RB']	here	False	41
+1696	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Cause	True	41
+1697	['NP', 'PRP', 'PRP']	I	False	41
+1698	['VP', 'VBD', 'NP', 'VBD']	circled	False	41
+1699	['NP', 'PRP', 'PRP']	it	False	41
+1700	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Okay	True	41
+1701	['NP', 'PRP', 'PRP']	it	False	41
+1702	['VP', 'VBZ', 'NP', 'FRAG', 'VBZ']	costs	False	41
+1703	['NP', 'CD', 'CD']	nine	False	41
+1704	['FRAG', 'ADJP', '.', 'ADJP', 'JJ', 'JJ']	ninety	False	41
+1705	['FRAG', 'ADJP', '.', 'ADJP', 'JJ', 'JJ']	nine	False	41
+1706	['ROOT', 'FRAG', 'FRAG', 'SBAR', '.', 'SBAR', 'IN', 'SINV', 'IN']	Because	False	42
+1707	['SINV', 'S', 'VP', 'NP', 'S', '.', 'S', 'INTJ', 'NP', 'ADVP', 'VP', 'INTJ', 'UH', 'UH']	uh	True	42
+1708	['NP', 'PRP', 'PRP']	it	False	42
+1709	['ADVP', 'RB', 'RB']	just	False	42
+1710	['VP', 'VBZ', 'VBZ']	helps	False	42
+1711	['VP', 'VBP', 'SBAR', 'VBP']	y	False	42
+1712	['SBAR', 'IN', 'S', 'IN']	because	False	42
+1713	['S', 'ADVP', 'NP', 'VP', 'ADVP', 'RB', 'RB']	otherwise	True	42
+1714	['NP', 'PRP', 'PRP']	you	False	42
+1715	['VP', 'VBP', 'PP', 'ADVP', 'VBP']	know	False	42
+1716	['PP', 'IN', 'NP', 'IN']	with	False	42
+1717	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False	42
+1718	['JJ']	grill	False	42
+1719	['NN']	right	False	42
+1720	['ADVP', 'RB', 'RB']	here	False	42
+1721	['NP', 'PRP', 'PRP']	you	False	42
+1722	['S', 'VP', 'VP', 'VB', 'PRT', 'S', 'VB']	end	True	42
+1723	['PRT', 'RP', 'RP']	up	False	42
+1724	['S', 'VP', 'VP', 'VBG', 'NP', 'PP', 'VBG']	having	True	42
+1725	['NP', 'JJ', 'NNS', 'JJ']	cold	False	42
+1726	['NNS']	spots	False	42
+1727	['PP', 'IN', 'NP', 'IN']	on	False	42
+1728	['NP', 'DT', 'NNS', 'DT']	the	False	42
+1729	['NNS']	sides	False	42
+1730	['ROOT', 'S', 'S', 'S', 'CC', 'S', '.', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	43
+1731	['VP', 'VB', 'PRT', 'NP', 'VB']	muster	False	43
+1732	['PRT', 'RP', 'RP']	up	False	43
+1733	['NP', 'DT', 'NN', 'DT']	the	False	43
+1734	['NN']	courage	False	43
+1735	['CC']	and	False	43
+1736	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	43
+1737	['VP', 'VBP', 'PP', 'VBP']	talk	False	43
+1738	['PP', 'TO', 'NP', 'TO']	to	False	43
+1739	['NP', 'NNP', 'NNP']	Windham	False	43
+1740	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	And	True	43
+1741	['NP', 'PRP', 'PRP']	you	False	43
+1742	['VP', 'VBP', 'SBAR', 'VBP']	know	False	43
+1743	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP']	what	False	43
+1744	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'PP', 'VBP']	I'm	True	43
+1745	['PP', 'IN', 'NP', 'IN']	like	False	43
+1746	['NP', 'NN', 'NN']	wow	False	43
+1747	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'DT', 'DT']	That	True	43
+1748	['VP', 'VBZ', 'RB', 'NP', 'SBAR', 'VBZ', 'RB']	isn't	False	43
+1749	['NP', 'NN', 'NN']	anything	False	43
+1750	['SBAR', 'IN', 'S', '.', 'IN']	like	False	43
+1751	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	43
+1752	['VP', 'VBD', 'VBD']	thought	False	43
+1753	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	44
+1754	['VP', 'VBD', 'VP', 'VBD']	had	False	44
+1755	['VP', 'VBN', 'PP', 'VBN']	tried	False	44
+1756	['PP', 'TO', 'S', 'TO']	to	False	44
+1757	['S', 'S', 'CC', 'S', 'CC', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	44
+1758	['VP', 'VBP', 'VP', 'VBP']	have	False	44
+1759	['VP', 'VBN', 'PP', 'VBN']	em	False	44
+1760	['PP', 'IN', 'NP', 'IN']	in	False	44
+1761	['NP', 'DT', 'NNS', 'DT']	some	False	44
+1762	['NNS']	pillows	False	44
+1763	['CC']	and	False	44
+1764	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	the	True	44
+1765	['NNS']	pillows	False	44
+1766	['VP', 'VBD', 'ADVP', 'VP', 'VBD']	had	False	44
+1767	['ADVP', 'RB', 'RB']	finally	False	44
+1768	['VP', 'VBN', 'NP', 'VBN']	had	False	44
+1769	['NP', 'PRP', 'PRP']	it	False	44
+1770	['CC']	and	False	44
+1771	['S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	44
+1772	['VP', 'VBD', 'SBAR', 'VBD']	thought	False	44
+1773	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	you	True	44
+1774	['VP', 'VBP', 'SBAR', 'VBP']	know	False	44
+1775	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'DT', 'DT']	this	True	44
+1776	['VP', 'VBZ', 'NP', 'VBZ']	is	False	44
+1777	['NP', 'PRP', 'PRP']	it	False	44
+1778	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Actually	True	45
+1779	['NP', 'PRP', 'PRP']	I	False	45
+1780	['VP', 'MD', 'VP', 'MD']	can	False	45
+1781	['VP', 'VB', 'SBAR', 'VB']	cause	False	45
+1782	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP$', 'NN', 'PRP$']	his	True	45
+1783	['NN']	wife	False	45
+1784	['VP', 'VBZ', 'SBAR', 'VBZ']	knows	False	45
+1785	['SBAR', 'IN', 'S', 'IN']	that	False	45
+1786	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'NP', 'VBP']	we're	True	45
+1787	['NP', 'NNS', 'NNS']	friends	False	45
+1788	['ROOT', 'S', 'S', 'CC', 'NP', 'VP', '.', 'CC']	But	True	45
+1789	['NP', 'PRP', 'PRP']	I	False	45
+1790	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False	45
+1791	['VP', 'VB', 'S', 'VB']	choose	False	45
+1792	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	45
+1793	['VP', 'VB', 'NP', 'VB']	call	False	45
+1794	['NP', 'PRP', 'PRP']	him	False	45
+1795	['ROOT', 'S', 'S', 'NP', 'PP', 'VP', '.', 'NP', 'PRP', 'PRP']	He	True	45
+1796	['PP', 'IN', 'NP', 'IN']	Like	False	45
+1797	['NP', 'PRP', 'PRP']	he	False	45
+1798	['VP', 'VBD', 'S', 'VBD']	used	False	45
+1799	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	45
+1800	['VP', 'VB', 'PRT', 'NP', 'VB']	travel	False	45
+1801	['PRT', 'RP', 'RP']	around	False	45
+1802	['NP', 'DT', 'NN', 'DT']	the	False	45
+1803	['NN']	country	False	45
+1804	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBP', 'VP', 'VBP']	I've	True	46
+1805	['VP', 'VBN', 'S', 'VBN']	got	False	46
+1806	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	46
+1807	['VP', 'VB', 'S', 'VB']	start	False	46
+1808	['S', 'VP', 'VP', 'VBG', 'PRT', 'NP', 'ADVP', 'VBG']	working	True	46
+1809	['PRT', 'RP', 'RP']	on	False	46
+1810	['NP', 'PRP$', 'NN', 'NNS', 'PRP$']	my	False	46
+1811	['NN']	grade	False	46
+1812	['NNS']	cards	False	46
+1813	['ADVP', 'RB', 'RB']	too	False	46
+1814	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'ADVP', 'SBAR', 'ADVP', 'RB', 'RB']	Just	True	46
+1815	['SBAR', 'IN', 'S', 'IN']	so	False	46
+1816	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	46
+1817	['VP', 'VBP', 'RB', 'VBP', 'RB']	don't	False	46
+1818	['NP', 'PRP', 'PRP']	I	False	46
+1819	['VP', 'MD', 'RB', 'VP', 'MD', 'RB']	won't	False	46
+1820	['VP', 'VB', 'NP', 'VB']	get	False	46
+1821	['NP', 'NP', 'FRAG', 'NP', 'NN', 'NN']	em	False	46
+1822	['FRAG', 'NP', 'S', '.', 'NP', 'DT', 'DT']	all	False	46
+1823	['S', 'VP', 'VP', 'VBN', 'NP', 'SBAR', 'VBN']	done	True	46
+1824	['NP', 'NNP', 'NN', 'NNP']	Friday	False	46
+1825	['NN']	afternoon	False	46
+1826	['SBAR', 'IN', 'S', 'IN']	if	False	46
+1827	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	46
+1828	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False	46
+1829	['VP', 'VB', 'VP', 'VB']	get	False	46
+1830	['VP', 'VBN', 'VBN']	started	False	46
+1831	['ROOT', 'S', 'S', 'NP', 'ADVP', 'VP', '.', 'NP', 'PRP', 'PRP']	I	True	47
+1832	['ADVP', 'RB', 'RB']	always	False	47
+1833	['VP', 'VBD', 'SBAR', 'VBD']	said	False	47
+1834	['SBAR', 'IN', 'S', 'IN']	that	False	47
+1835	['S', 'SBAR', 'NP', 'VP', 'SBAR', 'IN', 'S', 'IN']	if	True	47
+1836	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	47
+1837	['VP', 'VBD', 'NP', 'VBD']	had	False	47
+1838	['NP', 'NNS', 'NNS']	children	False	47
+1839	['NP', 'PRP', 'PRP']	I	False	47
+1840	['VP', 'MD', 'ADVP', 'VP', 'MD']	would	False	47
+1841	['ADVP', 'RB', 'RB']	always	False	47
+1842	['VP', 'VB', 'SBAR', 'VB']	Especially	False	47
+1843	['SBAR', 'IN', 'S', 'IN']	if	False	47
+1844	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	47
+1845	['VP', 'VBD', 'NP', 'VBD']	had	False	47
+1846	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False	47
+1847	['NN']	son	False	47
+1848	['SBAR', 'SBAR', 'SBAR', 'SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	47
+1849	['VP', 'MD', 'VP', 'MD']	would	False	47
+1850	['VP', 'VB', 'NP', 'VB']	hug	False	47
+1851	['NP', 'PRP', 'PRP']	him	False	47
+1852	['SBAR', 'RB', 'IN', 'S', '.', 'RB']	just	False	47
+1853	['IN']	so	False	47
+1854	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	47
+1855	['VP', 'VBD', 'SBAR', 'VBD']	knew	False	47
+1856	['SBAR', 'IN', 'S', 'IN']	that	False	47
+1857	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	47
+1858	['VP', 'VBD', 'NP', 'VBD']	loved	False	47
+1859	['NP', 'PRP', 'PRP']	him	False	47
+1860	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Oh	False	48
+1861	['ROOT', 'INTJ', 'INTJ', 'UH', '.', 'UH']	Yeah	False	48
+1862	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'VB']	Mm	True	48
+1863	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'NP', 'VB']	See	True	48
+1864	['NP', 'NN', 'NN']	yeah	False	48
+1865	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Here	True	48
+1866	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'NP', 'VBZ']	it's	False	48
+1867	['NP', 'JJ', 'NNS', 'JJ']	absolute	False	48
+1868	['NNS']	values	False	48
+1869	['ROOT', 'FRAG', 'FRAG', 'ADVP', '.', 'ADVP', 'RB', 'RB', '.', 'RB']	Right	False	48
+1870	['RB']	here	False	48
+1871	['ROOT', 'S', 'S', 'ADVP', 'NP', 'VP', '.', 'ADVP', 'RB', 'RB']	Well	True	49
+1872	['NP', 'DT', 'DT']	that	False	49
+1873	['VP', 'VBD', 'NP', 'VBD']	was	False	49
+1874	['NP', 'NN', 'NNS', 'NN']	age	False	49
+1875	['NNS']	twelve	False	49
+1876	['ROOT', 'S', 'S', 'IN', 'NP', 'VP', '.', 'IN']	So	True	49
+1877	['NP', 'DT', 'DT']	that	False	49
+1878	['VP', 'VBD', 'ADJP', 'VBD']	was	False	49
+1879	['ADJP', 'RB', 'JJ', 'PP', 'SBAR', 'RB']	very	False	49
+1880	['JJ']	close	False	49
+1881	['PP', 'TO', 'NP', 'TO']	to	False	49
+1882	['NP', 'NP', 'NN', 'NP', 'NNP', 'POS', 'NNP', 'POS']	Deven's	False	49
+1883	['NN']	age	False	49
+1884	['SBAR', 'WHADVP', 'S', '.', 'WHADVP', 'WRB', 'WRB']	when	False	49
+1885	['S', 'NP', 'ADVP', 'VP', 'NP', 'PRP', 'PRP']	I	True	49
+1886	['ADVP', 'NN', 'IN', 'NN']	sort	False	49
+1887	['IN']	of	False	49
+1888	['VP', 'VBD', 'NP', 'PP', 'VBD']	bit	False	49
+1889	['NP', 'PRP$', 'NNS', 'PRP$']	my	False	49
+1890	['NNS']	teeth	False	49
+1891	['PP', 'IN', 'NP', 'IN']	into	False	49
+1892	['NP', 'DT', 'NN', 'DT']	that	False	49
+1893	['NN']	one	False	49
+1894	['ROOT', 'S', 'S', 'VP', '.', 'VP', 'VB', 'PP', 'VB']	Kind	True	50
+1895	['PP', 'IN', 'IN']	of	False	50
+1896	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'DT', 'S', 'DT']	A	True	50
+1897	['S', 'NP', 'VP', 'NP', 'DT', 'NNS', 'DT']	a	True	50
+1898	['NNS']	semi	False	50
+1899	['VP', 'VP', 'CC', 'VP', 'VP', 'VBD', 'NP', 'VBD']	bumped	False	50
+1900	['NP', 'DT', 'NN', 'DT']	a	False	50
+1901	['NN']	car	False	50
+1902	['CC']	and	False	50
+1903	['VP', 'ADVP', 'VBD', 'CC', 'VBD', 'PP', 'ADVP', 'RB', 'RB']	then	False	50
+1904	['VBD']	went	False	50
+1905	['CC']	and	False	50
+1906	['VBD']	went	False	50
+1907	['PP', 'IN', 'NP', 'IN']	on	False	50
+1908	['NP', 'NP', 'CC', 'NP', 'NP', 'CD', 'NNS', 'CD']	two	False	50
+1909	['NNS']	wheels	False	50
+1910	['CC']	and	False	50
+1911	['NP', 'RB', 'RB', 'RB']	just	False	50
+1912	['RB']	about	False	50
+1913	['VP', 'VP', 'CC', 'ADVP', 'VP', 'VP', 'VBD', 'NP', 'VBD']	lost	False	50
+1914	['NP', 'PRP', 'PRP']	it	False	50
+1915	['CC']	and	False	50
+1916	['ADVP', 'RB', 'RB']	then	False	50
+1917	['VP', 'VBD', 'ADVP', 'PP', 'VBD']	got	False	50
+1918	['ADVP', 'RB', 'RB', 'RB']	back	False	50
+1919	['RB']	up	False	50
+1920	['PP', 'IN', 'NP', 'IN']	on	False	50
+1921	['NP', 'NP', 'ADVP', 'NP', 'PDT', 'DT', 'PRP$', 'NNS', 'PDT']	all	False	50
+1922	['DT']	all	False	50
+1923	['PRP$']	its	False	50
+1924	['NNS']	wheels	False	50
+1925	['ADVP', 'RB', 'RB']	again	False	50
+1926	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'NP', 'VBZ']	He's	True	51
+1927	['NP', 'NP', 'SBAR', 'NP', 'DT', 'JJ', 'NN', 'NN', 'DT']	a	False	51
+1928	['JJ']	young	False	51
+1929	['NN']	attorney	False	51
+1930	['NN']	um	False	51
+1931	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP', 'VP', 'VBZ', 'PP', 'VBZ']	he's	True	51
+1932	['PP', 'IN', 'NP', 'IN']	with	False	51
+1933	['NP', 'NP', 'SBAR', 'NP', 'NP', 'NN', 'NP', 'NN', 'NN', 'NP', 'DT', 'JJ', 'NN', 'POS', 'DT']	the	False	51
+1934	['JJ']	public	False	51
+1935	['NN', 'POS']	defender's	False	51
+1936	['NN']	office	False	51
+1937	['NP', 'PRP', 'POS', 'PRP', 'POS']	he's	False	51
+1938	['NN']	um	False	51
+1939	['NN']	w	False	51
+1940	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	False	51
+1941	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	we	True	51
+1942	['VP', 'VBD', 'NP', 'VBD']	had	False	51
+1943	['NP', 'NP', 'FRAG', 'NP', 'DT', 'NN', 'DT']	the	False	51
+1944	['NN']	case	False	51
+1945	['FRAG', 'NP', '.', 'NP', 'NP', 'SBAR', 'NP', 'DT', 'JJ', 'NN', 'DT']	the	False	51
+1946	['JJ']	last	False	51
+1947	['NN']	time	False	51
+1948	['SBAR', 'S', 'S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	it	True	51
+1949	['VP', 'VBD', 'NP', 'VBD']	was	False	51
+1950	['NP', 'DT', 'JJ', 'NN', 'DT']	a	False	51
+1951	['JJ']	different	False	51
+1952	['NN']	attorney	False	51
+1953	['ROOT', 'S', 'S', 'S', '.', 'S', 'INTJ', 'NP', 'VP', 'INTJ', 'UH', 'UH', 'UH']	Okay	True	52
+1954	['UH']	uh	False	52
+1955	['NP', 'PRP', 'PRP', 'VP', 'VBZ', 'NP', 'VBZ']	it's	False	52
+1956	['NP', 'NP', 'SBAR', 'NP', 'DT', 'NN', 'DT']	a	False	52
+1957	['NN']	law	False	52
+1958	['SBAR', 'WHNP', 'S', 'WHNP', 'WP', 'WP', 'S', 'VP', 'VP', 'VBZ', 'VP', 'VBZ']	Who's	True	52
+1959	['VP', 'VBN', 'S', 'VBN']	supposed	False	52
+1960	['S', 'VP', 'VP', 'TO', 'VP', 'TO']	to	True	52
+1961	['VP', 'VB', 'NP', 'VB']	do	False	52
+1962	['NP', 'DT', 'DT']	this	False	52
+1963	['ROOT', 'NP', 'NP', 'NP', '.', 'NP', 'NP', 'CC', 'NP', 'CC', 'NP', 'NP', 'DT', 'NN', 'DT']	The	False	52
+1964	['NN']	buyer	False	52
+1965	['CC']	or	False	52
+1966	['NP', 'DT', 'NX', 'DT']	the	False	52
+1967	['NX', 'NX', 'CC', 'NX', 'NNS', 'NNS']	seller	False	52
+1968	['CC']	or	False	52
+1969	['CC']	or	False	52
+1970	['NP', 'WP', 'WP']	what	False	52
+1971	['ROOT', 'S', 'S', 'NP', 'VP', '.', '.', 'NP', 'PRP', 'PRP']	I	True	52
+1972	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False	52
+1973	['VP', 'VB', 'VB']	know	False	52
+1974	['ROOT', 'S', 'S', 'NP', 'VP', '.', 'NP', 'NP', 'VP', 'NP', 'NP', '-LRB-', 'NP', '-RRB-', 'NP', 'NP', 'SBAR', 'NP', 'DT', 'DT', 'NN', 'DT']	The	True	53
+1975	['DT']	The	False	53
+1976	['NN']	way	False	53
+1977	['SBAR', 'IN', 'S', 'IN']	that	False	53
+1978	['S', 'NP', 'VP', 'NP', 'PRP$', 'NN', 'PRP$']	your	True	53
+1979	['NN']	testimony	False	53
+1980	['VP', 'VBZ', 'VBZ']	is	False	53
+1981	['VP', 'VBG', 'PP', 'VBG']	coming	False	53
+1982	['PP', 'IN', 'NP', 'IN']	in	False	53
+1983	['NP', 'PRP', 'PRP']	I	False	53
+1984	['VP', 'VBP', 'RB', 'VP', 'VBP', 'RB']	don't	False	53
+1985	['VP', 'VB', 'SBAR', 'VB']	know	False	53
+1986	['SBAR', 'IN', 'S', 'IN']	if	False	53
+1987	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	I	True	53
+1988	['VP', 'VBD', 'NP', 'PP', 'PP', 'VBD']	explained	False	53
+1989	['NP', 'DT', 'DT']	this	False	53
+1990	['PP', 'TO', 'NP', 'TO']	to	False	53
+1991	['NP', 'PRP', 'PRP']	you	False	53
+1992	['PP', 'IN', 'NP', 'IN']	on	False	53
+1993	['NP', 'DT', 'NN', 'DT']	the	False	53
+1994	['NN']	phone	False	53
+1995	['ROOT', 'FRAG', 'FRAG', 'ADJP', '.', 'ADJP', 'JJ', '.', 'JJ']	Hmm	False	53
+1996	['ROOT', 'S', 'S', 'S', 'NP', 'VP', '.', 'S', 'VP', 'VP', 'VBZ', 'SBAR', 'VBZ']	is	True	53
+1997	['SBAR', 'WHADVP', 'S', 'WHADVP', 'WRB', 'WRB']	when	False	53
+1998	['S', 'NP', 'VP', 'NP', 'DT', 'NN', 'DT']	a	True	53
+1999	['NN']	person	False	53
+2000	['VP', 'VBZ', 'VP', 'VBZ']	is	False	53
+2001	['VP', 'VBN', 'PP', 'VBN']	charged	False	53
+2002	['PP', 'IN', 'NP', 'IN']	with	False	53
+2003	['NP', 'JJ', 'NNS', 'CC', 'NN', 'JJ']	multiple	False	53
+2004	['NNS']	crimes	False	53
+2005	['CC']	and	False	53
+2006	['NN']	um	False	53
+2007	['NP', 'EX', 'EX']	there	False	53
+2008	['VP', 'VBP', 'ADJP', 'VBP']	are	False	53
+2009	['ADJP', 'ADJP', 'SBAR', 'ADJP', 'JJ', 'JJ', 'JJ']	other	False	53
+2010	['JJ']	incidences	False	53
+2011	['SBAR', 'WHADVP', 'S', '.', 'WHADVP', 'WRB', 'WRB']	where	False	53
+2012	['S', 'NP', 'VP', 'NP', 'PRP', 'PRP']	he	True	53
+2013	['VP', 'VBD', 'PP', 'VBD']	acted	False	53
+2014	['PP', 'IN', 'NP', 'IN']	in	False	53
+2015	['NP', 'DT', 'JJ', 'NN', 'DT']	the	False	53
+2016	['JJ']	same	False	53
+2017	['NN']	way	False	53

@@ -278,8 +278,9 @@ checkforDiffs(words, subj0.Word)
 #==============================================================================
 # Create DataFrame with Clause Boundary status 
 #==============================================================================
-ClauseStatus_df = pd.DataFrame(data=words, columns=['Tags', 'Word','ClauseBoundary'])
 
+ClauseStatus_df = pd.DataFrame(data=words, columns=['Tags', 'Word','ClauseBoundary'])
+ClauseStatus_df['StimID']=subj0['StimulusID'].values
 #Export CSV
 pd.DataFrame.to_csv(ClauseStatus_df, path_or_buf="./ClauseBoundaryInfo.csv", sep='\t', columns=ClauseStatus_df.columns)
 

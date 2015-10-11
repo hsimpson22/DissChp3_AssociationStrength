@@ -48,13 +48,20 @@ import matplotlib.pyplot as plt
 of memory experiment. Each row in the table represents the score 
 (Correct = 0 or 1)  for one word from one stimulus for one subject.
 There are 101 subjs * 54 stimuli * sum of words in all stimuli = 203818 rows total """
-scores = pd.read_csv('/Users/heathersimpson/Documents/Dissertation/Experiment1/Data/GS_Score_byWord_updated.csv', sep='\t')
-"""
-Recode the Correct column as binary integer values (0/1)
-"""
+scores = pd.read_csv('GS_Score_byWord_updated.csv', sep='\t')
+
+#Recode the Correct column as binary integer values (0/1)
 scores['Correct'] = np.where(scores['Correct']=='yes', 1, 0)
 
+#Import Clause Boundary file created wiht ExtractClauseBoundaries.py
+clauses = pd.read_csv('ClauseBoundaryInfo.csv', sep='\t', index_col=0)
+clauses['ClauseBoundary'] = np.where(clauses['ClauseBoundary']==True, 1, 0)
 
+#this file has only one set of stimuli, so we'll need to duplicate the row values for each subject
+
+bysubj = scores.groupby('Subj')
+subj0 = bysubj.get_group(0)
+stimid = subj0['StimulusID'].values
 #==============================================================================
 # Step 1:  Getting word pairs 
 #==============================================================================
@@ -64,12 +71,12 @@ scores['Correct'] = np.where(scores['Correct']=='yes', 1, 0)
 the same Subject
 for a specified column from the dataframe
 """
-def ReturnWordPairs(scoresbystim, colname):  
+def ReturnWordPairs(scoresdf, colname):  
   count = 0
   pairvals = []
-  while count < len(scoresbystim):
-    for n in range(len(scoresbystim)):
-      curr_pairvals = scoresbystim.iloc[n:n+2] #access two rows in sequence, range with : is exclusive of the last number so use n+2
+  while count < len(scoresdf):
+    for n in range(len(scoresdf)):
+      curr_pairvals = scoresdf.iloc[n:n+2] #access two rows in sequence, range with : is exclusive of the last number so use n+2
       if len(curr_pairvals['Subj'].unique())==1 and len(curr_pairvals['StimulusID'].unique())==1: #the above line checks that the Subject and Stimulus ID values are the same for both words, 
       #so we don't compare words across subjects and stimuli. This way, the entire scores dataframe could be
     #used if desired, rather than having to group it by subject or stimuli 
