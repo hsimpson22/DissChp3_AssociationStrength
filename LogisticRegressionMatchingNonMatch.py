@@ -50,18 +50,17 @@ of memory experiment. Each row in the table represents the score
 There are 101 subjs * 54 stimuli * sum of words in all stimuli = 203818 rows total """
 scores = pd.read_csv('GS_Score_byWord_updated.csv', sep='\t')
 
-#Recode the Correct column as binary integer values (0/1)
+#Recode the Correct column as binary integer values (0/1) to make it easier for logistic regression to process
 scores['Correct'] = np.where(scores['Correct']=='yes', 1, 0)
 
-#Import Clause Boundary file created wiht ExtractClauseBoundaries.py
+#Import Clause Boundary file created with ExtractClauseBoundaries.py
 clauses = pd.read_csv('ClauseBoundaryInfo.csv', sep='\t', index_col=0)
-clauses['ClauseBoundary'] = np.where(clauses['ClauseBoundary']==True, 1, 0)
 
-#this file has only one set of stimuli, so we'll need to duplicate the row values for each subject
+clauses['ClauseBoundary'] = np.where(clauses['ClauseBoundary']==True, 1, 0) #Changing Boolean value to binary integer 0,1 to make it easier for logistic regression to process
 
-bysubj = scores.groupby('Subj')
-subj0 = bysubj.get_group(0)
-stimid = subj0['StimulusID'].values
+#this file has row values for each stimulus, so to use this along with all the scores by subject we need to duplicate the row values by number of subjects so that we can add to dataframe with all subject's data
+#bysubj = scores.groupby('Subj')
+#subj0 = bysubj.get_group(0)
 #==============================================================================
 # Step 1:  Getting word pairs 
 #==============================================================================
@@ -71,19 +70,18 @@ stimid = subj0['StimulusID'].values
 the same Subject
 for a specified column from the dataframe
 """
-def ReturnWordPairs(scoresdf, colname):  
+def ReturnWordPairs(scoresdf, colname, identitycols):  
   count = 0
   pairvals = []
   while count < len(scoresdf):
     for n in range(len(scoresdf)):
       curr_pairvals = scoresdf.iloc[n:n+2] #access two rows in sequence, range with : is exclusive of the last number so use n+2
-      if len(curr_pairvals['Subj'].unique())==1 and len(curr_pairvals['StimulusID'].unique())==1: #the above line checks that the Subject and Stimulus ID values are the same for both words, 
-      #so we don't compare words across subjects and stimuli. This way, the entire scores dataframe could be
-    #used if desired, rather than having to group it by subject or stimuli 
+      uids=[len(curr_pairvals[id].unique()) for id in identitycols]
+      if sum(uids)==len(identitycols): #the above line checks that the Subject and Stimulus ID values are the same for both words, so we don't compare words across subjects and stimuli. This way, the entire scores dataframe could be used if desired, rather than having to group it by subject or stimuli 
         pairvals.append(curr_pairvals[colname].values)
       count += 1
       print count
-  if len(pairvals[-1:]<2: #sometimes the final value may be of length 1, such as if the dataset length was odd. If so, remove that final value.
+  if len(pairvals[-1:])<2: #sometimes the final value may be of length 1, such as if the dataset length was odd. If so, remove that final value.
     pairvals = pairvals[:-1]
   return pairvals #returns list of arrays, each containing the list of paired col values
 #%%
@@ -99,7 +97,7 @@ they don't match in their status (Correct = 0, 1 or 1,0)
 """
 MatchStatus = []  
 i = 0
-for vals in ReturnWordPairs(scores, 'Correct'):
+for vals in ReturnWordPairs(scores, 'Correct', ['StimulusID', 'Subj']):
     if vals[0]+vals[1]==0:
         MatchStatus.append("bothforgotten")
     elif vals[0]+vals[1]==2:
@@ -110,7 +108,7 @@ for vals in ReturnWordPairs(scores, 'Correct'):
         print ("Error: At position %d of the returned word pairs list the sum of Correct Values is a number other than 0, 1, or 2" % i)
     i +=1
     
- """Optional:  Group scores dataframe by Stimulus so that it is faster to process
+"""Optional:  Group scores dataframe by Stimulus so that it is faster to process
 I did this while I was testing: 
 
 grouped = scores.groupby('StimulusID')
