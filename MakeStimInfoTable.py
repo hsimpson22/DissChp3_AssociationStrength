@@ -14,7 +14,9 @@ import pandas as pd
 exp1stim = pd.read_csv("/Users/heathersimpson/Documents/Dissertation/Experiment1/Experiment1_Stimuli.csv", sep="\t")
 m = [re.match(r"([\d\.]+)\_([\d\.]+)\_(\w+)", v) for v in exp1stim.TurnInfo.values]
 start = [v.group(1) for v in m]
+start = [round(float(x), 2) for x in start]
 end = [v.group(2) for v in m]
+end = [round(float(x), 2) for x in end]
 speaker = exp1stim.Speaker.values
 
 stimcat = exp1stim.CandidateFor.values #This gets us the category for the stimulus based on size in various units (it's supposed to have 2 examples each for the permutation of 'H' high, 'M' medium, 'l' low counts for word, IUs, Clauses )
@@ -38,6 +40,7 @@ words = grouped.get_group(0).Words.values
 ius = grouped.get_group(0).IUs.values
 clauses = grouped.get_group(0).Clauses.values
 duration = grouped.get_group(0).StimDur.values
+duration = [round(x, 2) for x in duration]
 #==============================================================================
 # Create strings in LaTeX table format
 
