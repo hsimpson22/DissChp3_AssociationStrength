@@ -44,7 +44,7 @@ duration = grouped.get_group(0).StimDur.values
 #Desired Output: 
 
 #First line: 
-#Stimulus & Category & SBC filename & Start Time & End Time & Duration & Speaker & Words & IUs & Clauses & Mean % correct & Max % correct \\
+#Stimulus & SBC filename & Start Time & End Time & Duration & Speaker & Words & IUs & Clauses & Mean % correct & Max % correct \\
 
 #Rest of lines: 
 #stimID & stimcat & sbcfile & start & end & duration & speaker & words & ius & clauses & meanCorrect & maxCorrect
