@@ -15,7 +15,7 @@ exp1stim = pd.read_csv("/Users/heathersimpson/Documents/Dissertation/Experiment1
 m = [re.match(r"([\d\.]+)\_([\d\.]+)\_(\w+)", v) for v in exp1stim.TurnInfo.values]
 start = [v.group(1) for v in m]
 end = [v.group(2) for v in m]
-speaker = [v.group(3) for v in m]
+speaker = exp1stim.Speaker.values
 
 stimcat = exp1stim.CandidateFor.values #This gets us the category for the stimulus based on size in various units (it's supposed to have 2 examples each for the permutation of 'H' high, 'M' medium, 'l' low counts for word, IUs, Clauses )
 
@@ -26,7 +26,9 @@ percCorrect = pd.read_csv("/Users/heathersimpson/Documents/Dissertation/Experime
 
 percCorrect.columns
 meanCorrect = percCorrect.groupby('StimID').aggregate(np.mean).PercCorrect.values
+meanCorrect = [round(x*100, 1) for x in meanCorrect]
 maxCorrect = percCorrect.groupby('StimID').aggregate(np.max).PercCorrect.values
+maxCorrect = [round(x*100, 1) for x in maxCorrect]
 
 grouped = percCorrect.groupby('Subject')
 
@@ -49,9 +51,10 @@ duration = grouped.get_group(0).StimDur.values
 #==============================================================================
 
 
-stiminfo = "Stimulus & Category & SBC filename & Start Time & End Time & Duration & Speaker & Words & IUs & Clauses & Mean \% Correct & Max \% Correct \\\\ \n"
+stiminfo = "Stimulus & SBC filename & Start Time & End Time & Duration & Speaker & Words & IUs & Clauses & Mean \% Correct & Max \% Correct \\\\ \n"
 for i in range(54):
-    stiminfo += str(stimID[i]) + " & " + str(stimcat[i]) + " & " + str(sbcfile[i]) + " & " + str(start[i]) + " & " + str(end[i]) + " & " + str(duration[i]) + " & " + str(speaker[i]) + " & " + str(words[i]) + " & " + str(ius[i]) + " & " + str(clauses[i]) + " & " + str(meanCorrect[i]) + " & " + str(maxCorrect[i]) + "\\\\ \n"
+    stiminfo += str(stimID[i]) + " & " + str(sbcfile[i]) + " & " + str(start[i]) + " & " + str(end[i]) + " & " + str(duration[i]) + " & " + str(speaker[i]) + " & " + str(words[i]) + " & " + str(ius[i]) + " & " + str(clauses[i]) + " & " + str(meanCorrect[i]) + " & " + str(maxCorrect[i]) + "\\\\ \n"
 
 stiminfofile = open('stiminfo.txt', 'w')
 stiminfofile.write(stiminfo)
+stiminfofile.close()
