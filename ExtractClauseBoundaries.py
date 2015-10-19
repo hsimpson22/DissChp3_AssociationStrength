@@ -15,7 +15,7 @@ from nltk.tree import Tree
 import numpy as np
 import pandas as pd
 #Step through parsed trees, identifying words, collect all tags before each word
-f = open("/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_MutualInfoIUboundaries/Stimuli_StanfordParses.txt", 'r')
+f = open("Stimuli_StanfordParses.txt", 'r')
 stanfordparsefile = f.read()  # read in the file as a single string, because we don't want to split by newlines, since one parse spans multiple lines, and the file is small enough that we can read it in this way
 f.close()
 splitbystim = re.split(r'\s*\<STIM[^>]+\>\s*', stanfordparsefile) # split up by the tags I manually inserted in this file to indicate stimulus boundaries (<STIM 0 TURN BEG>, <STIM 0 TURN END>)

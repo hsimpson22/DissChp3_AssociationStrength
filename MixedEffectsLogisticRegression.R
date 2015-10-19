@@ -1,13 +1,61 @@
 rm(list=ls(all=TRUE)) #
 library(lmerTest)
 library(effects)
+library(MuMIn)
+
 WordPairs<-read.table(file = "/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_MutualInfoIUboundaries/WordPairsScores.csv", sep="\t", quote = "", header = TRUE, comment.char="")
 str(WordPairs)
-WordPairs$WithinIU[WordPairs$WithinIU==0]<-"no"
-WordPairs$WithinIU[WordPairs$WithinIU==1]<-"yes"
-WordPairs$WithinIU<-as.factor(WordPairs$WithinIU)
+
+
+
+WordPairs$IUBoundary<-WordPairs$WithinIU
+WordPairs$IUBoundary[WordPairs$IUBoundary==0]<-"yes"
+WordPairs$IUBoundary[WordPairs$IUBoundary==1]<-"no"
+WordPairs$IUBoundary<-as.factor(WordPairs$IUBoundary)
+
+WordPairs$ClauseBoundary[WordPairs$ClauseBoundary==0]<-"no"
+WordPairs$ClauseBoundary[WordPairs$ClauseBoundary==1]<-"yes"
+WordPairs$ClauseBoundary<-as.factor(WordPairs$ClauseBoundary)
+#====================================================================
+#IU and Clause Boundary Mixed Effects Regression
+#====================================================================
+#both_glmm<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + WordPosition + WCount + (1| Subject) + (1| StimID)), data= WordPairs, family = binomial)
+#summary(both_glmm)
+#WCount not significant (p value = 0.106) so removed
+both_glmm2<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + WordPosition + (1| Subject) + (1| StimID)), data= WordPairs, family = binomial)
+summary(both_glmm2)
+plot(allEffects(both_glmm2))
+plot(Effect("IUBoundary", mod=both_glmm2),main="")
+plot(Effect("ClauseBoundary", mod=both_glmm2),main="")
+plot(Effect("WordPosition", mod=both_glmm2),main="")
+plot(Effect(c("IUBoundary","ClauseBoundary"), mod=both_glmm2),main="")
+
+r.squaredGLMM(both_glmm2) #measure Pseudo-R-squared using this function from the MuMIn library
+#       R2m        R2c 
+#0.02069033 0.09200276
+#R2 m : Marginal R2 - variance explained by fixed factors#
+#R2 c : conditional R2 - variance explained by fixed + random factors
+#signma_f^2 variance / sigma f^2 + sum(sigma_l^2 + sigma e^2 + sigma d^2
+#REMEMBER ONLY
+rememberdata<-subset(WordPairs, MatchStatus!="bothforgotten", select=c(Matching, IUBoundary, ClauseBoundary, WordPosition, WCount, Subject, StimID))
+remember_glmm<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + WordPosition + WCount + (1| Subject) + (1| StimID)), data= rememberdata, family = binomial)
+summary(remember_glmm)
+plot(allEffects(remember_glmm))
+
+forgottendata<-subset(WordPairs, MatchStatus!="bothremembered", select=c(Matching, IUBoundary, ClauseBoundary, WordPosition, WCount, Subject, StimID))
+forgotten_glmm<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + WordPosition + WCount + (1| Subject) + (1| StimID)), data= forgottendata, family = binomial)
+summary(forgotten_glmm)
+plot(allEffects(forgotten_glmm))
+
+
+
+
+
+#====================================================================
+#IU Boundary Only
+#====================================================================
 #Generalized Linear Mixed Model (binomial) on Matching = 0/1
-glmm<-glmer(Matching ~ (WithinIU + WordPosition + WCount + (1| Subject) + (1| StimID)), data= WordPairs, family = binomial)
+glmm<-glmer(Matching ~ (IUBoundary + WordPosition + WCount + (1| Subject) + (1| StimID)), data= WordPairs, family = binomial)
 summary(glmm)
 # Generalized linear mixed model fit by maximum likelihood
 # (Laplace Approximation) [glmerMod]
@@ -46,12 +94,12 @@ summary(glmm)
 # WCount      -0.812 -0.001 -0.007
 plot(allEffects(glmm))
 
-
+#REMEMBERED ONLY
 #But high volume of both forgotten datapoints within IU are inflating this effect, and they may indicate salience of words at IU boundaries as opposed to within IUs, rather than the unithood of IU representation. So will try again with only the remembered vs. non-matching
 
 #subset the data for those two things
-rememberdata<-subset(WordPairs, MatchStatus!="bothforgotten", select=c(Matching, MatchStatus, WithinIU, WordPosition,WCount,Subject, StimID))
-glmm2<-glmer(Matching ~ (WithinIU + WordPosition + WCount + (1| Subject) + (1| StimID)), data= rememberdata, family = binomial)
+rememberdata<-subset(WordPairs, MatchStatus!="bothforgotten", select=c(Matching, MatchStatus, IUBoundary, WordPosition,WCount,Subject, StimID))
+glmm2<-glmer(Matching ~ (IUBoundary + WordPosition + WCount + (1| Subject) + (1| StimID)), data= rememberdata, family = binomial)
 summary(glmm2)
 # Generalized linear mixed model fit by maximum likelihood (Laplace
 #                                                           Approximation) [glmerMod]
@@ -88,3 +136,9 @@ summary(glmm2)
 # WordPositin -0.061 -0.054       
 # WCount      -0.804 -0.015 -0.015
 plot(allEffects(glmm2))
+
+#FORGOTTEN ONLY
+forgottendata<-subset(WordPairs, MatchStatus!="bothremembered", select=c(Matching, MatchStatus, IUBoundary, WordPosition,WCount,Subject, StimID))
+glmm3<-glmer(Matching ~ (IUBoundary + WordPosition + WCount + (1| Subject) + (1| StimID)), data= forgottendata, family = binomial)
+summary(glmm3)
+plot(allEffects(glmm3))
