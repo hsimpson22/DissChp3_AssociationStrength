@@ -6,7 +6,9 @@ Created on Mon Oct  5 14:20:21 2015
 """
 
 """
-This script will extract within / across Clause boundary information for words in my memory experiment stimuli. Clause information will be taken from parse trees created for each stimulus with the Stanford parser.
+This script will extract within / across Clause boundary information for words in my memory experiment stimuli. 
+
+Clause information will be taken from parse trees created for each stimulus with the Stanford parser.
 """
 import os
 import re

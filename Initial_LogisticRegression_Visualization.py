@@ -3,6 +3,10 @@
 Created on Sun Oct 11 15:36:09 2015
 
 @author: heathersimpson
+
+This script contains the code to run a logistic regression and some data visualization on some data from my dissertation experiment. In my dissertation experiment, subjects listened to short clips of spoken American English recorded in natural contexts (telephone and face to face conversations, sermon, seminar talk, etc.). After each clip, the subjects had to type what they heard in the clip from memory into a text file. Their responses were then automatically scored against a gold standard transcript. 
+
+The dataset used here consists of all bigrams (two-word sequences) from each stimulus, and for each subject lists their recall status (i.e. both forgotten, both remembered, or one forgotten and one remembered). 
 """
 import os
 import numpy as np

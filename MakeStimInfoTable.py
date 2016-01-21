@@ -53,7 +53,6 @@ duration = [round(x, 2) for x in duration]
 #stimID & stimcat & sbcfile & start & end & duration & speaker & words & ius & clauses & meanCorrect & maxCorrect
 #==============================================================================
 
-
 stiminfo = "Stimulus & SBC filename & Start Time & End Time & Duration & Speaker & Words & IUs & Clauses & Mean \% Correct & Max \% Correct \\\\ \n"
 for i in range(54):
     stiminfo += str(stimID[i]) + " & " + str(sbcfile[i]) + " & " + str(start[i]) + " & " + str(end[i]) + " & " + str(duration[i]) + " & " + str(speaker[i]) + " & " + str(words[i]) + " & " + str(ius[i]) + " & " + str(clauses[i]) + " & " + str(meanCorrect[i]) + " & " + str(maxCorrect[i]) + "\\\\ \n"
@@ -61,3 +60,10 @@ for i in range(54):
 stiminfofile = open('stiminfo.txt', 'w')
 stiminfofile.write(stiminfo)
 stiminfofile.close()
+
+#==============================================================================
+# Also make a Dataframe version to write to CSV
+#==============================================================================
+d = {"StimID":stimID, "Category":stimcat, "SBCfn":sbcfile, "StartTime":start, "EndTime":end, "Duration":duration, "Speaker":speaker, "WordCount":words, "IUCount":ius, "ClauseCount":clauses, "MeanCor":meanCorrect, "MaxCor":maxCorrect}
+stiminfodf = pd.DataFrame(data = d)
+pd.DataFrame.to_csv(stiminfodf, path_or_buf="../StimulusInfo.csv", sep='\t', columns=stiminfodf.columns)

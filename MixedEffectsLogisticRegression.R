@@ -3,10 +3,8 @@ library(lmerTest)
 library(effects)
 library(MuMIn)
 
-WordPairs<-read.table(file = "/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_MutualInfoIUboundaries/WordPairsScores.csv", sep="\t", quote = "", header = TRUE, comment.char="")
+WordPairs<-read.table(file = "/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_IUvsClauseBoundaries/WordPairsScores.csv", sep="\t", quote = "", header = TRUE, comment.char="")
 str(WordPairs)
-
-
 
 WordPairs$IUBoundary<-WordPairs$WithinIU
 WordPairs$IUBoundary[WordPairs$IUBoundary==0]<-"yes"
@@ -29,6 +27,9 @@ plot(Effect("IUBoundary", mod=both_glmm2),main="")
 plot(Effect("ClauseBoundary", mod=both_glmm2),main="")
 plot(Effect("WordPosition", mod=both_glmm2),main="")
 plot(Effect(c("IUBoundary","ClauseBoundary"), mod=both_glmm2),main="")
+
+#Association measures in nltk
+
 
 r.squaredGLMM(both_glmm2) #measure Pseudo-R-squared using this function from the MuMIn library
 #       R2m        R2c 
