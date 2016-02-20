@@ -40,7 +40,7 @@ for filename in filelist:
 #==============================================================================
 count = 0
 secondhalfpositions = []
-for w in text:  #so we are editing the list created in previous cell, that might be bad practice? but efficient bc it doesn't require creation of new list with almost all the same elements
+for w in text:
   if re.search(r'[^o]?\'[^c]', w[0]) or re.search(r'^na$', w[0]): #match the apostrophe in split contractions, the NOT 'o' and NOT 'c' are there to exclude 'o'clock' 
      secondhalfpositions.append(count)
      combinedword = text[count-1][0]+w[0] #combine the two halves of the word
@@ -55,7 +55,9 @@ for p in secondhalfpositions:
     removed_count +=1
     
 #==============================================================================
-#Now, fix the multi-digit numbers that are treated as one word in parsed stimuli and multiple words in stimulus text (e.g. 'three-quarter-inch', 'seventy-two')
+#Splitting Up Words with Dashes
+    
+#I'm splitting up 'words' in the corpus that contain dashes. This is the multi-digit numbers that are treated as one word in parsed stimuli and multiple words in stimulus text (e.g. 'three-quarter-inch', 'seventy-two')
 #(Note: In my parsed stimuli they have no dashes, so the task was different in ExtractClauseBoundaries)
 #in the version of the full SBC corpus parsed files that we are using, they are separated with dashes, which is much easier because we can split on the dash instead of having to define the split for each word separately
 # 'threequarterinch',
@@ -67,58 +69,101 @@ for p in secondhalfpositions:
 # 'ninetysixes',
 # 'ninetynine']
 
-#Make sure there are no other dashes already in my data
+#My script that originally processed the SBC corpus before identifying my stimuli had removed dashes, turning dash-separated words like "three-quarter-inch" into "threequarterinch". I then individually separated those numbers into separate words in a script that processed the stimuli in a later step.
 
+#Loading in stimuli dataset
 GSstim = pd.read_csv("/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_IUvsClauseBoundaries/GS_Score_byWord_updated.csv", sep='\t')
 [w for w in GSstim['Word'].values if re.search('-', w)]
 #results in empty list, so we are good
 
 ##To view some of the offending values:
-#for t in text:
-#    if re.search(r'inch', t[0]):
-#        print t
+for t in text:
+   if re.search(r'-', t[0]):
+       print t
 
-#Let's define a little function to split and insert new elements 
-def SplitValues(position, values, wordslist): #*value would be list of new values for 
-    newtuple =(wordslist[position][0], values[0], wordslist[position][2]) 
-    wordslist[position] = newtuple
-    if len(values)>1:
-        for i in range(1,len(values)):
-            nexttuple = (newtuple[0], values[i], newtuple[2])
-            wordslist.insert(position+i, nexttuple)    
-
-#==============================================================================
-# Fix number values 
-
-#I'm stepping through each one by one, I didn't do this with a loop because I wanted to  be really careful and clear about the values that I'm changing instead of making it one big list of lists that would be hard to read
-#==============================================================================
-
-# 'threequarterinch'
-pos = [i for i, x in enumerate(words) if x[1] =='threequarterinch'][0] 
-SplitValues(pos, ['three', 'quarter', 'inch'], words)
-
+#Tested this out before I ran it: 
+x = [('five', 'NN'), ('twenty-eight', 'JJ'), ('boo', 'NJ'), ('sixty-eight', 'NN')]
+position = 0
+for y in x: 
+    print y
+    print position
+    if re.search(r'\w-\w',y[0]):
+        print "Removed "+str(x.pop(position))+" " + str(position) #remove tuple t from text
+        new_words = y[0].split('-')
+        for i in range(len(new_words)): #
+            print "New Words Position: "+ str(i)
+            newtuple = (new_words[i], y[1]) #Each new tuple uses same POS tag (t[1])
+            x.insert(position+i, newtuple)
+    position+=1
+#Looks good!
+    
+#Split words separated by a dash into separate words
+    #This will take care of the words like "ninety-sixes" that had to be specially treated in GetPOSTagsforWordPairs.ipynb
+position = 0
+for t in text: 
+    if t[0] == "double-u":
+        text[position] = ("doubleu", t[1])
+    elif re.search(r'\w-\w',t[0]):
+        print "Removed " + str(text.pop(position))+ " " + str(position) #remove tuple t from text
+        new_words = t[0].split('-')
+        for i in range(len(new_words)): 
+            newtuple = (new_words[i], t[1]) #Each new tuple uses same POS tag (t[1])
+            text.insert(position+i, newtuple)
+    position+=1
+    
 #==============================================================================  
-  
-  
-  
+
 text = [(w,p) for w,p in text if re.match(r"[\'a-z]",w[0])]
+
+nonlemwords = [w for w,p in text]
+#==============================================================================
+# Create non-lemmatized version to use if the lemmatized version doesn't have matches (because of differences in POS tagging)
+#==============================================================================
+bigrams = FreqDist(zip(nonlemwords[:-1],nonlemwords[1:]))
+unigram = FreqDist(nonlemwords)
+
+sbig = float(sum(bigrams.values()))
+suni = float(sum(unigram.values()))
+
+nonlemassoc = {}
+for b0,b1 in bigrams:
+    p1 = unigram[b0]/suni
+    p2 = unigram[b1]/suni
+    p12 = bigrams[b0,b1]/sbig
+    nonlemassoc[b0,b1] = log(p12)-log(p1)-log(p2) 
+#==============================================================================
+# #Write SBC Bigram association scores to file
+#==============================================================================
+f=open("/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_IUvsClauseBoundaries/BigramStrength/SBC-nonlembigrams.txt","w")
+#Give it headers first
+f.write("Word1\tWord2\tpwMI\n")
+f.close()
+
+f=open("/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_IUvsClauseBoundaries/BigramStrength/SBC-nonlembigrams.txt","a")
+for w1,w2 in nonlemassoc:
+    f.write(w1+"\t"+w2+"\t"+str(nonlemassoc[w1,w2])+"\n")
+f.close()
+
+#==============================================================================
+#Lemmatize then calculate pointwise mutual information
+#==============================================================================
             
 wnl = WordNetLemmatizer()
 
-text2 = []
+words = []
 for w,p in text:
     if p[0]=="N":
-        text2 += [wnl.lemmatize(w,"n")]
+        words += [wnl.lemmatize(w,"n")]
     elif p[0]=="V":
-        text2 += [wnl.lemmatize(w,"v")]
+        words += [wnl.lemmatize(w,"v")]
     else:
-        text2+=[w]
+        words+=[w]
         
-bigrams = FreqDist(list(zip(text2[:-1],text2[1:])))
-unigram = FreqDist(text2)
+bigrams = FreqDist(zip(words[:-1],words[1:]))
+unigram = FreqDist(words)
 
-sbig = float(sum(list(bigrams.values())))
-suni = float(sum(list(unigram.values())))
+sbig = float(sum(bigrams.values()))
+suni = float(sum(unigram.values()))
 
 assoc = {}
 for b0,b1 in bigrams:
@@ -126,8 +171,16 @@ for b0,b1 in bigrams:
     p2 = unigram[b1]/suni
     p12 = bigrams[b0,b1]/sbig
     assoc[b0,b1] = log(p12)-log(p1)-log(p2) 
-    
-f=open("heather-bigrams.txt","w",encoding="UTF8")
+
+#==============================================================================
+# #Write SBC Bigram association scores to file
+#==============================================================================
+f=open("/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_IUvsClauseBoundaries/BigramStrength/SBC-bigrams.txt","w")
+#Give it headers first
+f.write("Word1\tWord2\tpwMI\n")
+f.close()
+
+f=open("/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_IUvsClauseBoundaries/BigramStrength/SBC-bigrams.txt","a")
 for w1,w2 in assoc:
-    print(w1,w2,assoc[w1,w2],file=f)
+    f.write(w1+"\t"+w2+"\t"+str(assoc[w1,w2])+"\n")
 f.close()

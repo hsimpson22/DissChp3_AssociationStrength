@@ -1,0 +1,14 @@
+Corpus	Compiler	Contents
+Brown Corpus	Francis, Kucera	15 genres, 1.15M words, tagged, categorized
+CoNLL 2000 Chunking Data	CoNLL	270k words, tagged and chunked
+Gutenberg (selections)	Hart, Newby, et al	18 texts, 2M words
+Movie Reviews	Pang, Lee	2k movie reviews with sentiment polarity classification
+NIST 1999 Info Extr (selections)	Garofolo	63k words, newswire and named-entity SGML markup
+NPS Chat Corpus	Forsyth, Martell	10k IM chat posts, POS-tagged and dialogue-act tagged
+Reuters Corpus	Reuters	1.3M words, 10k news documents, categorized
+SEMCOR	Rus, Mihalcea	880k words, part-of-speech and sense tagged
+Senseval 2 Corpus	Pedersen	600k words, part-of-speech and sense tagged
+State of the Union Corpus	CSPAN	485k words, formatted text
+Switchboard Corpus (selections)	LDC	36 phonecalls, transcribed, parsed
+Penn Treebank (selections)	LDC	40k words, tagged and parsed
+TIMIT Corpus (selections)	NIST/LDC	audio files and transcripts for 16 speakers

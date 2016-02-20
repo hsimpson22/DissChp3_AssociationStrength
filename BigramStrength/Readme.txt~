@@ -1,0 +1,9 @@
+BigramStrength
+
+This directory contains the scripts for deriving bigram collocation strength values for the bigrams in the Dissertation Experiment 1 recall study stimuli. 
+
+We will derive collocation strength from two sources: 
+
+The spoken portion of the OpenANC corpus (Switchboard and Charlotte)
+
+Ide, Nancy, and Suderman, Keith (2007). The Open American National Corpus (OANC). http://www.AmericanNationalCorpus.org/OANC

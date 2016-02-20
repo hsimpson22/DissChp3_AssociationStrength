@@ -3,8 +3,11 @@ library(lmerTest)
 library(effects)
 library(MuMIn)
 
-WordPairs<-read.table(file = "/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_IUvsClauseBoundaries/WordPairsScores.csv", sep="\t", quote = "", header = TRUE, comment.char="")
+WordPairs<-read.table(file = "/Users/heathersimpson/Documents/Dissertation/Articles/Chp3_IUvsClauseBoundaries/WordPairsScores_withPOS_MI.csv", sep="\t", quote = "", header = TRUE, comment.char="")
 str(WordPairs)
+
+#Get rid of rows where MI == 0
+WordPairs <- WordPairs[WordPairs$pwMI!=0,]
 
 WordPairs$IUBoundary<-WordPairs$WithinIU
 WordPairs$IUBoundary[WordPairs$IUBoundary==0]<-"yes"
@@ -17,34 +20,36 @@ WordPairs$ClauseBoundary<-as.factor(WordPairs$ClauseBoundary)
 #====================================================================
 #IU and Clause Boundary Mixed Effects Regression
 #====================================================================
-#both_glmm<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + WordPosition + WCount + (1| Subject) + (1| StimID)), data= WordPairs, family = binomial)
-#summary(both_glmm)
-#WCount not significant (p value = 0.106) so removed
-both_glmm2<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + WordPosition + (1| Subject) + (1| StimID)), data= WordPairs, family = binomial)
+both_glmm<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + log(WordPosition) + pwMI + log(WCount) + (1| Subject) + (1| StimID)), data= WordPairs, family = binomial)
+summary(both_glmm)
+
+#WCount not significant (p value = 0.86) so removed
+
+both_glmm2<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + log(WordPosition) + pwMI + (1| Subject) + (1| StimID)), data= WordPairs, family = binomial)
 summary(both_glmm2)
 plot(allEffects(both_glmm2))
 plot(Effect("IUBoundary", mod=both_glmm2),main="")
 plot(Effect("ClauseBoundary", mod=both_glmm2),main="")
 plot(Effect("WordPosition", mod=both_glmm2),main="")
 plot(Effect(c("IUBoundary","ClauseBoundary"), mod=both_glmm2),main="")
-
-#Association measures in nltk
-
+plot(Effect("pwMI", mod=both_glmm2),main="", xlab="pointwise MI")
 
 r.squaredGLMM(both_glmm2) #measure Pseudo-R-squared using this function from the MuMIn library
-#       R2m        R2c 
-#0.02069033 0.09200276
+
+#Without pwMI:       R2m        R2c 
+                    #0.02069033 0.09200276
+#With pwMI:         #0.02297632 0.09254309 
 #R2 m : Marginal R2 - variance explained by fixed factors#
 #R2 c : conditional R2 - variance explained by fixed + random factors
 #signma_f^2 variance / sigma f^2 + sum(sigma_l^2 + sigma e^2 + sigma d^2
 #REMEMBER ONLY
-rememberdata<-subset(WordPairs, MatchStatus!="bothforgotten", select=c(Matching, IUBoundary, ClauseBoundary, WordPosition, WCount, Subject, StimID))
-remember_glmm<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + WordPosition + WCount + (1| Subject) + (1| StimID)), data= rememberdata, family = binomial)
+rememberdata<-subset(WordPairs, MatchStatus!="bothforgotten", select=c(Matching, IUBoundary, ClauseBoundary, WordPosition, pwMI, WCount, Subject, StimID))
+remember_glmm<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + log(WordPosition) + pwMI + (1| Subject) + (1| StimID)), data= rememberdata, family = binomial)
 summary(remember_glmm)
 plot(allEffects(remember_glmm))
 
-forgottendata<-subset(WordPairs, MatchStatus!="bothremembered", select=c(Matching, IUBoundary, ClauseBoundary, WordPosition, WCount, Subject, StimID))
-forgotten_glmm<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + WordPosition + WCount + (1| Subject) + (1| StimID)), data= forgottendata, family = binomial)
+forgottendata<-subset(WordPairs, MatchStatus!="bothremembered", select=c(Matching, IUBoundary, ClauseBoundary, WordPosition, pwMI, Subject, StimID))
+forgotten_glmm<-glmer(Matching ~ ((IUBoundary+ClauseBoundary)^2 + log(WordPosition) + pwMI + (1| Subject) + (1| StimID)), data= forgottendata, family = binomial)
 summary(forgotten_glmm)
 plot(allEffects(forgotten_glmm))
 
@@ -143,3 +148,10 @@ forgottendata<-subset(WordPairs, MatchStatus!="bothremembered", select=c(Matchin
 glmm3<-glmer(Matching ~ (IUBoundary + WordPosition + WCount + (1| Subject) + (1| StimID)), data= forgottendata, family = binomial)
 summary(glmm3)
 plot(allEffects(glmm3))
+
+#Correlation with pwMI
+WordPairsStimuli<-WordPairs[WordPairs$Subject=="0",c(1,2,7,5,8, 15,16,17,9,12,18,13,14)]
+MI_lmer1 <-lmer(pwMI ~ (IUBoundary + ClauseBoundary)^2 + (1| StimID), data= WordPairsStimuli)
+summary(MI_lmer1)
+plot(allEffects(MI_lmer1))
+plot(Effect(c("IUBoundary","ClauseBoundary"), mod=MI_lmer1),main="", ylab="pointwise MI")
